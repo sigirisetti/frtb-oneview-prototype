@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html { background-color: black; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cell-right .mat-column- {
+  justify-content: flex-end;
+}
+
+/* Snack bar */
+.blue-snackbar {
+  background: #2196F3;
+}
+
+.red-snackbar {
+  background: #F44336;
+}
+
+/* spacing between checkboxes*/
+mat-checkbox {
+  margin-right: 20px;
+}
+
+mat-form-field {
+  margin-right: 20px;
+}
+
+.mat-sidenav-backdrop.mat-sidenav-shown {
+  background: skyblue;  /* replace skyblue with any color */ 
+}

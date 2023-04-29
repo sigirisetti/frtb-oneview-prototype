@@ -1,0 +1,10 @@
+.chart-container {
+    width: 1600%;
+    height: 400%;
+}
+
+.price-series-chart {
+    display: block;
+    width: 1600px;
+    height: 400px;
+}

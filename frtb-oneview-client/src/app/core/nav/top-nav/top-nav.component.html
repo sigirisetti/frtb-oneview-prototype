@@ -1,0 +1,17 @@
+<mat-toolbar color="primary" class="mat-elevation-z1" style="display: flex">
+  <button mat-icon-button id="menu" (click)="navService.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+    FRTB Oneview
+  </span>
+  <div class="topNavEnvSelect" style="margin-left: auto;">
+    <mat-form-field appearance="fill">
+      <mat-label>Env</mat-label>
+      <mat-select [formControl]="selectedEnv" (selectionChange)="selectEnv($event.value)">
+        <mat-option *ngFor="let config of connConfigs" [value]="config">
+          {{config.env}}[{{config.hostname}}:{{config.port}}/{{config.username}}]</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</mat-toolbar>
