@@ -50,57 +50,79 @@ export class AppComponent implements AfterViewInit {
     },
     {
       displayName: 'Market Data',
-      iconName: 'currency_exchange',
+      iconName: 'apartment',
       route: '',
       children: [
         {
           displayName: 'Agency Spot Prices',
           iconName: 'price_change',
-          route: 'pricing/spot-prices'
+          route: ''
         },
         {
           displayName: 'Forward Points',
           iconName: 'scoreboard',
-          route: 'market-data/forwardPoints',
+          route: '',
         },
       ]
     },
     {
-      displayName: 'frtb-oneview',
+      displayName: 'IMA - Market Risk',
+      iconName: 'bolt',
+      route: '',
+      children: [
+        {
+          displayName: 'Expected Shortfall (ES)',
+          iconName: 'price_change',
+          route: '',
+        },
+        {
+          displayName: 'Non-Modellable Risk Factors (NMRF)',
+          iconName: 'price_change',
+          route: '',
+        },
+        {
+          displayName: 'Default Risk Charge (DRC)',
+          iconName: 'price_change',
+          route: '',
+        },
+      ]
+    },
+    {
+      displayName: 'IMA-XVA',
       iconName: 'insights',
       route: '',
       children: [
         {
-          displayName: 'frtb-oneview Results',
+          displayName: 'XVA Results',
           iconName: 'price_change',
-          route: 'pricing/spot-prices'
+          route: ''
         },
         {
-          displayName: 'Forward Points',
+          displayName: 'Exposure Matrices',
           iconName: 'scoreboard',
-          route: 'market-data/forwardPoints',
+          route: '',
         },
       ]
     },
     {
-      displayName: 'Default Risk Charge (DRC)',
-      iconName: 'currency_exchange',
+      displayName: 'SA - Market Risk',
+      iconName: 'grade',
       route: '',
       children: [
         {
-          displayName: 'Vanilla FX Option',
+          displayName: 'Sensitivities based Risk Charge ()',
           iconName: 'price_change',
-          route: 'pricing/spot-prices',
+          route: '',
         },
         {
-          displayName: 'FX Options',
+          displayName: 'Default Risk Charge (DRC)',
           iconName: 'price_change',
-          route: 'pricing/spot-prices',
+          route: '',
         },
         {
-          displayName: 'FX Options',
+          displayName: 'Residual Risk Add-On',
           iconName: 'price_change',
-          route: 'pricing/spot-prices',
+          route: '',
         },
       ]
     },
@@ -108,11 +130,6 @@ export class AppComponent implements AfterViewInit {
       displayName: 'Test Pages',
       iconName: 'school',
       children: [
-        {
-          displayName: 'Stock Quotes',
-          iconName: 'money',
-          route: 'samples/ws/stocks'
-        },
         {
           displayName: 'Line Chart',
           iconName: 'stacked_line_chart',
