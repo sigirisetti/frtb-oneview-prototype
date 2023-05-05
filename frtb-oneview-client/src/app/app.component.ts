@@ -1,10 +1,11 @@
-import {Component, ViewChild, ElementRef, ViewEncapsulation, AfterViewInit} from '@angular/core';
-import {NavItem} from './core/nav/nav-item';
-import {NavService} from './core/nav/nav.service';
-import {NotificationService} from './common/notification.service';
-import {MatSnackBar} from '@angular/material/snack-bar';
-import {MatDialog, MatDialogConfig} from "@angular/material/dialog";
+import { Component, ViewChild, ElementRef, ViewEncapsulation, AfterViewInit } from '@angular/core';
+import { NavItem } from './core/nav/nav-item';
+import { NavService } from './core/nav/nav.service';
+import { NotificationService } from './common/notification.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
 import { MessageDialogComponent } from './common/message-dialog/message-dialog.component';
+import { AuthService } from './core/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -13,38 +14,140 @@ import { MessageDialogComponent } from './common/message-dialog/message-dialog.c
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements AfterViewInit {
+
+  title = "FRTB Oneview"
+
   @ViewChild('appDrawer', { static: true }) public appDrawer!: ElementRef;
+
   navItems: NavItem[] = [
     {
-      displayName: 'Configuration',
-      iconName: 'monitoring',
+      displayName: 'Dashboard',
+      iconName: 'dashboard',
+      route: 'dashboard'
+    },
+    {
+      displayName: 'Risk Capital',
+      iconName: 'functions',
       children: [
         {
-          displayName: 'Entity',
-          iconName: 'merge',
-          route: ''
+          displayName: 'Overall',
+          iconName: 'functions',
+          route: 'rc/overall',
         },
         {
-          displayName: 'Counterparty',
-          iconName: 'merge',
-          route: ''
+          displayName: 'Desk Wise',
+          iconName: 'functions',
+          route: 'rc/deskWise',
+        },
+        {
+          displayName: 'Asset Class Wise',
+          iconName: 'functions',
+          route: 'rc/deskWise',
         },
       ]
     },
     {
-      displayName: 'Static Data',
-      iconName: 'currency_exchange',
-      route: '',
+      displayName: 'IMA - Market Risk',
+      iconName: 'bolt',
       children: [
         {
-          displayName: 'Agency Spot Prices',
-          iconName: 'price_change',
-          route: 'pricing/spot-prices'
+          displayName: 'IMA - MR (All)',
+          iconName: 'bolt',
+          route: 'ima/mr/all',
         },
         {
-          displayName: 'Forward Points',
-          iconName: 'scoreboard',
-          route: 'market-data/forwardPoints',
+          displayName: 'Expected Shortfall (ES)',
+          iconName: 'bolt',
+          route: 'ima/mr/es',
+        },
+        {
+          displayName: 'Non-Modellable Risk Factors (NMRF)',
+          iconName: 'bolt',
+          route: 'ima/mr/nmrf',
+        },
+        {
+          displayName: 'Default Risk Charge (DRC)',
+          iconName: 'bolt',
+          route: 'ima/mr/drc',
+        },
+      ]
+    },
+    {
+      displayName: 'IMA-XVA',
+      iconName: 'bolt',
+      children: [
+        {
+          displayName: 'XVA Results',
+          iconName: 'bolt',
+          route: 'ima/xva/xva'
+        },
+        {
+          displayName: 'Exposure Matrices',
+          iconName: 'bolt',
+          route: 'ima/xva/exposureMatrices',
+        },
+      ]
+    },
+    {
+      displayName: 'SA - Market Risk',
+      iconName: 'grade',
+      children: [
+        {
+          displayName: 'SA - MR (All)',
+          iconName: 'bolt',
+          route: 'sa/mr/all',
+        },
+        {
+          displayName: 'Sensitivities based Risk Charge',
+          iconName: 'grade',
+          route: 'sa/mr/sens',
+        },
+        {
+          displayName: 'Default Risk Charge (DRC)',
+          iconName: 'grade',
+          route: 'sa/mr/drc',
+        },
+        {
+          displayName: 'Residual Risk Add-On',
+          iconName: 'grade',
+          route: 'sa/mr/rrao',
+        },
+        {
+          displayName: 'What-If Analysis',
+          iconName: 'grade',
+          route: 'sa/mr/whatIf',
+        },
+        {
+          displayName: 'Incremental VaR',
+          iconName: 'grade',
+          route: 'sa/mr/ivar',
+        },
+        {
+          displayName: 'Top N',
+          iconName: 'grade',
+          route: 'sa/mr/topn',
+        },
+      ]
+    },
+    {
+      displayName: 'SA - CVA',
+      iconName: 'grade',
+      children: [
+        {
+          displayName: 'CVA Aggregation',
+          iconName: 'grade',
+          route: 'sa/cva',
+        },
+      ]
+    },
+    {
+      displayName: 'SA - CCR',
+      iconName: 'grade',
+      children: [
+        {
+          displayName: 'CCR Results',
+          iconName: 'grade',
+          route: 'sa/ccr',
         },
       ]
     },
@@ -54,75 +157,73 @@ export class AppComponent implements AfterViewInit {
       route: '',
       children: [
         {
-          displayName: 'Agency Spot Prices',
+          displayName: 'Quotes',
           iconName: 'price_change',
-          route: ''
-        },
-        {
-          displayName: 'Forward Points',
-          iconName: 'scoreboard',
-          route: '',
-        },
+          route: 'md/quotes'
+        }
       ]
     },
     {
-      displayName: 'IMA - Market Risk',
-      iconName: 'bolt',
-      route: '',
+      displayName: 'Static Data',
+      iconName: 'currency_exchange',
       children: [
         {
-          displayName: 'Expected Shortfall (ES)',
-          iconName: 'price_change',
-          route: '',
-        },
-        {
-          displayName: 'Non-Modellable Risk Factors (NMRF)',
-          iconName: 'price_change',
-          route: '',
-        },
-        {
-          displayName: 'Default Risk Charge (DRC)',
-          iconName: 'price_change',
-          route: '',
-        },
+          displayName: 'SA-MR',
+          iconName: 'currency_exchange',
+          children: [
+            {
+              displayName: 'Equity Bucket Mapping',
+              iconName: 'price_change',
+              route: 'sd/samr/eqBucketMapping'
+            },
+            {
+              displayName: 'Correlation Parameter',
+              iconName: 'scoreboard',
+              route: 'sd/samr/correlParams',
+            },
+            {
+              displayName: 'Risk Weights',
+              iconName: 'scoreboard',
+              route: 'sd/samr/riskWeights',
+            },
+            {
+              displayName: 'Credit Non-Sec Bucketing',
+              iconName: 'scoreboard',
+              route: 'sd/samr/crNonSecBucketing',
+            },
+            {
+              displayName: 'Credit Sec Bucketing',
+              iconName: 'scoreboard',
+              route: 'sd/samr/crSecBucketing',
+            },
+            {
+              displayName: 'Credit Sec Bucketing (DRC)',
+              iconName: 'scoreboard',
+              route: 'sd/samr/crNonSecBucketingDRC',
+            },
+            {
+              displayName: 'Credit Sec CTP Bucketing (DRC)',
+              iconName: 'scoreboard',
+              route: 'sd/samr/crSecBucketingDRC',
+            },
+          ]
+        }
+
       ]
     },
     {
-      displayName: 'IMA-XVA',
-      iconName: 'insights',
-      route: '',
+      displayName: 'Configuration',
+      iconName: 'monitoring',
       children: [
         {
-          displayName: 'XVA Results',
-          iconName: 'price_change',
-          route: ''
+          displayName: 'Entity',
+          iconName: 'merge',
+          route: 'config/entity'
         },
         {
-          displayName: 'Exposure Matrices',
-          iconName: 'scoreboard',
-          route: '',
-        },
-      ]
-    },
-    {
-      displayName: 'SA - Market Risk',
-      iconName: 'grade',
-      route: '',
-      children: [
-        {
-          displayName: 'Sensitivities based Risk Charge ()',
-          iconName: 'price_change',
-          route: '',
-        },
-        {
-          displayName: 'Default Risk Charge (DRC)',
-          iconName: 'price_change',
-          route: '',
-        },
-        {
-          displayName: 'Residual Risk Add-On',
-          iconName: 'price_change',
-          route: '',
+          displayName: 'Counterparty',
+          iconName: 'merge',
+          route: 'config/entity'
         },
       ]
     },
@@ -139,29 +240,35 @@ export class AppComponent implements AfterViewInit {
           displayName: 'Expandable Table Rows',
           iconName: 'expand_content',
           route: 'samples/ng-examples/expandable-table-rows'
-        }
+        },
+        {
+          displayName: 'Exec Details',
+          iconName: 'expand_content',
+          route: 'execDetails'
+        },
       ]
     }
   ];
 
   constructor(
     private dialog: MatDialog,
-    private navService: NavService, 
-    private snackBar: MatSnackBar, 
-    private notificationService: NotificationService) {
+    private navService: NavService,
+    private snackBar: MatSnackBar,
+    private notificationService: NotificationService,
+    private authService: AuthService) {
 
-      this.notificationService.notification$.subscribe(message => {
-        this.snackBar.open(message, "Close", {
-          duration: 3000,
-          panelClass: ['blue-snackbar']
-        });
+    this.notificationService.notification$.subscribe(message => {
+      this.snackBar.open(message, "Close", {
+        duration: 3000,
+        panelClass: ['blue-snackbar']
       });
-      this.notificationService.error$.subscribe(message => {
-        this.snackBar.open(message, "Close", {
-          duration: 3000,
-          panelClass: ['red-snackbar']
-        });
+    });
+    this.notificationService.error$.subscribe(message => {
+      this.snackBar.open(message, "Close", {
+        duration: 3000,
+        panelClass: ['red-snackbar']
       });
+    });
   }
 
   openDialog() {
@@ -176,5 +283,13 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.navService.appDrawer = this.appDrawer;
+  }
+
+  public logout(): void {
+    // todo
+  }
+
+  public isAuthenticated(): boolean {
+    return this.authService.isAuthenticated();
   }
 }

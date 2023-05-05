@@ -1,21 +1,21 @@
 import { Injectable } from '@angular/core';
 import { ChConnConfig } from 'src/app/common/model/ch-conn-config';
+import { Entity } from '../model/common/entity';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GlobalStateService {
 
-  selectedEnv: ChConnConfig;
+  selectedEntity: Entity;
 
   constructor() { }
 
-  setSelectedEnv(selectedEnv : ChConnConfig) {
-    this.selectedEnv = selectedEnv;
+  setSelectedEntity(selectedEntity : Entity) {
+    this.selectedEntity = selectedEntity;
   }
 
-  getSelectedEnv() : ChConnConfig {
-    return this.selectedEnv;
+  getSelectedEntity() : Entity {
+    return this.selectedEntity;
   }
-
 }

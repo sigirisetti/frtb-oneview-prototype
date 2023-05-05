@@ -1,7 +1,7 @@
 'use strict';
 
 export const MAX_SERIES_LENGTH = 100;
-export const restApiBase: string = "http://localhost:8484/ch-client";
+export const restApiBase: string = "http://localhost:8090/quark";
 export const wsBase: string = "ws://localhost:8484/ch-client";
 
 /* Web Sockets */
@@ -12,6 +12,14 @@ export const samplesUrl: string = wsBase + "/name";
 
 
 /* REST API */
+
+//Common
+export const loginUrl: string = restApiBase + "/services/login";
+export const entityUrl: string = restApiBase + "/entities";
+export const setSelectedEntityUrl: string = restApiBase + "/setSelectedEntity";
+
+
+//SAMR
+export const getAllSAMRWorkflowInstances: string = restApiBase + "/services/samr/getAllSAMRWorkflowInstances";
+
 export const forwardCcyPairsUrl: string = restApiBase + "/forwardCcyPairs";
-export const chConnConfig: string = restApiBase + "/chConnConfig";
-export const setSelectedEnv: string = restApiBase + "/setSelectedEnv";

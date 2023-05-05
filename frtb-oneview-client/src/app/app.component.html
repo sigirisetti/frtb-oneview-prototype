@@ -4,9 +4,11 @@
   -->
   <mat-sidenav-container>
     <mat-sidenav #appDrawer mode="side" opened="true">
-      <mat-nav-list>
-        <app-menu-list-item *ngFor="let item of navItems" [item]="item"></app-menu-list-item>
-      </mat-nav-list>
+      <div *ngIf="isAuthenticated()">
+        <mat-nav-list>
+          <app-menu-list-item *ngFor="let item of navItems" [item]="item"></app-menu-list-item>
+        </mat-nav-list>
+        </div>
     </mat-sidenav>
     
     <app-top-nav fxHide.xs></app-top-nav>

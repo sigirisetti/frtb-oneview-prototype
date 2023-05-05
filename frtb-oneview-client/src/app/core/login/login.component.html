@@ -1,0 +1,22 @@
+<div class="main-div">
+    <mat-card>
+        <mat-card-content>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <mat-label>Username</mat-label>&nbsp;
+                <mat-form-field appearance="fill">
+                    <mat-label>whats your fancy id?</mat-label>
+                    <input matInput placeholder="" formControlName="username">
+                </mat-form-field>
+                <br />
+                <mat-label>Password</mat-label>&nbsp;
+                <mat-form-field appearance="fill">
+                    <mat-label>Keep a secure password</mat-label>
+                    <input type="password" matInput formControlName="password">
+                </mat-form-field>
+                <br />
+                <button mat-raised-button color="primary" type="submit">Submit</button>&nbsp;
+                <button mat-raised-button color="accent" type="reset">Reset</button>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

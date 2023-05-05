@@ -2,14 +2,14 @@
     <mat-card-header>
         <mat-card-title-group>
             <mat-card-title>{{ data.title }}</mat-card-title>
-            <mat-card-subtitle>Small</mat-card-subtitle>
+            <mat-card-subtitle><a class="underline decoration-amber-500">Request is not sent to server</a></mat-card-subtitle>
         </mat-card-title-group>
     </mat-card-header>
     <mat-card-content>
         {{ data.message }}
     </mat-card-content>
     <mat-card-actions>
-        <button mat-button color="warn" (click)="cancel()">{{ data.cancelText }}</button>
         <button mat-button color="primary" (click)="confirm()">{{ data.confirmText }}</button>
+        <button mat-button color="warn" (click)="cancel()">{{ data.cancelText }}</button>
       </mat-card-actions>
 </mat-card>
