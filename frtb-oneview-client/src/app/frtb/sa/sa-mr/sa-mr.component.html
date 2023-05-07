@@ -13,14 +13,68 @@
                         SA-MR Execution Details
                     </mat-panel-title>
                     <mat-panel-description>
-                        Click on header to collapse the section for max. space
+                        Click here to collapse the section for max. space
                     </mat-panel-description>
                 </mat-expansion-panel-header>
 
-                <app-execution-list [workflowType]="'samr'"></app-execution-list>
+                <ag-grid-angular [domLayout]="domLayout" class="ag-theme-alpine" [rowData]="tableDataSource.data"
+                    [columnDefs]="columnDefs">
+                </ag-grid-angular>
 
             </mat-expansion-panel>
         </mat-accordion>
-
     </mat-card-content>
+
+
+
+    <table mat-table [dataSource]="samrDataSource" class="mat-elevation-z8">
+        <ng-container matColumnDef="nodeName">
+            <th mat-header-cell *matHeaderCellDef>
+                <span [style.paddingLeft.px]="40"> Risk Type </span>
+            </th>
+            <td mat-cell *matCellDef="let data">
+                <button mat-icon-button [style.visibility]="!data.expandable ? 'hidden' : ''"
+                    [style.marginLeft.px]="data.level * 32" (click)="treeControl.toggle(data)">
+                    <mat-icon class="mat-icon-rtl-mirror">
+                        {{treeControl.isExpanded(data) ? 'expand_more' : 'chevron_right'}}
+                    </mat-icon>
+                </button>
+
+                {{data.nodeName}}
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amountLowCorr">
+            <th mat-header-cell *matHeaderCellDef> Amount Low Corr </th>
+            <td mat-cell *matCellDef="let data"><b>{{data.amountLowCorr | number: '1.2-2'}}</b>  </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amountBaseLowCorr">
+            <th mat-header-cell *matHeaderCellDef> Amount Base Low Corr </th>
+            <td mat-cell *matCellDef="let data"> <b>{{data.amountBaseLowCorr | number: '1.2-2'}}</b> </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amount">
+            <th mat-header-cell *matHeaderCellDef> Amount</th>
+            <td mat-cell *matCellDef="let data"> <b>{{data.amount | number: '1.2-2'}}</b> </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amountBase">
+            <th mat-header-cell *matHeaderCellDef> Amount Base </th>
+            <td mat-cell *matCellDef="let data"> <b>{{data.amountBase | number: '1.2-2'}}</b> </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amountHighCorr">
+            <th mat-header-cell *matHeaderCellDef> Amount High Corr </th>
+            <td mat-cell *matCellDef="let data"> <b>{{data.amountHighCorr | number: '1.2-2'}}</b> </td>
+        </ng-container>
+
+        <ng-container matColumnDef="amountBaseHighCorr">
+            <th mat-header-cell *matHeaderCellDef> Amount Low Corr </th>
+            <td mat-cell *matCellDef="let data"> <b>{{data.amountBaseHighCorr | number: '1.2-2'}}</b> </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
 </mat-card>
