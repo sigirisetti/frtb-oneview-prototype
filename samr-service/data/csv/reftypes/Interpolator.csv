@@ -1,0 +1,8 @@
+BackwardFlatInterpolation,BackwardFlatInterpolation,0
+ConvexMonotone,ConvexMonotone,0
+CubicInterpolation,CubicInterpolation,0
+ForwardFlatInterpolation,ForwardFlatInterpolation,0
+LinearInterpolation,LinearInterpolation,0
+LogCubicInterpolation,LogCubicInterpolation,0
+LogLinearInterpolation,LogLinearInterpolation,1
+SABRInterpolation,SABRInterpolation,0

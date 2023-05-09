@@ -75,6 +75,7 @@ import { ExecutionListComponent } from './frtb/exec/execution-list/execution-lis
 import { AuthInterceptorService } from './core/security/auth-interceptor.service';
 import { AgGridModule } from 'ag-grid-angular';
 import { AgGridBtnCellRendererComponent } from './common/ag-grid/ag-grid-btn-cell-renderer/ag-grid-btn-cell-renderer.component';
+import { BarChartComponent } from './common/ng2-charts/bar-chart/bar-chart.component';
 
 
 @NgModule({
@@ -150,6 +151,7 @@ import { AgGridBtnCellRendererComponent } from './common/ag-grid/ag-grid-btn-cel
     SaMrComponent,
     ExecutionListComponent,
     AgGridBtnCellRendererComponent,
+    BarChartComponent,
   ],
   exports: [
     AppComponent,

@@ -5,23 +5,16 @@
   width: 15%;
   background-color: #FAFCF4 !important;
 }
+
 .mat-sidenav-container {
-  background-color: white !important;
+  background-color: #e6ebe0 !important;
   height: 100vh;
 }
-.sidenav-toolbar {
-  height: 64px;
-  background-color: mat-color($app-primary);
-  display: flex;
-  flex-direction: row;
 
-  @media (max-width: 600px) {
-    height: 56px;
-  }
-}
 .mat-nav-list {
   padding-top: 0;
 }
+
 @include breakpoint-max(600px) {
   .fixed-topnav {
     position: fixed;
@@ -36,11 +29,13 @@
     padding-top: 56px;
   }
 }
+
 .menu-list-item.mat-list-item {
   .mat-list-item-content {
     flex: 1 1 100%;
   }
 }
+
 .version-info {
   font-size: 8pt;
   float: right;

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://activiti.org/bpmn20" id="adhoc-definitions">
+  <process id="quark.samr.process" name="SAMR Risk Charge Calculation" isExecutable="true">
+    <startEvent id="start" activiti:formKey="wf:submitAdhocTask"></startEvent>
+    <endEvent id="theEnd"></endEvent>
+    <serviceTask id="CalculateSAMRMargins" name="Calculate SAMR Margins" activiti:expression="${SAMRRiskChargeCalculationServiceImpl.calculateMargins(workflowInst, persist)}"></serviceTask>
+    <sequenceFlow id="flow4" sourceRef="CalculateSAMRMargins" targetRef="theEnd"></sequenceFlow>
+    <serviceTask id="LoadSAMRData" name="Load SAMR Data" activiti:expression="${SAMRCSVReaderService.loadData(workflowInst)}"></serviceTask>
+    <sequenceFlow id="flow6" sourceRef="LoadSAMRData" targetRef="CalculateSAMRMargins"></sequenceFlow>
+    <serviceTask id="ValidateSAMRData" name="Validate SAMR Data" activiti:expression="${SAMRCSVReaderService.validate(workflowInst)}"></serviceTask>
+    <sequenceFlow id="flow7" sourceRef="start" targetRef="ValidateSAMRData"></sequenceFlow>
+    <sequenceFlow id="flow8" sourceRef="ValidateSAMRData" targetRef="LoadSAMRData"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_quark.samr.process">
+    <bpmndi:BPMNPlane bpmnElement="quark.samr.process" id="BPMNPlane_quark.samr.process">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="35.0" width="35.0" x="30.0" y="200.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="theEnd" id="BPMNShape_theEnd">
+        <omgdc:Bounds height="35.0" width="35.0" x="630.0" y="200.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="CalculateSAMRMargins" id="BPMNShape_CalculateSAMRMargins">
+        <omgdc:Bounds height="55.0" width="105.0" x="470.0" y="190.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="LoadSAMRData" id="BPMNShape_LoadSAMRData">
+        <omgdc:Bounds height="55.0" width="105.0" x="300.0" y="190.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="ValidateSAMRData" id="BPMNShape_ValidateSAMRData">
+        <omgdc:Bounds height="55.0" width="105.0" x="120.0" y="190.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="575.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="630.0" y="217.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow6" id="BPMNEdge_flow6">
+        <omgdi:waypoint x="405.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="470.0" y="217.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow7" id="BPMNEdge_flow7">
+        <omgdi:waypoint x="65.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="120.0" y="217.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow8" id="BPMNEdge_flow8">
+        <omgdi:waypoint x="225.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="300.0" y="217.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

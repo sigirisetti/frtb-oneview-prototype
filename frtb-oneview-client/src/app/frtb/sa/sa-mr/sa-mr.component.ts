@@ -39,6 +39,9 @@ interface SamrTreeFlatNode {
 export class SaMrComponent {
 
   domLayout: any = "autoHeight";
+  totalRiskChargeBaseLowCorr:number = 0;
+  totalRiskChargeBase:number = 0;
+  totalRiskChargeBaseHighCorr:number = 0;
 
   constructor(
     private http: HttpClient,
@@ -128,7 +131,10 @@ export class SaMrComponent {
       if (r.id === id) {
         console.log(r)
         this.saMrService.getSAMRExecResults(r.date, r.workflow.id).subscribe({
-          next: (res: any) => this.samrDataSource.data = res.results,
+          next: (res: any) => {
+            this.totalRiskChargeBase = res.totalRiskCharge;
+            this.samrDataSource.data = res.results;
+          },
           error: (e) => console.log(e)
         });
       }

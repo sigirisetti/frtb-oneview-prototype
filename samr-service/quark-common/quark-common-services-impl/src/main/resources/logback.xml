@@ -1,0 +1,80 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.zaxxer.hikari" level="WARN" />
+
+    <logger name="org.hibernate" level="INFO" />
+    <logger name="org.hibernate.SQL" level="WARN" />
+    <logger name="org.hibernate.type" level="WARN" />
+
+    <logger name="org.springframework" level="WARN" />
+    <logger name="org.springframework.web" level="INFO" />
+    <logger name="org.springframework.socket" level="INFO" />
+    <logger name="org.springframework.servlet" level="TRACE" />
+
+    <logger name="org.activiti" level="DEBUG" />
+
+    <logger name="com.quark" level="DEBUG" />
+
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
+
+<!--
+
+// always a good idea to add an on console status listener
+statusListener(OnConsoleStatusListener)
+
+def appenderList = ["ROLLING"]
+def WEBAPP_DIR = "."
+def consoleAppender = true
+
+// does hostname match pixie or orion?
+if (hostname =~ /pixie|orion/) {
+  WEBAPP_DIR = "/opt/myapp"
+  consoleAppender = false
+} else {
+  appenderList.add("CONSOLE")
+}
+
+if (consoleAppender) {
+  appender("CONSOLE", ConsoleAppender) {
+    encoder(PatternLayoutEncoder) {
+      pattern = "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    }
+  }
+}
+
+appender("ROLLING", RollingFileAppender) {
+  encoder(PatternLayoutEncoder) {
+    Pattern = "%d %level %thread %mdc %logger - %m%n"
+  }
+  rollingPolicy(TimeBasedRollingPolicy) {
+    FileNamePattern = "${WEBAPP_DIR}/log/translator-%d{yyyy-MM}.zip"
+  }
+}
+
+logger("org.hibernate.type", WARN)
+logger("com.zaxxer.hikari", WARN)
+logger("com.quark", DEBUG)
+logger("org.activiti", DEBUG)
+logger("org.hibernate", INFO)
+logger("org.hibernate.SQL", INFO)
+logger("org.springframework.transaction", WARN)
+logger("com.zaxxer.hikari.pool.HikariPool", WARN)
+
+logger("org.springframework", WARN)
+logger("org.springframework.web", INFO)
+logger("org.springframework.web.socket", INFO)
+logger("org.springframework.web.servlet", TRACE)
+
+root(INFO, appenderList)
+-->

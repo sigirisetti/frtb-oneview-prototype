@@ -1,0 +1,80 @@
+Trade ID,Bucket,Product,Underlying,Grade,Delivery Location
+SYS_46101,1,CM.Option.Vanilla.Call,Indon Coal,Grade 1,Singapore
+SYS_46102,1,CM.Option.Vanilla.Call,Indon Charcoal,Grade 2,Singapore
+SYS_46103,1,CM.Option.Vanilla.Call,High Grade Wood Pellets,Grade 3,Dubai
+SYS_46104,1,CM.Forward,Indon Coal,Grade 4,Singapore
+SYS_46105,1,CM.Forward,Uranium,Grade 1,Hong Kong
+SYS_46106,1,CM.Forward,Indon Charcoal,Grade 2,Singapore
+SYS_46107,1,CM.Forward,High Grade Wood Pellets,Grade 3,Dubai
+SYS_46108,1,CM.Forward,Uranium,Grade 2,Hong Kong
+SYS_46109,3,CM.Forward,Electricity North,Grade 1,New York
+SYS_46110,3,CM.Forward,Electricity South,Grade 1,Austin
+SYS_46111,3,CM.Forward,EUA,Grade 1,London
+SYS_46112,3,CM.Forward,RGGI,Grade 1,Paris
+SYS_46113,5,CM.Swap,Aluminium,Grade 1,London
+SYS_46114,5,CM.Swap,Copper,Grade 1,London
+SYS_46115,5,CM.Swap,Steel Billet,Grade 1,Shanghai
+SYS_46116,5,CM.Swap,Steel Wire,Grade 1,Shanghai
+SYS_46117,5,CM.Swap,Vanadium,Grade 1,Sydney
+SYS_46118,5,CM.Swap,Tungsten,Grade 1,Sydney
+SYS_46119,5,CM.Option.Vanilla.Call,Cobalt,Grade 1,Tokyo
+SYS_46120,5,CM.Option.Vanilla.Call,Manganese,Grade 1,Tokyo
+SYS_46121,5,CM.Option.Vanilla.Call,Aluminium,Grade 2,Dublin
+SYS_46122,5,CM.Option.Vanilla.Call,Copper,Grade 2,Dublin
+SYS_46123,7,CM.Option.Vanilla.Call,Gold ,Grade 1,London
+SYS_46124,7,CM.Option.Vanilla.Call,Silver,Grade 1,London
+SYS_46125,9,CM.Futures,Cattle Live,Grade 1,Shanghai
+SYS_46126,9,CM.Futures,Hog,Grade 1,Shanghai
+SYS_46127,9,CM.Option.Vanilla.Call,Lamb,Grade 1,Sydney
+SYS_46128,9,CM.Option.Vanilla.Call,Milk,Grade 1,Sydney
+SYS_46129,9,CM.Forward,Whey,Grade 1,Hong Kong
+SYS_46130,9,CM.Forward,Cattle Live,Grade 2,Hong Kong
+SYS_46131,9,CM.Forward,Hog,Grade 2,Sydney
+SYS_46132,9,CM.Forward,Lamb,Grade 2,Dubai
+SYS_46133,9,CM.Forward,Milk,Grade 2,Sydney
+SYS_46134,9,CM.Forward,Whey,Grade 2,Shanghai
+SYS_46135,2,CM.Forward,WTI,Grade 2,New York
+SYS_46136,2,CM.Forward,Brent,Grade 2,London
+SYS_46137,2,CM.Forward,Propane,Grade 2,Houston
+SYS_46138,2,CM.Forward,Ethane,Grade 2,Houston
+SYS_46139,2,CM.Forward,Methane,Grade 2,Dubai
+SYS_46140,2,CM.Option.Vanilla.Call,Naptha,Grade 2,Dubai
+SYS_46141,2,CM.Option.Vanilla.Call,Gas Oil,Grade 2,Dubai
+SYS_46142,2,CM.Option.Vanilla.Call,WTI,Grade 1,Singapore
+SYS_46143,2,CM.Option.Vanilla.Call,Brent,Grade 1,New York
+SYS_46144,4,CM.Option.Vanilla.Call,Panamex,Grade 1,Shanghai
+SYS_46145,4,CM.Option.Vanilla.Call,Supramax,Grade 1,Shanghai
+SYS_46146,4,CM.Option.Vanilla.Put,Suezmax,Grade 1,Dubai
+SYS_46147,4,CM.Option.Vanilla.Put,Aframax,Grade 1,Rotterdam
+SYS_46148,4,CM.Forward,Panamex,Grade 2,Singapore
+SYS_46149,4,CM.Forward,Supramax,Grade 2,Shanghai
+SYS_46150,4,CM.Forward,Suezmax,Grade 2,New York
+SYS_46151,4,CM.Forward,Aframax,Grade 2,London
+SYS_46152,6,CM.Forward,Natural Gas,Grade 1,Doha
+SYS_46153,6,CM.Forward,LNG Ras Laffan,Grade 1,Doha
+SYS_46154,6,CM.Forward,LNG Petronas,Grade 1,Kualalumpur
+SYS_46155,6,CM.Option.Vanilla.Put,Natural Gas,Grade 2,Doha
+SYS_46156,6,CM.Option.Vanilla.Put,LNG Ras Laffan,Grade 2,Doha
+SYS_46157,6,CM.Option.Vanilla.Put,LNG Petronas,Grade 2,Doha
+SYS_46158,8,CM.Option.Vanilla.Put,Corn,Grade 1,Sydney
+SYS_46159,8,CM.Option.Vanilla.Put,Wheat,Grade 1,San Fransisco
+SYS_46160,8,CM.Option.Vanilla.Put,Soybean,Grade 1,San Fransisco
+SYS_46161,8,CM.Option.Vanilla.Put,Palm Oil,Grade 1,Kualalumpur
+SYS_46162,8,CM.Forward,Rapeseed Oil,Grade 1,Kualalumpur
+SYS_46163,8,CM.Forward,Corn,Grade 2,San Fransisco
+SYS_46164,8,CM.Forward,Wheat,Grade 2,San Fransisco
+SYS_46165,8,CM.Forward,Soybean,Grade 2,Sydney
+SYS_46166,8,CM.Forward,Palm Oil,Grade 2,Kualalumpur
+SYS_46167,8,CM.Forward,Rapeseed Oil,Grade 2,Singapore
+SYS_46168,10,CM.Option.Vanilla.Put,Cocoa,Grade 1,Dubai
+SYS_46169,10,CM.Option.Digital.Put,Coffee Arabica,Grade 1,Dubai
+SYS_46170,10,CM.Forward,Tea,Grade 1,London
+SYS_46171,10,CM.Forward,Cocoa,Grade 2,London
+SYS_46172,10,CM.Forward,Coffee Arabica,Grade 2,Dublin
+SYS_46173,10,CM.Option.Digital.Put,Cocoa,Grade 2,Dublin
+SYS_46174,10,CM.Option.Digital.Put,Coffee Arabica,Grade 2,Dubai
+SYS_46175,10,CM.Option.Digital.Put,Tea,Grade 2,London
+SYS_46176,11,CM.Swap,Potash,Grade 1,San Fransisco
+SYS_46177,11,CM.Swap,Fertiliser,Grade 1,San Fransisco
+SYS_46178,11,CM.Swap,Potash,Grade 2,New York
+SYS_46179,11,CM.Swap,Fertiliser,Grade 2,New York

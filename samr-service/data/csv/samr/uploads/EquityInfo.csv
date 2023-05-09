@@ -1,0 +1,201 @@
+Trade ID,Currency,Unique Index Key,Bucket,Product,Issuer,Repo Indicator,Market Cap,Economy,Sector
+SYS_43101,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Vanilla.Call,Hindustan Lever Ltd,,Large Cap,Emerging Market,Consumer goods and services
+SYS_43102,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Vanilla.Call,Hindustan Lever Ltd,,Large Cap,Emerging Market,Consumer goods and services
+SYS_43103,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Vanilla.Call,Hindustan Lever Ltd,,Large Cap,Emerging Market,Consumer goods and services
+SYS_43104,USD,EQ.DELTA.Repo.Bucket1,1,EQ.Repo,Hindustan Lever Ltd,Y,Large Cap,Emerging Market,Consumer goods and services
+SYS_43105,USD,EQ.DELTA.Repo.Bucket1,1,EQ.Repo,Container Corp,Y,Large Cap,Emerging Market,Transportation and storage
+SYS_43106,USD,EQ.DELTA.Repo.Bucket1,1,EQ.Repo,Container Corp,Y,Large Cap,Emerging Market,Transportation and storage
+SYS_43107,USD,EQ.DELTA.Repo.Bucket1,1,EQ.Repo,Container Corp,Y,Large Cap,Emerging Market,Transportation and storage
+SYS_43108,USD,EQ.DELTA.Repo.Bucket1,1,EQ.Repo,Container Corp,Y,Large Cap,Emerging Market,Transportation and storage
+SYS_43109,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Forward,Infosys Ltd,,Large Cap,Emerging Market,Administrative and support service activities
+SYS_43110,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Forward,Infosys Ltd,,Large Cap,Emerging Market,Administrative and support service activities
+SYS_43111,USD,EQ.DELTA.Spot.Bucket1,1,EQ.Forward,Infosys Ltd,,Large Cap,Emerging Market,Administrative and support service activities
+SYS_43112,USD,EQ.DELTA.Spot.Bucket3,3,EQ.Forward,Food Corporation Of India,,Large Cap,Emerging Market,Agriculture
+SYS_43113,USD,EQ.DELTA.Spot.Bucket3,3,EQ.Forward,Food Corporation Of India,,Large Cap,Emerging Market,Agriculture
+SYS_43114,USD,EQ.DELTA.Spot.Bucket3,3,EQ.Forward,Food Corporation Of India,,Large Cap,Emerging Market,Agriculture
+SYS_43115,USD,EQ.DELTA.Repo.Bucket3,3,EQ.Repo,Food Corporation Of India,Y,Large Cap,Emerging Market,Agriculture
+SYS_43116,USD,EQ.DELTA.Repo.Bucket3,3,EQ.Repo,Food Corporation Of India,Y,Large Cap,Emerging Market,Agriculture
+SYS_43117,USD,EQ.DELTA.Repo.Bucket3,3,EQ.Repo,Coal India Ltd,Y,Large Cap,Emerging Market,Mining and quarrying
+SYS_43118,USD,EQ.DELTA.Repo.Bucket3,3,EQ.Repo,Coal India Ltd,Y,Large Cap,Emerging Market,Mining and quarrying
+SYS_43119,USD,EQ.DELTA.Repo.Bucket3,3,EQ.Repo,Coal India Ltd,Y,Large Cap,Emerging Market,Mining and quarrying
+SYS_43120,USD,EQ.DELTA.Spot.Bucket3,3,EQ.Repo,Coal India Ltd,Y,Large Cap,Emerging Market,Mining and quarrying
+SYS_43121,USD,EQ.DELTA.Spot.Bucket3,3,EQ.Repo,Tata Power Ltd,Y,Large Cap,Emerging Market,Energy
+SYS_43122,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,Abbot Laboratories,,Large Cap,Advanced Economy,Healthcare
+SYS_43123,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,Abbot Laboratories,,Large Cap,Advanced Economy,Healthcare
+SYS_43124,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,Abbot Laboratories,,Large Cap,Advanced Economy,Healthcare
+SYS_43125,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,Abbot Laboratories,,Large Cap,Advanced Economy,Healthcare
+SYS_43126,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,Abbot Laboratories,,Large Cap,Advanced Economy,Healthcare
+SYS_43127,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Swap,American Electric Power Company,,Large Cap,Advanced Economy,Utilities
+SYS_43128,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Vanilla.Call,American Electric Power Company,,Large Cap,Advanced Economy,Utilities
+SYS_43129,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Vanilla.Call,American Electric Power Company,,Large Cap,Advanced Economy,Utilities
+SYS_43130,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Vanilla.Call,American Electric Power Company,,Large Cap,Advanced Economy,Utilities
+SYS_43131,USD,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Vanilla.Call,American Electric Power Company,,Large Cap,Advanced Economy,Utilities
+SYS_43132,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Option.Vanilla.Call,Allegheny Technologies Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43133,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Option.Vanilla.Call,Air Products & Chemicals Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43134,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Air Products & Chemicals Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43135,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Air Products & Chemicals Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43136,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Air Products & Chemicals Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43137,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Air Products & Chemicals Ltd,,Large Cap,Advanced Economy,Basic materials
+SYS_43138,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Donaldson Co  Inc,,Large Cap,Advanced Economy,Manufacturing
+SYS_43139,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Donaldson Co  Inc,,Large Cap,Advanced Economy,Manufacturing
+SYS_43140,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Donaldson Co  Inc,,Large Cap,Advanced Economy,Manufacturing
+SYS_43141,USD,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Donaldson Co  Inc,,Large Cap,Advanced Economy,Manufacturing
+SYS_43142,USD,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43143,USD,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43144,USD,EQ.DELTA.Spot.Bucket9,9,EQ.Option.Vanilla.Call,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43145,USD,EQ.DELTA.Spot.Bucket9,9,EQ.Option.Vanilla.Call,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43146,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Aegis Logistics,Y,Small Cap,Emerging Market,Transportation and storage
+SYS_43147,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Advanta,Y,Small Cap,Emerging Market,Administrative and support service activities
+SYS_43148,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Advanta,Y,Small Cap,Emerging Market,Administrative and support service activities
+SYS_43149,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Advanta,Y,Small Cap,Emerging Market,Administrative and support service activities
+SYS_43150,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Advanta,Y,Small Cap,Emerging Market,Administrative and support service activities
+SYS_43151,USD,EQ.DELTA.Repo.Bucket9,9,EQ.Repo,Advanta,Y,Small Cap,Emerging Market,Administrative and support service activities
+SYS_43152,USD,EQ.DELTA.Repo.Bucket2,2,EQ.Repo,Tata Steel Ltd,Y,Large Cap,Emerging Market,Industrials
+SYS_43153,USD,EQ.DELTA.Repo.Bucket2,2,EQ.Repo,Tata Steel Ltd,Y,Large Cap,Emerging Market,Industrials
+SYS_43154,USD,EQ.DELTA.Repo.Bucket2,2,EQ.Repo,Tata Steel Ltd,Y,Large Cap,Emerging Market,Industrials
+SYS_43155,USD,EQ.DELTA.Repo.Bucket2,2,EQ.Repo,Tata Steel Ltd,Y,Large Cap,Emerging Market,Industrials
+SYS_43156,USD,EQ.DELTA.Repo.Bucket2,2,EQ.Repo,Tata Steel Ltd,Y,Large Cap,Emerging Market,Industrials
+SYS_43157,USD,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Vanilla.Call,Airtel Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43158,USD,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Vanilla.Call,Airtel Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43159,USD,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Vanilla.Call,Airtel Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43160,USD,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Vanilla.Call,Airtel Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43161,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Vanilla.Call,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43162,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Vanilla.Call,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43163,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Vanilla.Put,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43164,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Vanilla.Put,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43165,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43166,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43167,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43168,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43169,USD,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,DLF Ltd,,Large Cap,Emerging Market,Real estate activities
+SYS_43170,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Caterpillar Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43171,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Caterpillar Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43172,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Caterpillar Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43173,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Vanilla.Put,Caterpillar Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43174,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Vanilla.Put,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43175,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Vanilla.Put,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43176,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Swap,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43177,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Swap,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43178,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Swap,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43179,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Vanilla.Put,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43180,USD,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Vanilla.Put,US Steel Ltd,,Large Cap,Advanced Economy,Industrials
+SYS_43181,USD,EQ.DELTA.Spot.Bucket8,8,EQ.Option.Vanilla.Put,JP Morgan Inc,,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43182,USD,EQ.DELTA.Spot.Bucket8,8,EQ.Option.Vanilla.Put,JP Morgan Inc,,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43183,USD,EQ.DELTA.Spot.Bucket8,8,EQ.Option.Vanilla.Put,JP Morgan Inc,,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43184,USD,EQ.DELTA.Spot.Bucket8,8,EQ.Option.Vanilla.Put,JP Morgan Inc,,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43185,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,JP Morgan Inc,Y,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43186,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Citigroup Inc,Y,Large Cap,Advanced Economy,Financials including government-backed financials
+SYS_43187,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,American Tower,Y,Large Cap,Advanced Economy,Real estate activities
+SYS_43188,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,American Tower,Y,Large Cap,Advanced Economy,Real estate activities
+SYS_43189,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,American Tower,Y,Large Cap,Advanced Economy,Real estate activities
+SYS_43190,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Boston Properties,Y,Large Cap,Advanced Economy,Real estate activities
+SYS_43191,USD,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Boston Properties,Y,Large Cap,Advanced Economy,Real estate activities
+SYS_43192,USD,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Vanilla.Put,Actua Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43193,USD,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Actua Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43194,USD,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Actua Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43195,USD,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Yelp Inc,,Small Cap,Advanced Economy,Technology
+SYS_43196,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Yelp Inc,,Small Cap,Advanced Economy,Technology
+SYS_43197,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Yelp Inc,,Small Cap,Advanced Economy,Technology
+SYS_43198,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Yelp Inc,,Small Cap,Advanced Economy,Technology
+SYS_43199,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Forward,Yelp Inc,,Small Cap,Advanced Economy,Technology
+SYS_43200,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Blackbox Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43201,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Blackbox Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43202,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Blackbox Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43203,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Blackbox Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43204,EUR,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Digital.Put,Blackbox Corporation,,Small Cap,Advanced Economy,Technology
+SYS_43205,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Option.Digital.Put,Lending Club Corporation,,Small Cap,Advanced Economy,Other
+SYS_43206,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Option.Digital.Put,Lending Club Corporation,,Small Cap,Advanced Economy,Other
+SYS_43207,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Option.Digital.Put,Lending Club Corporation,,Small Cap,Advanced Economy,Other
+SYS_43208,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Option.Digital.Put,Lending Club Corporation,,Small Cap,Advanced Economy,Other
+SYS_43209,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Option.Digital.Put,Diamond Resorts,,Small Cap,Advanced Economy,Other
+SYS_43210,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Diamond Resorts,,Small Cap,Advanced Economy,Other
+SYS_43211,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Diamond Resorts,,Small Cap,Advanced Economy,Other
+SYS_43212,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Diamond Resorts,,Small Cap,Advanced Economy,Other
+SYS_43213,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Diamond Resorts,,Small Cap,Advanced Economy,Other
+SYS_43214,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43215,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43216,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43217,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43218,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43219,EUR,EQ.DELTA.Spot.Bucket11,11,EQ.Swap,Mariott Vacations,,Small Cap,Advanced Economy,Other
+SYS_43220,EUR,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Digital.Put,Dr Reddys Labs,,Large Cap,Emerging Market,Healthcare
+SYS_43221,EUR,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Digital.Put,Dr Reddys Labs,,Large Cap,Emerging Market,Healthcare
+SYS_43222,EUR,EQ.DELTA.Spot.Bucket1,1,EQ.Option.Digital.Put,Dr Reddys Labs,,Large Cap,Emerging Market,Healthcare
+SYS_43223,EUR,EQ.DELTA.Spot.Bucket3,3,EQ.Option.Digital.Call,Food Corporation Of India,,Large Cap,Emerging Market,Basic materials
+SYS_43224,EUR,EQ.DELTA.Spot.Bucket3,3,EQ.Option.Digital.Call,Coal India Ltd,,Large Cap,Emerging Market,Basic materials
+SYS_43225,EUR,EQ.DELTA.Spot.Bucket3,3,EQ.Option.Digital.Call,Ambuja Cements,,Large Cap,Emerging Market,Basic materials
+SYS_43226,EUR,EQ.DELTA.Spot.Bucket3,3,EQ.Option.Digital.Call,Hindalco Ltd,,Large Cap,Emerging Market,Basic materials
+SYS_43227,EUR,EQ.DELTA.Spot.Bucket3,3,EQ.Option.Digital.Call,Hindalco Ltd,,Large Cap,Emerging Market,Basic materials
+SYS_43228,EUR,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Digital.Call,American Water,,Large Cap,Advanced Economy,Utilities
+SYS_43229,EUR,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Digital.Call,American Water,,Large Cap,Advanced Economy,Utilities
+SYS_43230,EUR,EQ.DELTA.Spot.Bucket5,5,EQ.Option.Digital.Call,American Water,,Large Cap,Advanced Economy,Utilities
+SYS_43231,EUR,EQ.DELTA.Spot.Bucket7,7,EQ.Option.Digital.Call,Dow Chemical and Company,,Large Cap,Advanced Economy,Basic materials
+SYS_43232,EUR,EQ.DELTA.Spot.Bucket7,7,EQ.Option.Digital.Call,Dow Chemical and Company,,Large Cap,Advanced Economy,Basic materials
+SYS_43233,EUR,EQ.DELTA.Spot.Bucket7,7,EQ.Option.Digital.Call,Dow Chemical and Company,,Large Cap,Advanced Economy,Basic materials
+SYS_43234,EUR,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Dow Chemical and Company,,Large Cap,Advanced Economy,Basic materials
+SYS_43235,EUR,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Lyondell Basel Industries N V,,Large Cap,Advanced Economy,Basic materials
+SYS_43236,GBP,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Lyondell Basel Industries N V,,Large Cap,Advanced Economy,Basic materials
+SYS_43237,GBP,EQ.DELTA.Spot.Bucket7,7,EQ.Futures,Lyondell Basel Industries N V,,Large Cap,Advanced Economy,Basic materials
+SYS_43238,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Transport Corp,,Small Cap,Emerging Market,Transportation and storage
+SYS_43239,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Transport Corp,,Small Cap,Emerging Market,Transportation and storage
+SYS_43240,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Transport Corp,,Small Cap,Emerging Market,Transportation and storage
+SYS_43241,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Futures,Transport Corp,,Small Cap,Emerging Market,Transportation and storage
+SYS_43242,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Option.Digital.Call,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43243,GBP,EQ.DELTA.Spot.Bucket9,9,EQ.Option.Barrier.Call,Aegis Logistics,,Small Cap,Emerging Market,Transportation and storage
+SYS_43244,GBP,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Barrier.Call,BSNL Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43245,GBP,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Barrier.Call,BSNL Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43246,GBP,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Barrier.Call,BSNL Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43247,GBP,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Barrier.Call,Reliance Communications Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43248,GBP,EQ.DELTA.Spot.Bucket2,2,EQ.Option.Barrier.Call,Reliance Communications Ltd,,Large Cap,Emerging Market,Telecommunications
+SYS_43249,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Barrier.Call,Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43250,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Option.Barrier.Call,Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43251,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43252,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,Agricultural Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43253,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,Agricultural Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43254,GBP,EQ.DELTA.Spot.Bucket4,4,EQ.Forward,Agricultural Bank of China,,Large Cap,Emerging Market,Financials including government-backed financials
+SYS_43255,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Praxair Inc,,Large Cap,Advanced Economy,Industrials
+SYS_43256,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Praxair Inc,,Large Cap,Advanced Economy,Industrials
+SYS_43257,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Praxair Inc,,Large Cap,Advanced Economy,Industrials
+SYS_43258,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Huntsman Corporation,,Large Cap,Advanced Economy,Industrials
+SYS_43259,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Forward,Huntsman Corporation,,Large Cap,Advanced Economy,Industrials
+SYS_43260,GBP,EQ.DELTA.Spot.Bucket6,6,EQ.Option.Barrier.Call,Huntsman Corporation,,Large Cap,Advanced Economy,Industrials
+SYS_43261,GBP,EQ.DELTA.Spot.Bucket8,8,EQ.Swap,Alphabet Inc,,Large Cap,Advanced Economy,Technology
+SYS_43262,GBP,EQ.DELTA.Spot.Bucket8,8,EQ.Swap,Alphabet Inc,,Large Cap,Advanced Economy,Technology
+SYS_43263,GBP,EQ.DELTA.Spot.Bucket8,8,EQ.Swap,Alphabet Inc,,Large Cap,Advanced Economy,Technology
+SYS_43264,GBP,EQ.DELTA.Spot.Bucket8,8,EQ.Swap,Apple Industries,,Large Cap,Advanced Economy,Technology
+SYS_43265,GBP,EQ.DELTA.Spot.Bucket8,8,EQ.Swap,Apple Industries,,Large Cap,Advanced Economy,Technology
+SYS_43266,GBP,EQ.DELTA.Spot.Bucket10,10,EQ.Swap,Mosaic Inc,,Small Cap,Advanced Economy,Agriculture
+SYS_43267,GBP,EQ.DELTA.Spot.Bucket10,10,EQ.Swap,Mosaic Inc,,Small Cap,Advanced Economy,Agriculture
+SYS_43268,GBP,EQ.DELTA.Spot.Bucket10,10,EQ.Swap,Mosaic Inc,,Small Cap,Advanced Economy,Agriculture
+SYS_43269,GBP,EQ.DELTA.Spot.Bucket10,10,EQ.Swap,American Vangaurd,,Small Cap,Advanced Economy,Agriculture
+SYS_43270,GBP,EQ.DELTA.Spot.Bucket10,10,EQ.Swap,American Vangaurd,,Small Cap,Advanced Economy,Agriculture
+SYS_43271,JPY,EQ.DELTA.Spot.Bucket10,10,EQ.Option.Barrier.Call,American Vangaurd,,Small Cap,Advanced Economy,Agriculture
+SYS_43272,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43273,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43274,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43275,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43276,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43277,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Kirloskar Pneumatics,Y,Small Cap,Emerging Market,Other
+SYS_43278,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43279,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43280,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43281,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43282,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43283,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43284,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Polaris consultants,Y,Small Cap,Emerging Market,Other
+SYS_43285,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43286,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43287,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43288,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43289,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43290,JPY,EQ.DELTA.Repo.Bucket11,11,EQ.Repo,Hawkins Cooker,Y,Small Cap,Emerging Market,Other
+SYS_43291,JPY,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Alphabet Inc,Y,Large Cap,Advanced Economy,Technology
+SYS_43292,JPY,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Alphabet Inc,Y,Large Cap,Advanced Economy,Technology
+SYS_43293,JPY,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Alphabet Inc,Y,Large Cap,Advanced Economy,Technology
+SYS_43294,JPY,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Alphabet Inc,Y,Large Cap,Advanced Economy,Technology
+SYS_43295,JPY,EQ.DELTA.Repo.Bucket8,8,EQ.Repo,Apple Industries,Y,Large Cap,Advanced Economy,Technology
+SYS_43296,JPY,EQ.DELTA.Repo.Bucket7,7,EQ.Repo,Dow Chemical and Company,Y,Large Cap,Advanced Economy,Basic materials
+SYS_43297,JPY,EQ.DELTA.Repo.Bucket7,7,EQ.Repo,Lyondell Basel Industries N V,Y,Large Cap,Advanced Economy,Basic materials
+SYS_43298,JPY,EQ.DELTA.Repo.Bucket7,7,EQ.Repo,Dow Chemical and Company,Y,Large Cap,Advanced Economy,Basic materials
+SYS_43299,JPY,EQ.DELTA.Repo.Bucket7,7,EQ.Repo,Lyondell Basel Industries N V,Y,Large Cap,Advanced Economy,Basic materials
+SYS_43300,JPY,EQ.DELTA.Repo.Bucket7,7,EQ.Repo,Dow Chemical and Company,Y,Large Cap,Advanced Economy,Basic materials

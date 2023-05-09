@@ -1,0 +1,48 @@
+Sector,Credit Quality,CSR,Bucket Number
+Sovereigns,IG,Non-Sec,1
+Central Banks,IG,Non-Sec,1
+MLAs,IG,Non-Sec,1
+Local Government,IG,Non-Sec,2
+Government backed Corps,IG,Non-Sec,2
+Public Administration,IG,Non-Sec,2
+Education,IG,Non-Sec,2
+Financials including government-backed financials,IG,Non-Sec,3
+Basic materials,IG,Non-Sec,4
+Energy,IG,Non-Sec,4
+Industrials,IG,Non-Sec,4
+Agriculture,IG,Non-Sec,4
+Manufacturing,IG,Non-Sec,4
+Mining and quarrying,IG,Non-Sec,4
+Consumer goods and services,IG,Non-Sec,5
+Transportation and storage,IG,Non-Sec,5
+Administrative and support service activities,IG,Non-Sec,5
+Technology,IG,Non-Sec,6
+Telecommunications,IG,Non-Sec,6
+Healthcare,IG,Non-Sec,7
+Utilities,IG,Non-Sec,7
+Professional and Technical activities,IG,Non-Sec,7
+Covered Bonds,IG,Non-Sec,8
+Sovereigns,HY,Non-Sec,9
+Central Banks,HY,Non-Sec,9
+MLAs,HY,Non-Sec,9
+Local Government,HY,Non-Sec,10
+Government backed Corps,HY,Non-Sec,10
+Public Administration,HY,Non-Sec,10
+Education,HY,Non-Sec,10
+Financials including government-backed financials,HY,Non-Sec,11
+Basic materials,HY,Non-Sec,12
+Energy,HY,Non-Sec,12
+Industrials,HY,Non-Sec,12
+Agriculture,HY,Non-Sec,12
+Manufacturing,HY,Non-Sec,12
+Mining and quarrying,HY,Non-Sec,12
+Consumer goods and services,HY,Non-Sec,13
+Transportation and storage,HY,Non-Sec,13
+Administrative and support service activities,HY,Non-Sec,13
+Technology,HY,Non-Sec,14
+Telecommunications,HY,Non-Sec,14
+Healthcare,HY,Non-Sec,15
+Utilities,HY,Non-Sec,15
+Professional and Technical activities,HY,Non-Sec,15
+Other Sector,HY,Non-Sec,16
+Other Sector,IG,Non-Sec,16

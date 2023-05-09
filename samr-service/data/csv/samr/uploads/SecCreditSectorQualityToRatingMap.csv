@@ -1,0 +1,28 @@
+Sector,Credit Quality,CSR,Bucket Number
+RMBS-Prime,Senior IG,Sec,1
+RMBS-Mid Prime,Senior IG,Sec,2
+RMBS-Sub Prime,Senior IG,Sec,3
+CMBS,Senior IG,Sec,4
+ABS-Student Loans,Senior IG,Sec,5
+ABS-Credit Cards,Senior IG,Sec,6
+ABS-Auto,Senior IG,Sec,7
+CLO non-correlation trading portfolio,Senior IG,Sec,8
+RMBS-Prime,IG,Sec,9
+RMBS-Mid Prime,IG,Sec,10
+RMBS-Sub Prime,IG,Sec,11
+CMBS,IG,Sec,12
+ABS-Student Loans,IG,Sec,13
+ABS-Credit Cards,IG,Sec,14
+ABS-Auto,IG,Sec,15
+CLO non-correlation trading portfolio,IG,Sec,16
+RMBS-Prime,HY,Sec,17
+RMBS-Mid Prime,HY,Sec,18
+RMBS-Sub Prime,HY,Sec,19
+CMBS,HY,Sec,20
+ABS-Student Loans,HY,Sec,21
+ABS-Credit Cards,HY,Sec,22
+ABS-Auto,HY,Sec,23
+CLO non-correlation trading portfolio,HY,Sec,24
+Other Sector,HY,Sec,25
+Other Sector,IG,Sec,25
+Other Sector,Senior IG,Sec,25

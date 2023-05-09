@@ -35,6 +35,11 @@ export class AppComponent implements AfterViewInit {
           route: 'rc/overall',
         },
         {
+          displayName: 'Location Wise',
+          iconName: 'functions',
+          route: 'rc/deskWise',
+        },
+        {
           displayName: 'Desk Wise',
           iconName: 'functions',
           route: 'rc/deskWise',
@@ -43,6 +48,11 @@ export class AppComponent implements AfterViewInit {
           displayName: 'Asset Class Wise',
           iconName: 'functions',
           route: 'rc/deskWise',
+        },
+        {
+          displayName: 'Top N Trades',
+          iconName: 'functions',
+          route: 'sa/mr/topNTrades',
         },
       ]
     },
@@ -121,11 +131,6 @@ export class AppComponent implements AfterViewInit {
           displayName: 'Incremental VaR',
           iconName: 'grade',
           route: 'sa/mr/ivar',
-        },
-        {
-          displayName: 'Top N',
-          iconName: 'grade',
-          route: 'sa/mr/topn',
         },
       ]
     },
@@ -240,11 +245,6 @@ export class AppComponent implements AfterViewInit {
           displayName: 'Expandable Table Rows',
           iconName: 'expand_content',
           route: 'samples/ng-examples/expandable-table-rows'
-        },
-        {
-          displayName: 'Exec Details',
-          iconName: 'expand_content',
-          route: 'execDetails'
         },
       ]
     }

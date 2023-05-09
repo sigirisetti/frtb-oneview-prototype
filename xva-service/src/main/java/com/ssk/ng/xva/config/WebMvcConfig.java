@@ -31,10 +31,12 @@ public class WebMvcConfig implements WebMvcConfigurer {
         converters.add(createJacksonHttpMessageConverter());
     }
 
+    /*
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**");
     }
+    */
 
     private HttpMessageConverter<Object> createJacksonHttpMessageConverter() {
         ObjectMapper objectMapper = new Jackson2ObjectMapperBuilder().indentOutput(true)

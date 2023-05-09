@@ -27,4 +27,14 @@ export class SaMrService {
     };
     return this.http.get<SamrResult>(globals.getSAMRExecResults, options);
   }
+
+  getSamrDashboardData(valueDate: Date, workflowId: number): Observable<SamrResult> {
+    const options = {
+      params: new HttpParams()
+        .set('valueDate', formatDate(valueDate, 'yyyy-MM-dd', 'en-US'))
+        .set('workflowId', workflowId)
+    };
+    return this.http.get<SamrResult>(globals.getSAMRExecResults, options);
+  }
+
 }

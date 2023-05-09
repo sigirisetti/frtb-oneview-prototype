@@ -1,0 +1,62 @@
+Sector,Region,Market Cap,Bucket Number
+Consumer goods and services,Emerging Market,Large Cap,1
+Transportation and storage,Emerging Market,Large Cap,1
+Administrative and support service activities,Emerging Market,Large Cap,1
+Healthcare,Emerging Market,Large Cap,1
+Utilities,Emerging Market,Large Cap,1
+Telecommunications,Emerging Market,Large Cap,2
+Industrials,Emerging Market,Large Cap,2
+Basic materials,Emerging Market,Large Cap,3
+Energy,Emerging Market,Large Cap,3
+Agriculture,Emerging Market,Large Cap,3
+Manufacturing,Emerging Market,Large Cap,3
+Mining and quarrying,Emerging Market,Large Cap,3
+Financials including government-backed financials,Emerging Market,Large Cap,4
+Real estate activities,Emerging Market,Large Cap,4
+Technology,Emerging Market,Large Cap,4
+Consumer goods and services,Advanced Economy,Large Cap,5
+Transportation and storage,Advanced Economy,Large Cap,5
+Administrative and support service activities,Advanced Economy,Large Cap,5
+Healthcare,Advanced Economy,Large Cap,5
+Utilities,Advanced Economy,Large Cap,5
+Telecommunications,Emerging Market,Large Cap,6
+Industrials,Emerging Market,Large Cap,6
+Basic materials,Emerging Market,Large Cap,7
+Energy,Emerging Market,Large Cap,7
+Agriculture,Emerging Market,Large Cap,7
+Manufacturing,Emerging Market,Large Cap,7
+Mining and quarrying,Emerging Market,Large Cap,7
+Financials including government-backed financials,Emerging Market,Large Cap,8
+Real estate activities,Emerging Market,Large Cap,8
+Technology,Emerging Market,Large Cap,8
+Consumer goods and services,Emerging Market,Small Cap,9
+Transportation and storage,Emerging Market,Small Cap,9
+Administrative and support service activities,Emerging Market,Small Cap,9
+Healthcare,Emerging Market,Small Cap,9
+Utilities,Emerging Market,Small Cap,9
+Telecommunications,Emerging Market,Small Cap,9
+Industrials,Emerging Market,Small Cap,9
+Basic materials,Emerging Market,Small Cap,9
+Energy,Emerging Market,Small Cap,9
+Agriculture,Emerging Market,Small Cap,9
+Manufacturing,Emerging Market,Small Cap,9
+Mining and quarrying,Emerging Market,Small Cap,9
+Financials including government-backed financials,Emerging Market,Small Cap,9
+Real estate activities,Emerging Market,Small Cap,9
+Technology,Emerging Market,Small Cap,9
+Consumer goods and services,Advanced Economy,Small Cap,10
+Transportation and storage,Advanced Economy,Small Cap,10
+Administrative and support service activities,Advanced Economy,Small Cap,10
+Healthcare,Advanced Economy,Small Cap,10
+Utilities,Advanced Economy,Small Cap,10
+Telecommunications,Advanced Economy,Small Cap,10
+Industrials,Advanced Economy,Small Cap,10
+Basic materials,Advanced Economy,Small Cap,10
+Energy,Advanced Economy,Small Cap,10
+Agriculture,Advanced Economy,Small Cap,10
+Manufacturing,Advanced Economy,Small Cap,10
+Mining and quarrying,Advanced Economy,Small Cap,10
+Financials including government-backed financials,Advanced Economy,Small Cap,10
+Real estate activities,Advanced Economy,Small Cap,10
+Technology,Advanced Economy,Small Cap,10
+Any of the aove,Any of the above,Other,11

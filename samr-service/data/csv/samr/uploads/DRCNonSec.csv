@@ -1,0 +1,270 @@
+Trade ID,Currency,Issuer Id,Issuer,Bucket,Product,Seniority,Rating,Long/Short (Buy/Sell),CR.DRC.Maturity,CR.DRC.Notional,CR.DRC.MTM,CR.DRC.Strike
+SYS_53101,USD,UniLever Ltd,UniLever Ltd,1,CR.Bond,Senior,AAA,SHORT,0.11,-100000,-90000,
+SYS_53102,USD,UniLever Ltd,UniLever Ltd,1,CR.Bond,Senior,AAA,LONG,0.37,3700000,3478000,
+SYS_53103,USD,UniLever Ltd,UniLever Ltd,1,CR.Bond,Senior,AAA,SHORT,1.65,-7100000,-6887000,
+SYS_53104,USD,UniLever Ltd,UniLever Ltd,1,CR.CDS,Junior,AAA,LONG,5.1,2400000,200000,
+SYS_53105,USD,Transport Corp,Transport Corp,1,CR.Bond,Senior,A,LONG,7.48,600000,546000,
+SYS_53106,USD,Transport Corp,Transport Corp,1,CR.Bond,Senior,A,LONG,3.43,4600000,4370000,
+SYS_53107,USD,Transport Corp,Transport Corp,1,CR.Bond,Junior,A,LONG,7.54,8500000,8330000,
+SYS_53109,USD,Infosys Ltd,Infosys Ltd,1,CR.Bond,Senior,BBB,LONG,0.52,9600000,9600000,
+SYS_53110,USD,Infosys Ltd,Infosys Ltd,1,CR.Bond,Senior,BBB,LONG,7.08,2100000,1932000,
+SYS_53111,USD,Infosys Ltd,Infosys Ltd,1,CR.Bond,Senior,BBB,LONG,1.72,9800000,9800000,
+SYS_53112,USD,Monsanto Ltd,Monsanto Ltd,1,CR.Bond,Covered,AA,LONG,7.27,7200000,6984000,
+SYS_53113,USD,Monsanto Ltd,Monsanto Ltd,1,CR.Bond,Covered,AA,SHORT,9.92,-9900000,-9900000,
+SYS_53114,USD,Monsanto Ltd,Monsanto Ltd,1,CR.Bond,Covered,AA,SHORT,5.97,-2700000,-2511000,
+SYS_53115,USD,Monsanto Ltd,Monsanto Ltd,1,CR.Bond,Covered,AA,LONG,5.04,100000,90000,
+SYS_53116,USD,Monsanto Ltd,Monsanto Ltd,1,CR.Bond,Covered,AA,LONG,3.52,300000,270000,
+SYS_53117,USD,BHP Billiton Plc,BHP Billiton Plc,1,CR.Bond,Senior,A,SHORT,3.98,-9300000,-9207000,
+SYS_53118,USD,BHP Billiton Plc,BHP Billiton Plc,1,CR.Bond,Senior,A,SHORT,1.15,-9300000,-9207000,
+SYS_53119,USD,BHP Billiton Plc,BHP Billiton Plc,1,CR.Bond,Senior,A,SHORT,0.31,-5900000,-5664000,
+SYS_53120,USD,BHP Billiton Plc,BHP Billiton Plc,1,CR.Bond,Senior,A,LONG,6.78,7300000,7081000,
+SYS_53121,USD,Tata Power Ltd,Tata Power Ltd,1,CR.Bond,Junior,NR,LONG,2.4,9600000,9600000,
+SYS_53122,USD,Abbot Laboratories,Abbot Laboratories,1,CR.Bond,Junior,AA,LONG,4.77,8300000,8134000,
+SYS_53123,USD,Abbot Laboratories,Abbot Laboratories,1,CR.Bond,Junior,AA,LONG,2.17,6900000,6693000,
+SYS_53124,USD,Abbot Laboratories,Abbot Laboratories,1,CR.Bond,Junior,AA,LONG,4.82,9400000,9306000,
+SYS_53125,USD,Abbot Laboratories,Abbot Laboratories,1,CR.Bond,Junior,AA,SHORT,1.97,-4100000,-3854000,
+SYS_53126,USD,Abbot Laboratories,Abbot Laboratories,1,CR.Bond,Junior,AA,SHORT,1.28,-5700000,-5472000,
+SYS_53127,USD,American Electric Power Company,American Electric Power Company,1,CR.Bond.Option.Put,Senior,AAA,LONG,7.89,-1300000,11830,-1274000
+SYS_53128,USD,American Electric Power Company,American Electric Power Company,1,CR.Bond.Option.Put,Senior,AAA,LONG,9.1,-5600000,53760,-5488000
+SYS_53129,USD,American Electric Power Company,American Electric Power Company,1,CR.Bond.Option.Put,Senior,AAA,LONG,3.48,-8500000,84150,-8330000
+SYS_53130,USD,American Electric Power Company,American Electric Power Company,1,CR.Bond.Option.Put,Senior,AAA,SHORT,7.93,1000000,-91000,1000000
+SYS_53131,USD,American Electric Power Company,American Electric Power Company,1,CR.Bond.Option.Put,Senior,AAA,SHORT,1.95,8200000,-80360,8036000
+SYS_53132,USD,Allegheny Technologies Ltd,Allegheny Technologies Ltd,1,CR.Bond.Option.Put,Senior,BBB,LONG,2.33,-3200000,29760,-3136000
+SYS_53133,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,CR.Bond.Option.Put,Senior,A,LONG,5.22,-1700000,15640,-1666000
+SYS_53134,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,CR.Bond.Option.Put,Senior,A,LONG,5.4,-9600000,96000,-9408000
+SYS_53135,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,CR.Bond.Option.Put,Senior,A,LONG,0.56,-8400000,82320,-8232000
+SYS_53136,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,CR.Bond.Option.Put,Senior,A,SHORT,6.24,1600000,-14720,1568000
+SYS_53137,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,CR.Bond.Option.Put,Senior,A,SHORT,6.06,5700000,-54720,5586000
+SYS_53138,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,CR.Bond.Option.Call,Senior,BB,LONG,9.94,,54600,5514600
+SYS_53139,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,CR.Bond.Option.Call,Senior,BB,LONG,1.37,,52800,5332800
+SYS_53140,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,CR.Bond.Option.Call,Senior,BB,LONG,3.54,,46550,4701550
+SYS_53141,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,CR.Bond.Option.Call,Senior,BB,LONG,5.75,,84150,8499150
+SYS_53142,USD,Indonesia,Indonesia,2,CR.Bond.Option.Call,Senior,BB,SHORT,3.7,,-32550,-3287550
+SYS_53143,USD,Indonesia,Indonesia,2,CR.Bond.Option.Call,Senior,BB,LONG,8.84,,37600,3797600
+SYS_53144,USD,Indonesia,Indonesia,2,CR.Bond.Option.Call,Senior,BB,LONG,3.21,,39480,3987480
+SYS_53145,USD,Indonesia,Indonesia,2,CR.Bond.Option.Call,Senior,BB,LONG,5.31,,90090,9099090
+SYS_53146,USD,Indonesia,Indonesia,2,CR.Bond.Option.Call,Senior,BB,LONG,4.73,,450000,45450000
+SYS_53161,USD,Bank of America,Bank of America,1,CR.Bond,Junior,BBB,LONG,0.44,5600000,5376000,
+SYS_53162,USD,Bank of America,Bank of America,1,CR.Bond,Junior,BBB,LONG,3.13,4000000,3760000,
+SYS_53163,USD,Bank of America,Bank of America,1,CR.Bond,Junior,BBB,LONG,5.38,8200000,8036000,
+SYS_53164,USD,Bank of America,Bank of America,1,CR.Bond,Junior,BBB,LONG,3.25,9600000,9600000,
+SYS_53165,USD,Bank of America,Bank of America,1,CR.Bond.Option.Put,Junior,BBB,LONG,3.99,-900000,81900,-882000
+SYS_53166,USD,Bank of America,Bank of America,1,CR.Bond.Option.Put,Junior,BBB,LONG,9.15,-4600000,43700,-4508000
+SYS_53167,USD,Bank of America,Bank of America,1,CR.Bond.Option.Put,Junior,BBB,LONG,5.26,-4700000,446500,-4606000
+SYS_53168,USD,Bank of America,Bank of America,1,CR.CDS,Junior,BBB,SHORT,5.8,-2000000,170000,
+SYS_53169,USD,Bank of America,Bank of America,1,CR.CDS,Junior,BBB,SHORT,1.63,-7500000,100000,
+SYS_53170,USD,Caterpillar Ltd,Caterpillar Ltd,1,CR.Bond,Senior,BBB,LONG,4.66,3300000,3069000,
+SYS_53171,USD,Caterpillar Ltd,Caterpillar Ltd,1,CR.Bond,Senior,BBB,LONG,0.48,900000,819000,
+SYS_53172,USD,Caterpillar Ltd,Caterpillar Ltd,1,CR.Bond,Senior,BBB,LONG,3.74,2600000,2418000,
+SYS_53173,USD,Caterpillar Ltd,Caterpillar Ltd,1,CR.Bond,Senior,BBB,LONG,0.49,1300000,1183000,
+SYS_53174,USD,US Steel Ltd,US Steel Ltd,1,CR.Bond,Senior,B,LONG,9.69,7400000,7178000,
+SYS_53175,USD,US Steel Ltd,US Steel Ltd,1,CR.Bond,Senior,B,LONG,1.72,6100000,5856000,
+SYS_53176,USD,US Steel Ltd,US Steel Ltd,1,CR.Bond,Senior,B,LONG,7.71,4700000,4465000,
+SYS_53177,USD,US Steel Ltd,US Steel Ltd,1,CR.CDS,Senior,B,SHORT,5.53,-2100000,180000,
+SYS_53178,USD,US Steel Ltd,US Steel Ltd,1,CR.CDS,Senior,B,SHORT,3.62,-2200000,160000,
+SYS_53179,USD,US Steel Ltd,US Steel Ltd,1,CR.CDS,Senior,B,SHORT,2.91,-3100000,220000,
+SYS_53180,USD,US Steel Ltd,US Steel Ltd,1,CR.CDS,Senior,B,SHORT,4.63,-8100000,190000,
+SYS_53192,USD,Actua Corporation,Actua Corporation,1,CR.Bond,Senior,B,LONG,4.86,1500000,1365000,
+SYS_53193,USD,Actua Corporation,Actua Corporation,1,CR.Bond,Senior,B,LONG,0.61,5900000,5664000,
+SYS_53194,USD,Actua Corporation,Actua Corporation,1,CR.Bond,Senior,B,LONG,1.29,5500000,5280000,
+SYS_53195,USD,Yelp Inc,Yelp Inc,1,CR.Bond,Senior,B,LONG,8.77,2900000,2697000,
+SYS_43101,USD,Hindustan Lever Ltd,Hindustan Lever Ltd,1,EQ.Option.Vanilla.Call,Junior,NR,SHORT,2.74,,-120000,
+SYS_43102,USD,Hindustan Lever Ltd,Hindustan Lever Ltd,1,EQ.Option.Vanilla.Call,Junior,NR,SHORT,1.68,,-200000,
+SYS_43103,USD,Hindustan Lever Ltd,Hindustan Lever Ltd,1,EQ.Option.Vanilla.Call,Junior,NR,SHORT,7.26,,-450000,
+SYS_43104,USD,Hindustan Lever Ltd,Hindustan Lever Ltd,1,EQ.Repo,Junior,NR,SHORT,3.44,,,
+SYS_43105,USD,Container Corp,Container Corp,1,EQ.Repo,Junior,NR,SHORT,0.71,,,
+SYS_43106,USD,Container Corp,Container Corp,1,EQ.Repo,Junior,NR,SHORT,2.7,,,
+SYS_43107,USD,Container Corp,Container Corp,1,EQ.Repo,Junior,NR,SHORT,6.8,,,
+SYS_43108,USD,Container Corp,Container Corp,1,EQ.Repo,Junior,NR,SHORT,4.96,,,
+SYS_43109,USD,Infosys Ltd,Infosys Ltd,1,EQ.Forward,Junior,BBB,LONG,2.05,2976000,29760,3273600
+SYS_43110,USD,Infosys Ltd,Infosys Ltd,1,EQ.Forward,Junior,BBB,LONG,2.16,7280000,72800,8008000
+SYS_43111,USD,Infosys Ltd,Infosys Ltd,1,EQ.Forward,Junior,BBB,LONG,4.33,9900000,99000,10890000
+SYS_43112,USD,Food Corporation Of India,Food Corporation Of India,1,EQ.Forward,Junior,BBB,LONG,5.3,5952000,59520,6547200
+SYS_43113,USD,Food Corporation Of India,Food Corporation Of India,1,EQ.Forward,Junior,BBB,LONG,10,2697000,26970,2966700
+SYS_43114,USD,Food Corporation Of India,Food Corporation Of India,1,EQ.Forward,Junior,BBB,LONG,7.91,1472000,14720,1619200
+SYS_43115,USD,Food Corporation Of India,Food Corporation Of India,1,EQ.Repo,Junior,BBB,LONG,8.83,7700000,,
+SYS_43116,USD,Food Corporation Of India,Food Corporation Of India,1,EQ.Repo,Junior,BBB,LONG,5.15,800000,,
+SYS_43117,USD,Coal India Ltd,Coal India Ltd,1,EQ.Repo,Junior,BBB,LONG,4.87,7200000,,
+SYS_43118,USD,Coal India Ltd,Coal India Ltd,1,EQ.Repo,Junior,BBB,LONG,6.85,7500000,,
+SYS_43119,USD,Coal India Ltd,Coal India Ltd,1,EQ.Repo,Junior,BBB,SHORT,0.86,,-40420,
+SYS_43120,USD,Coal India Ltd,Coal India Ltd,1,EQ.Repo,Junior,BBB,SHORT,3.8,,-68870,
+SYS_43121,USD,Tata Power Ltd,Tata Power Ltd,1,EQ.Repo,Junior,BB,SHORT,0.61,,-52250,
+SYS_43122,USD,Abbot Laboratories,Abbot Laboratories,1,EQ.Swap,Junior,AA,SHORT,6.72,-5600000,-53760,
+SYS_43123,USD,Abbot Laboratories,Abbot Laboratories,1,EQ.Swap,Junior,AA,SHORT,3.62,-7000000,-67900,
+SYS_43124,USD,Abbot Laboratories,Abbot Laboratories,1,EQ.Swap,Junior,AA,SHORT,7.54,-200000,-1800,
+SYS_43125,USD,Abbot Laboratories,Abbot Laboratories,1,EQ.Swap,Junior,AA,SHORT,5.86,-5800000,-55680,
+SYS_43126,USD,Abbot Laboratories,Abbot Laboratories,1,EQ.Swap,Junior,AA,SHORT,3.97,-7700000,-75460,
+SYS_43127,USD,American Electric Power Company,American Electric Power Company,1,EQ.Swap,Junior,AAA,SHORT,5.49,-7800000,-76440,
+SYS_43128,USD,American Electric Power Company,American Electric Power Company,1,EQ.Option.Vanilla.Call,Junior,AAA,SHORT,3.04,,-76440,
+SYS_43129,USD,American Electric Power Company,American Electric Power Company,1,EQ.Option.Vanilla.Call,Junior,AAA,SHORT,0.09,,-85140,
+SYS_43130,USD,American Electric Power Company,American Electric Power Company,1,EQ.Option.Vanilla.Call,Junior,AAA,SHORT,6.8,,-51300,
+SYS_43131,USD,American Electric Power Company,American Electric Power Company,1,EQ.Option.Vanilla.Call,Junior,AAA,SHORT,7.16,,-81340,
+SYS_43132,USD,Allegheny Technologies Ltd,Allegheny Technologies Ltd,1,EQ.Option.Vanilla.Call,Junior,BBB,LONG,7.34,,12740,
+SYS_43133,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,EQ.Option.Vanilla.Call,Junior,A,LONG,9.87,,53760,
+SYS_43134,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,EQ.Futures,Junior,A,LONG,7.46,9300000,92070,10230000
+SYS_43135,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,EQ.Futures,Junior,A,LONG,1,2800000,26040,3080000
+SYS_43136,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,EQ.Futures,Junior,A,LONG,0.97,3100000,28830,3410000
+SYS_43137,USD,Air Products & Chemicals Ltd,Air Products & Chemicals Ltd,1,EQ.Futures,Junior,A,LONG,5.76,900000,8190,990000
+SYS_43138,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,EQ.Futures,Junior,BB,LONG,2.85,3200000,29760,3520000
+SYS_43139,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,EQ.Futures,Junior,BB,LONG,5.53,8800000,87120,9680000
+SYS_43140,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,EQ.Futures,Junior,BB,LONG,5.76,900000,8190,990000
+SYS_43141,USD,Donaldson Co  Inc,Donaldson Co  Inc,1,EQ.Futures,Junior,BB,LONG,5.1,5000000,47500,5500000
+SYS_43142,USD,Aegis Logistics,Aegis Logistics,1,EQ.Futures,Junior,NR,SHORT,7.45,-6900000,-66930,-7590000
+SYS_43143,USD,Aegis Logistics,Aegis Logistics,1,EQ.Futures,Junior,NR,SHORT,2.79,-7900000,-77420,-8690000
+SYS_43144,USD,Aegis Logistics,Aegis Logistics,1,EQ.Option.Vanilla.Call,Junior,NR,SHORT,3.95,,-10010,
+SYS_43145,USD,Aegis Logistics,Aegis Logistics,1,EQ.Option.Vanilla.Call,Junior,NR,SHORT,0.93,,-90090,
+SYS_43146,USD,Aegis Logistics,Aegis Logistics,1,EQ.Repo,Junior,NR,SHORT,7.75,,,
+SYS_43147,USD,Advanta,Advanta,1,EQ.Repo,Junior,NR,SHORT,1.48,,,
+SYS_43148,USD,Advanta,Advanta,1,EQ.Repo,Junior,NR,SHORT,0.13,,,
+SYS_43149,USD,Advanta,Advanta,1,EQ.Repo,Junior,NR,SHORT,2.5,,,
+SYS_43150,USD,Advanta,Advanta,1,EQ.Repo,Junior,NR,SHORT,2.06,,,
+SYS_43151,USD,Advanta,Advanta,1,EQ.Repo,Junior,NR,SHORT,3.59,,,
+SYS_43152,USD,Tata Steel Ltd,Tata Steel Ltd,1,EQ.Repo,Junior,B,SHORT,2.55,,,
+SYS_43153,USD,Tata Steel Ltd,Tata Steel Ltd,1,EQ.Repo,Junior,B,SHORT,7.48,,,
+SYS_43154,USD,Tata Steel Ltd,Tata Steel Ltd,1,EQ.Repo,Junior,B,SHORT,4.98,,,
+SYS_43155,USD,Tata Steel Ltd,Tata Steel Ltd,1,EQ.Repo,Junior,B,SHORT,7.35,,,
+SYS_43156,USD,Tata Steel Ltd,Tata Steel Ltd,1,EQ.Repo,Junior,B,SHORT,5.41,,,
+SYS_43157,USD,Airtel Ltd,Airtel Ltd,1,EQ.Option.Vanilla.Call,Junior,BB,LONG,1.45,,90000,
+SYS_43158,USD,Airtel Ltd,Airtel Ltd,1,EQ.Option.Vanilla.Call,Junior,BB,LONG,0.38,,95000,
+SYS_43159,USD,Airtel Ltd,Airtel Ltd,1,EQ.Option.Vanilla.Call,Junior,BB,LONG,4.45,,93060,
+SYS_43160,USD,Airtel Ltd,Airtel Ltd,1,EQ.Option.Vanilla.Call,Junior,BB,LONG,8.66,,99000,
+SYS_43161,USD,DLF Ltd,DLF Ltd,1,EQ.Option.Vanilla.Call,Junior,NR,LONG,4.65,,80360,
+SYS_43162,USD,DLF Ltd,DLF Ltd,1,EQ.Option.Vanilla.Call,Junior,NR,LONG,2.18,,67900,
+SYS_43163,USD,DLF Ltd,DLF Ltd,1,EQ.Option.Vanilla.Put,Junior,NR,LONG,4.1,5600000,53760,5040000
+SYS_43164,USD,DLF Ltd,DLF Ltd,1,EQ.Option.Vanilla.Put,Junior,NR,LONG,6.88,3900000,36660,3510000
+SYS_43165,USD,DLF Ltd,DLF Ltd,1,EQ.Forward,Junior,NR,LONG,1.66,5300000,50350,5830000
+SYS_43166,USD,DLF Ltd,DLF Ltd,1,EQ.Forward,Junior,NR,LONG,6.73,700000,6370,770000
+SYS_43167,USD,DLF Ltd,DLF Ltd,1,EQ.Forward,Junior,NR,LONG,1.97,3100000,28830,3410000
+SYS_43168,USD,DLF Ltd,DLF Ltd,1,EQ.Forward,Junior,NR,LONG,3.79,2100000,19320,2310000
+SYS_43169,USD,DLF Ltd,DLF Ltd,1,EQ.Forward,Junior,NR,LONG,4.04,6800000,65960,7480000
+SYS_43170,USD,Caterpillar Ltd,Caterpillar Ltd,1,EQ.Forward,Junior,BBB,LONG,6.1,1100000,10010,1210000
+SYS_43171,USD,Caterpillar Ltd,Caterpillar Ltd,1,EQ.Forward,Junior,BBB,LONG,6.69,7300000,70810,8030000
+SYS_43172,USD,Caterpillar Ltd,Caterpillar Ltd,1,EQ.Forward,Junior,BBB,LONG,4.03,4500000,42750,4950000
+SYS_43173,USD,Caterpillar Ltd,Caterpillar Ltd,1,EQ.Option.Vanilla.Put,Junior,BBB,LONG,1.36,800000,7280,720000
+SYS_43174,USD,US Steel Ltd,US Steel Ltd,1,EQ.Option.Vanilla.Put,Junior,B,LONG,6.18,5200000,49400,4680000
+SYS_43175,USD,US Steel Ltd,US Steel Ltd,1,EQ.Option.Vanilla.Put,Junior,B,LONG,1.76,6000000,57600,5400000
+SYS_43176,USD,US Steel Ltd,US Steel Ltd,1,EQ.Swap,Junior,B,LONG,8.63,5000000,47500,
+SYS_43177,USD,US Steel Ltd,US Steel Ltd,1,EQ.Swap,Junior,B,LONG,0.96,9300000,92070,
+SYS_43178,USD,US Steel Ltd,US Steel Ltd,1,EQ.Swap,Junior,B,LONG,8.7,1300000,11830,
+SYS_43179,USD,US Steel Ltd,US Steel Ltd,1,EQ.Option.Vanilla.Put,Junior,B,LONG,5.7,8400000,82320,7560000
+SYS_43180,USD,US Steel Ltd,US Steel Ltd,1,EQ.Option.Vanilla.Put,Junior,B,LONG,5.84,500000,4500,450000
+SYS_43181,USD,JP Morgan Inc,JP Morgan Inc,1,EQ.Option.Vanilla.Put,Junior,A,LONG,1.68,2800000,26040,2520000
+SYS_43182,USD,JP Morgan Inc,JP Morgan Inc,1,EQ.Option.Vanilla.Put,Junior,A,LONG,1.29,10000000,100000,9000000
+SYS_43183,USD,JP Morgan Inc,JP Morgan Inc,1,EQ.Option.Vanilla.Put,Junior,A,LONG,8.19,1100000,10010,990000
+SYS_43184,USD,JP Morgan Inc,JP Morgan Inc,1,EQ.Option.Vanilla.Put,Junior,A,LONG,3.89,9200000,91080,8280000
+SYS_43185,USD,JP Morgan Inc,JP Morgan Inc,1,EQ.Repo,Junior,A,LONG,1.93,5500000,,
+SYS_43186,USD,Citigroup Inc,Citigroup Inc,1,EQ.Repo,Junior,BBB,LONG,4.54,4400000,,
+SYS_43187,USD,American Tower,American Tower,1,EQ.Repo,Junior,BBB,LONG,5.14,200000,,
+SYS_43188,USD,American Tower,American Tower,1,EQ.Repo,Junior,BBB,LONG,7.15,2300000,,
+SYS_43189,USD,American Tower,American Tower,1,EQ.Repo,Junior,BBB,LONG,7.34,3800000,,
+SYS_43190,USD,Boston Properties,Boston Properties,1,EQ.Repo,Junior,BB,LONG,0.16,3600000,,
+SYS_43191,USD,Boston Properties,Boston Properties,1,EQ.Repo,Junior,BB,LONG,0.34,1900000,,
+SYS_43192,USD,Actua Corporation,Actua Corporation,1,EQ.Option.Vanilla.Put,Junior,B,LONG,2.35,5000000,47500,4500000
+SYS_43193,USD,Actua Corporation,Actua Corporation,1,EQ.Option.Digital.Put,Junior,B,SHORT,8.46,-1700000,-15640,
+SYS_43194,USD,Actua Corporation,Actua Corporation,1,EQ.Forward,Junior,B,SHORT,9.4,-9200000,-91080,-10120000
+SYS_43195,USD,Yelp Inc,Yelp Inc,1,EQ.Forward,Junior,B,SHORT,6.6,-4200000,-39480,-4620000
+SYS_43196,EUR,Yelp Inc,Yelp Inc,1,EQ.Forward,Junior,B,SHORT,6.38,-2000000,-18400,-2200000
+SYS_43197,EUR,Yelp Inc,Yelp Inc,1,EQ.Forward,Junior,B,SHORT,3.55,-8200000,-80360,-9020000
+SYS_43198,EUR,Yelp Inc,Yelp Inc,1,EQ.Forward,Junior,B,SHORT,5.62,-1400000,-12740,-1540000
+SYS_43199,EUR,Yelp Inc,Yelp Inc,1,EQ.Forward,Junior,B,SHORT,4.23,-9100000,-90090,-10010000
+SYS_43200,EUR,Blackbox Corporation,Blackbox Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,2.2,-270000,-2511,
+SYS_43201,EUR,Blackbox Corporation,Blackbox Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,7.12,-110000,-1000,
+SYS_43202,EUR,Blackbox Corporation,Blackbox Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,0.2,-410000,-38540,
+SYS_43203,EUR,Blackbox Corporation,Blackbox Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,9.55,-920000,-91080,
+SYS_43204,EUR,Blackbox Corporation,Blackbox Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,4.51,-130000,-11830,
+SYS_43205,EUR,Lending Club Corporation,Lending Club Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,9.18,-840000,-82320,
+SYS_43206,EUR,Lending Club Corporation,Lending Club Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,5.8,-520000,-49400,
+SYS_43207,EUR,Lending Club Corporation,Lending Club Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,1.34,-840000,-82320,
+SYS_43208,EUR,Lending Club Corporation,Lending Club Corporation,1,EQ.Option.Digital.Put,Junior,NR,SHORT,1.61,-800000,-78400,
+SYS_43209,EUR,Diamond Resorts,Diamond Resorts,1,EQ.Option.Digital.Put,Junior,NR,SHORT,5.81,-640000,-61440,
+SYS_43210,EUR,Diamond Resorts,Diamond Resorts,1,EQ.Swap,Junior,NR,SHORT,6.07,-1000000,-91000,
+SYS_43211,EUR,Diamond Resorts,Diamond Resorts,1,EQ.Swap,Junior,NR,SHORT,8,-9700000,-97000,
+SYS_43212,EUR,Diamond Resorts,Diamond Resorts,1,EQ.Swap,Junior,NR,SHORT,5.22,-5000000,-475000,
+SYS_43213,EUR,Diamond Resorts,Diamond Resorts,1,EQ.Swap,Junior,NR,SHORT,6.16,-2600000,-24180,
+SYS_43214,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,5.84,1400000,12740,
+SYS_43215,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,3.27,300000,27000,
+SYS_43216,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,4.53,4600000,43700,
+SYS_43217,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,6.3,2900000,269700,
+SYS_43218,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,0.81,5300000,50350,
+SYS_43219,EUR,Mariott Vacations,Mariott Vacations,1,EQ.Swap,Junior,NR,LONG,3.28,6300000,60480,
+SYS_43220,EUR,Dr Reddys Labs,Dr Reddys Labs,1,EQ.Option.Digital.Put,Junior,NR,SHORT,6.37,-210000,-19320,
+SYS_43221,EUR,Dr Reddys Labs,Dr Reddys Labs,1,EQ.Option.Digital.Put,Junior,NR,SHORT,5.18,-350000,-329000,
+SYS_43222,EUR,Dr Reddys Labs,Dr Reddys Labs,1,EQ.Option.Digital.Put,Junior,NR,SHORT,0.95,-290000,-269700,
+SYS_43223,EUR,Ambuja Cements,Ambuja Cements,1,EQ.Option.Digital.Call,Junior,NR,SHORT,2.76,-1000000,-98000,
+SYS_43224,EUR,Ambuja Cements,Ambuja Cements,1,EQ.Option.Digital.Call,Junior,NR,SHORT,7.77,-1000000,-23250,
+SYS_43225,EUR,Ambuja Cements,Ambuja Cements,1,EQ.Option.Digital.Call,Junior,NR,SHORT,3.04,-1000000,-28830,
+SYS_43226,EUR,Hindalco Ltd,Hindalco Ltd,1,EQ.Option.Digital.Call,Junior,NR,SHORT,6.46,-1000000,-20240,
+SYS_43227,EUR,Hindalco Ltd,Hindalco Ltd,1,EQ.Option.Digital.Call,Junior,NR,SHORT,3.22,-1000000,-61440,
+SYS_43228,EUR,American Water,American Water,1,EQ.Option.Digital.Call,Junior,NR,SHORT,2.68,-1000000,-17480,
+SYS_43229,EUR,American Water,American Water,1,EQ.Option.Digital.Call,Junior,NR,SHORT,7.56,-1000000,-89100,
+SYS_43230,EUR,American Water,American Water,1,EQ.Option.Digital.Call,Junior,NR,SHORT,0.6,-1000000,-93060,
+SYS_43231,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Option.Digital.Call,Junior,A,SHORT,0.91,-1000000,-90090,
+SYS_43232,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Option.Digital.Call,Junior,A,SHORT,9.33,-1000000,-26970,
+SYS_43233,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Option.Digital.Call,Junior,A,SHORT,8.14,-1000000,-20240,
+SYS_43234,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Futures,Junior,A,LONG,8.2,9100000,900900,10010000
+SYS_43235,EUR,Lyondell Basel Industries N V,Lyondell Basel Industries N V,1,EQ.Futures,Junior,A,LONG,7.43,6500000,630500,7150000
+SYS_43236,GBP,Lyondell Basel Industries N V,Lyondell Basel Industries N V,1,EQ.Futures,Junior,A,LONG,9.71,6800000,659600,7480000
+SYS_43237,EUR,Lyondell Basel Industries N V,Lyondell Basel Industries N V,1,EQ.Futures,Junior,A,LONG,3.45,3300000,306900,3630000
+SYS_43238,EUR,Transport Corp,Transport Corp,1,EQ.Futures,Junior,A,LONG,4.11,2900000,269700,3190000
+SYS_43239,EUR,Transport Corp,Transport Corp,1,EQ.Futures,Junior,A,LONG,0.66,9800000,980000,10780000
+SYS_43240,EUR,Transport Corp,Transport Corp,1,EQ.Futures,Junior,A,LONG,7.96,9000000,891000,9900000
+SYS_43241,EUR,Transport Corp,Transport Corp,1,EQ.Futures,Junior,A,LONG,2.76,5800000,556800,6380000
+SYS_43242,EUR,Aegis Logistics,Aegis Logistics,1,EQ.Option.Digital.Call,Junior,NR,SHORT,0.51,-1000000,-43700,
+SYS_43243,EUR,Aegis Logistics,Aegis Logistics,1,EQ.Option.Barrier.Call,Junior,NR,SHORT,8.97,,-62400,
+SYS_43244,EUR,BSNL Ltd,BSNL Ltd,1,EQ.Option.Barrier.Call,Junior,NR,SHORT,8.98,,-18400,
+SYS_43245,EUR,BSNL Ltd,BSNL Ltd,1,EQ.Option.Barrier.Call,Junior,NR,SHORT,6.22,,-93060,
+SYS_43246,EUR,BSNL Ltd,BSNL Ltd,1,EQ.Option.Barrier.Call,Junior,BB,LONG,7.32,,91080,
+SYS_43247,EUR,Reliance Communications Ltd,Reliance Communications Ltd,1,EQ.Option.Barrier.Call,Junior,BB,LONG,6.48,,74480,
+SYS_43248,EUR,Reliance Communications Ltd,Reliance Communications Ltd,1,EQ.Option.Barrier.Call,Junior,BB,LONG,3.99,,29760,
+SYS_43249,EUR,Bank of China,Bank of China,1,EQ.Option.Barrier.Call,Junior,BBB,LONG,4.53,,74480,
+SYS_43250,EUR,Bank of China,Bank of China,1,EQ.Option.Barrier.Call,Junior,BBB,LONG,4.52,,31620,
+SYS_43251,EUR,Bank of China,Bank of China,1,EQ.Forward,Junior,BBB,LONG,2.12,3700000,347800,4070000
+SYS_43252,EUR,Agricultural Bank of China,Agricultural Bank of China,1,EQ.Forward,Junior,BBB,SHORT,4.51,-100000,-9000,-110000
+SYS_43253,EUR,Agricultural Bank of China,Agricultural Bank of China,1,EQ.Forward,Junior,BBB,SHORT,3.14,-3700000,-347800,-4070000
+SYS_43254,EUR,Agricultural Bank of China,Agricultural Bank of China,1,EQ.Forward,Junior,BBB,SHORT,0.68,-6500000,-624000,-7150000
+SYS_43255,EUR,Praxair Inc,Praxair Inc,1,EQ.Forward,Junior,BBB,SHORT,0.4,-7600000,-744800,-8360000
+SYS_43256,EUR,Praxair Inc,Praxair Inc,1,EQ.Forward,Junior,BBB,SHORT,1.39,-900000,-81900,-990000
+SYS_43257,EUR,Praxair Inc,Praxair Inc,1,EQ.Forward,Junior,BBB,SHORT,1.45,-9500000,-940500,-10450000
+SYS_43258,EUR,Huntsman Corporation,Huntsman Corporation,1,EQ.Forward,Junior,BB,LONG,6.64,7700000,754600,8470000
+SYS_43259,EUR,Huntsman Corporation,Huntsman Corporation,1,EQ.Forward,Junior,BB,LONG,6.58,9700000,970000,10670000
+SYS_43260,EUR,Huntsman Corporation,Huntsman Corporation,1,EQ.Option.Barrier.Call,Junior,BB,LONG,0.43,,30690,
+SYS_43261,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Swap,Junior,AAA,LONG,2.27,400000,36000,
+SYS_43262,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Swap,Junior,AAA,LONG,8.44,9600000,960000,
+SYS_43263,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Swap,Junior,AAA,LONG,4.21,1500000,136500,
+SYS_43264,EUR,Apple Industries,Apple Industries,1,EQ.Swap,Junior,AAA,LONG,1.09,9700000,970000,
+SYS_43265,EUR,Apple Industries,Apple Industries,1,EQ.Swap,Junior,AAA,LONG,1.83,1800000,165600,
+SYS_43266,EUR,Mosaic Inc,Mosaic Inc,1,EQ.Swap,Junior,NR,SHORT,8.49,-4400000,-413600,
+SYS_43267,EUR,Mosaic Inc,Mosaic Inc,1,EQ.Swap,Junior,NR,SHORT,7.72,-7100000,-688700,
+SYS_43268,EUR,Mosaic Inc,Mosaic Inc,1,EQ.Swap,Junior,NR,SHORT,9.98,-800000,-72800,
+SYS_43269,EUR,American Vangaurd,American Vangaurd,1,EQ.Swap,Junior,NR,LONG,5.66,8700000,861300,
+SYS_43270,EUR,American Vangaurd,American Vangaurd,1,EQ.Swap,Junior,NR,LONG,9.2,700000,63700,
+SYS_43271,EUR,American Vangaurd,American Vangaurd,1,EQ.Option.Barrier.Call,Junior,NR,LONG,7.92,,44650,
+SYS_43272,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,5.56,6000000,576000,
+SYS_43273,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,0.66,6000000,576000,
+SYS_43274,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,7.96,9600000,960000,
+SYS_43275,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,3.26,8900000,881100,
+SYS_43276,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,5.7,3300000,306900,
+SYS_43277,EUR,Kirloskar Pneumatics,Kirloskar Pneumatics,1,EQ.Repo,Junior,NR,LONG,8.73,9800000,980000,
+SYS_43278,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,7.66,6400000,614400,
+SYS_43279,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,4.54,6600000,640200,
+SYS_43280,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,4.62,6600000,640200,
+SYS_43281,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,2.12,7500000,727500,
+SYS_43282,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,1.68,7800000,764400,
+SYS_43283,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,6.09,7600000,744800,
+SYS_43284,EUR,Polaris consultants,Polaris consultants,1,EQ.Repo,Junior,NR,LONG,0.83,3000000,279000,
+SYS_43285,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,5.97,6500000,624000,
+SYS_43286,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,7.61,200000,18000,
+SYS_43287,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,0.99,400000,36000,
+SYS_43288,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,2.51,7700000,754600,
+SYS_43289,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,8.33,500000,45500,
+SYS_43290,EUR,Hawkins Cooker,Hawkins Cooker,1,EQ.Repo,Junior,NR,LONG,8.55,8800000,871200,
+SYS_43291,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Repo,Junior,AAA,LONG,3.36,6800000,659600,
+SYS_43292,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Repo,Junior,AAA,LONG,2.07,400000,36000,
+SYS_43293,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Repo,Junior,AAA,LONG,2.81,2800000,260400,
+SYS_43294,EUR,Alphabet Inc,Alphabet Inc,1,EQ.Repo,Junior,AAA,LONG,6.21,3100000,288300,
+SYS_43295,EUR,Apple Industries,Apple Industries,1,EQ.Repo,Junior,AAA,LONG,5.36,5100000,484500,
+SYS_43296,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Repo,Junior,A,LONG,6.24,9300000,920700,
+SYS_43297,EUR,Lyondell Basel Industries N V,Lyondell Basel Industries N V,1,EQ.Repo,Junior,A,LONG,4.45,3900000,366600,
+SYS_43298,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Repo,Junior,A,LONG,4.73,9900000,990000,
+SYS_43299,EUR,Lyondell Basel Industries N V,Lyondell Basel Industries N V,1,EQ.Repo,Junior,A,LONG,1.85,3700000,347800,
+SYS_43300,EUR,Dow Chemical and Company,Dow Chemical and Company,1,EQ.Repo,Junior,A,LONG,3.49,7100000,68870,

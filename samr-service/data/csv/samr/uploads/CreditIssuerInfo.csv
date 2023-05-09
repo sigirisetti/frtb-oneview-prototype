@@ -1,0 +1,201 @@
+Trade ID,Currency,Bucket,Issuer,Bond/CDS Indicator,Rating,Sector
+SYS_53101,USD,5,UniLever Ltd,Bond,IG,Consumer goods and services
+SYS_53102,USD,5,UniLever Ltd,Bond,IG,Consumer goods and services
+SYS_53103,USD,5,UniLever Ltd,Bond,IG,Consumer goods and services
+SYS_53104,USD,5,UniLever Ltd,CDS,IG,Consumer goods and services
+SYS_53105,USD,5,Transport Corp,Bond,IG,Transportation and storage
+SYS_53106,USD,5,Transport Corp,Bond,IG,Transportation and storage
+SYS_53107,USD,5,Transport Corp,Bond,IG,Transportation and storage
+SYS_53108,USD,5,Transport Corp,CDS,IG,Transportation and storage
+SYS_53109,USD,5,Infosys Ltd,Bond,IG,Administrative and support service activities
+SYS_53110,USD,5,Infosys Ltd,Bond,IG,Administrative and support service activities
+SYS_53111,USD,5,Infosys Ltd,Bond,IG,Administrative and support service activities
+SYS_53112,USD,8,Monsanto Ltd,Bond,IG,Covered Bonds
+SYS_53113,USD,8,Monsanto Ltd,Bond,IG,Covered Bonds
+SYS_53114,USD,8,Monsanto Ltd,Bond,IG,Covered Bonds
+SYS_53115,USD,8,Monsanto Ltd,Bond,IG,Covered Bonds
+SYS_53116,USD,8,Monsanto Ltd,Bond,IG,Covered Bonds
+SYS_53117,USD,4,BHP Billiton Plc,Bond,IG,Mining and quarrying
+SYS_53118,USD,4,BHP Billiton Plc,Bond,IG,Mining and quarrying
+SYS_53119,USD,4,BHP Billiton Plc,Bond,IG,Mining and quarrying
+SYS_53120,USD,4,BHP Billiton Plc,Bond,IG,Mining and quarrying
+SYS_53121,USD,4,Tata Power Ltd,Bond,IG,Energy
+SYS_53122,USD,7,Abbot Laboratories,Bond,IG,Healthcare
+SYS_53123,USD,7,Abbot Laboratories,Bond,IG,Healthcare
+SYS_53124,USD,7,Abbot Laboratories,Bond,IG,Healthcare
+SYS_53125,USD,7,Abbot Laboratories,Bond,IG,Healthcare
+SYS_53126,USD,7,Abbot Laboratories,Bond,IG,Healthcare
+SYS_53127,USD,7,American Electric Power Company,Bond,IG,Utilities
+SYS_53128,USD,7,American Electric Power Company,Bond,IG,Utilities
+SYS_53129,USD,7,American Electric Power Company,Bond,IG,Utilities
+SYS_53130,USD,7,American Electric Power Company,Bond,IG,Utilities
+SYS_53131,USD,7,American Electric Power Company,Bond,IG,Utilities
+SYS_53132,USD,4,Allegheny Technologies Ltd,Bond,IG,Basic materials
+SYS_53133,USD,4,Air Products & Chemicals Ltd,Bond,IG,Basic materials
+SYS_53134,USD,4,Air Products & Chemicals Ltd,Bond,IG,Basic materials
+SYS_53135,USD,4,Air Products & Chemicals Ltd,Bond,IG,Basic materials
+SYS_53136,USD,4,Air Products & Chemicals Ltd,Bond,IG,Basic materials
+SYS_53137,USD,4,Air Products & Chemicals Ltd,Bond,IG,Basic materials
+SYS_53138,USD,12,Donaldson Co  Inc,Bond,HY,Manufacturing
+SYS_53139,USD,12,Donaldson Co  Inc,Bond,HY,Manufacturing
+SYS_53140,USD,12,Donaldson Co  Inc,Bond,HY,Manufacturing
+SYS_53141,USD,12,Donaldson Co  Inc,Bond,HY,Manufacturing
+SYS_53142,USD,9,Indonesia,Bond,HY,Sovereign
+SYS_53143,USD,9,Indonesia,Bond,HY,Sovereign
+SYS_53144,USD,9,Indonesia,Bond,HY,Sovereign
+SYS_53145,USD,9,Indonesia,Bond,HY,Sovereign
+SYS_53146,USD,9,Indonesia,Bond,HY,Sovereign
+SYS_53147,USD,9,Philippines,CDS,HY,Sovereign
+SYS_53148,USD,9,Philippines,CDS,HY,Sovereign
+SYS_53149,USD,9,Philippines,CDS,HY,Sovereign
+SYS_53150,USD,9,Philippines,CDS,HY,Sovereign
+SYS_53151,USD,9,Philippines,CDS,HY,Sovereign
+SYS_53152,USD,12,Tata Steel Ltd,CDS,HY,Industrials
+SYS_53153,USD,12,Tata Steel Ltd,CDS,HY,Industrials
+SYS_53154,USD,12,Tata Steel Ltd,CDS,HY,Industrials
+SYS_53155,USD,12,Tata Steel Ltd,CDS,HY,Industrials
+SYS_53156,USD,12,Tata Steel Ltd,CDS,HY,Industrials
+SYS_53157,USD,14,Airtel Ltd,CDS,HY,Telecommunications
+SYS_53158,USD,14,Airtel Ltd,CDS,HY,Telecommunications
+SYS_53159,USD,14,Airtel Ltd,CDS,HY,Telecommunications
+SYS_53160,USD,14,Airtel Ltd,CDS,HY,Telecommunications
+SYS_53161,USD,3,Bank of America,Bond,IG,Financials
+SYS_53162,USD,3,Bank of America,Bond,IG,Financials
+SYS_53163,USD,3,Bank of America,Bond,IG,Financials
+SYS_53164,USD,3,Bank of America,Bond,IG,Financials
+SYS_53165,USD,3,Bank of America,Bond,IG,Financials
+SYS_53166,USD,3,Bank of America,Bond,IG,Financials
+SYS_53167,USD,3,Bank of America,Bond,IG,Financials
+SYS_53168,USD,3,Bank of America,CDS,IG,Financials
+SYS_53169,USD,3,Bank of America,CDS,IG,Financials
+SYS_53170,USD,4,Caterpillar Ltd,Bond,IG,Industrials
+SYS_53171,USD,4,Caterpillar Ltd,Bond,IG,Industrials
+SYS_53172,USD,4,Caterpillar Ltd,Bond,IG,Industrials
+SYS_53173,USD,4,Caterpillar Ltd,Bond,IG,Industrials
+SYS_53174,USD,12,US Steel Ltd,Bond,HY,Industrials
+SYS_53175,USD,12,US Steel Ltd,Bond,HY,Industrials
+SYS_53176,USD,12,US Steel Ltd,Bond,HY,Industrials
+SYS_53177,USD,12,US Steel Ltd,CDS,HY,Industrials
+SYS_53178,USD,12,US Steel Ltd,CDS,HY,Industrials
+SYS_53179,USD,12,US Steel Ltd,CDS,HY,Industrials
+SYS_53180,USD,12,US Steel Ltd,CDS,HY,Industrials
+SYS_53181,USD,3,JP Morgan Inc,CDS,IG,Financials including government-backed financials
+SYS_53182,USD,3,JP Morgan Inc,CDS,IG,Financials including government-backed financials
+SYS_53183,USD,3,JP Morgan Inc,CDS,IG,Financials including government-backed financials
+SYS_53184,USD,3,JP Morgan Inc,CDS,IG,Financials including government-backed financials
+SYS_53185,USD,3,JP Morgan Inc,CDS,IG,Financials including government-backed financials
+SYS_53186,USD,3,Citigroup Inc,CDS,IG,Financials including government-backed financials
+SYS_53187,USD,1,Germany,CDS,IG,Sovereign
+SYS_53188,USD,1,Germany,CDS,IG,Sovereign
+SYS_53189,USD,1,Germany,CDS,IG,Sovereign
+SYS_53190,USD,1,Germany,CDS,IG,Sovereign
+SYS_53191,USD,1,Germany,CDS,IG,Sovereign
+SYS_53192,USD,14,Actua Corporation,Bond,HY,Technology
+SYS_53193,USD,14,Actua Corporation,Bond,HY,Technology
+SYS_53194,USD,14,Actua Corporation,Bond,HY,Technology
+SYS_53195,USD,14,Yelp Inc,Bond,HY,Technology
+SYS_53196,EUR,9,Random1,Bond,IG,RMBS Prime
+SYS_53197,EUR,1,Random2,Bond,Senior IG,RMBS Prime
+SYS_53198,EUR,1,Random3,Bond,Senior IG,RMBS Prime
+SYS_53199,EUR,1,Random4,Bond,Senior IG,RMBS Prime
+SYS_53200,EUR,9,Random2,Bond,IG,RMBS Prime
+SYS_53201,EUR,9,Random3,Bond,IG,RMBS Prime
+SYS_53202,EUR,2,Random5,Bond,Senior IG,RMBS Mid Prime
+SYS_53203,EUR,2,Random6,Bond,Senior IG,RMBS Mid Prime
+SYS_53204,EUR,2,Random7,Bond,Senior IG,RMBS Mid Prime
+SYS_53205,EUR,10,Random5,Bond,IG,RMBS Mid Prime
+SYS_53206,EUR,10,Random6,Bond,IG,RMBS Mid Prime
+SYS_53207,EUR,10,Random7,Bond,IG,RMBS Mid Prime
+SYS_53208,EUR,10,Random8,Bond,IG,RMBS Mid Prime
+SYS_53209,EUR,3,Random9,Bond,Senior IG,RMBS Sub Prime
+SYS_53210,EUR,3,Random10,CDS,Senior IG,RMBS Sub Prime
+SYS_53211,EUR,3,Random11,CDS,Senior IG,RMBS Sub Prime
+SYS_53212,EUR,11,Random9,CDS,IG,RMBS Sub Prime
+SYS_53213,EUR,11,Random10,CDS,IG,RMBS Sub Prime
+SYS_53214,EUR,11,Random11,CDS,IG,RMBS Sub Prime
+SYS_53215,EUR,11,Random12,CDS,IG,RMBS Sub Prime
+SYS_53216,EUR,4,Random13,Bond,Senior IG,CMBS
+SYS_53217,EUR,4,Random14,Bond,Senior IG,CMBS
+SYS_53218,EUR,4,Random15,Bond,Senior IG,CMBS
+SYS_53219,EUR,12,Random13,Bond,IG,CMBS
+SYS_53220,EUR,12,Random14,Bond,IG,CMBS
+SYS_53221,EUR,12,Random15,Bond,IG,CMBS
+SYS_53222,EUR,13,Random16,Bond,IG,ABS Student Loans
+SYS_53223,EUR,5,Random17,CDS,Senior IG,ABS Student Loans
+SYS_53224,EUR,5,Random18,CDS,Senior IG,ABS Student Loans
+SYS_53225,EUR,5,Random19,CDS,Senior IG,ABS Student Loans
+SYS_53226,EUR,13,Random20,CDS,IG,ABS Student Loans
+SYS_53227,EUR,14,Random21,Bond,IG,ABS Credit Cards
+SYS_53228,EUR,14,Random22,Bond,IG,ABS Credit Cards
+SYS_53229,EUR,14,Random23,Bond,IG,ABS Credit Cards
+SYS_53230,EUR,6,Random21,Bond,Senior IG,ABS Credit Cards
+SYS_53231,EUR,6,Random22,Bond,Senior IG,ABS Credit Cards
+SYS_53232,EUR,6,Random23,Bond,Senior IG,ABS Credit Cards
+SYS_53233,EUR,15,Random24,Bond,IG,ABS Auto
+SYS_53234,EUR,15,Random25,Bond,IG,ABS Auto
+SYS_53235,EUR,15,Random26,CDS,IG,ABS Auto
+SYS_53236,GBP,15,Random27,CDS,IG,ABS Auto
+SYS_53237,GBP,7,Random25,CDS,Senior IG,ABS Auto
+SYS_53238,GBP,7,Random26,CDS,Senior IG,ABS Auto
+SYS_53239,GBP,8,Random27,Bond,Senior IG,CLO Non CTP
+SYS_53240,GBP,16,Random28,Bond,IG,CLO Non CTP
+SYS_53241,GBP,16,Random29,Bond,IG,CLO Non CTP
+SYS_53242,GBP,16,Random30,Bond,IG,CLO Non CTP
+SYS_53243,GBP,16,Random31,Bond,IG,CLO Non CTP
+SYS_53244,GBP,8,Random31,Bond,Senior IG,CLO Non CTP
+SYS_53245,GBP,25,Random32,Bond,,Other
+SYS_53246,GBP,25,Random32,Bond,,Other
+SYS_53247,GBP,25,Random32,Bond,,Other
+SYS_53248,GBP,25,Random32,Bond,,Other
+SYS_53249,GBP,25,Random32,Bond,,Other
+SYS_53250,GBP,25,Random32,Bond,,Other
+SYS_53251,GBP,25,Random32,Bond,,Other
+SYS_53252,GBP,25,Random32,Bond,,Other
+SYS_53253,GBP,17,Random33,Bond,HY,RMBS Prime
+SYS_53254,GBP,17,Random34,Bond,HY,RMBS Prime
+SYS_53255,GBP,17,Random35,Bond,HY,RMBS Prime
+SYS_53256,GBP,9,Random34,Bond,IG,RMBS Prime
+SYS_53257,GBP,9,Random35,Bond,IG,RMBS Prime
+SYS_53258,GBP,18,Random36,Bond,HY,RMBS Mid Prime
+SYS_53259,GBP,18,Random37,Bond,HY,RMBS Mid Prime
+SYS_53260,GBP,18,Random38,Bond,HY,RMBS Mid Prime
+SYS_53261,GBP,10,Random37,Bond,IG,RMBS Mid Prime
+SYS_53262,GBP,10,Random38,Bond,IG,RMBS Mid Prime
+SYS_53263,GBP,18,Random39,Bond,HY,RMBS Mid Prime
+SYS_53264,GBP,18,Random40,Bond,HY,RMBS Mid Prime
+SYS_53265,GBP,19,Random41,Bond,HY,RMBS Sub Prime
+SYS_53266,GBP,11,Random42,Bond,IG,RMBS Sub Prime
+SYS_53267,GBP,11,Random43,Bond,IG,RMBS Sub Prime
+SYS_53268,GBP,19,Random44,Bond,HY,RMBS Sub Prime
+SYS_53269,GBP,19,Random45,Bond,HY,RMBS Sub Prime
+SYS_53270,GBP,19,Random46,Bond,HY,RMBS Sub Prime
+SYS_53271,JPY,11,Random45,Bond,IG,RMBS Sub Prime
+SYS_53272,JPY,12,Random46,Bond,IG,CMBS
+SYS_53273,JPY,20,Random47,Bond,HY,CMBS
+SYS_53274,JPY,20,Random48,Bond,HY,CMBS
+SYS_53275,JPY,20,Random49,Bond,HY,CMBS
+SYS_53276,JPY,12,Random48,Bond,IG,CMBS
+SYS_53277,JPY,12,Random49,Bond,IG,CMBS
+SYS_53278,JPY,21,Random50,Bond,HY,ABS Student Loans
+SYS_53279,JPY,21,Random51,Bond,HY,ABS Student Loans
+SYS_53280,JPY,21,Random52,Bond,HY,ABS Student Loans
+SYS_53281,JPY,13,Random51,Bond,IG,ABS Student Loans
+SYS_53282,JPY,13,Random52,Bond,IG,ABS Student Loans
+SYS_53283,JPY,22,Random53,Bond,HY,ABS Credit Cards
+SYS_53284,JPY,22,Random54,Bond,HY,ABS Credit Cards
+SYS_53285,JPY,22,Random55,Bond,HY,ABS Credit Cards
+SYS_53286,JPY,14,Random54,Bond,IG,ABS Credit Cards
+SYS_53287,JPY,14,Random55,Bond,IG,ABS Credit Cards
+SYS_53288,JPY,22,Random56,Bond,HY,ABS Credit Cards
+SYS_53289,JPY,23,Random57,Bond,HY,ABS Auto
+SYS_53290,JPY,23,Random58,Bond,HY,ABS Auto
+SYS_53291,JPY,15,Random57,Bond,IG,ABS Auto
+SYS_53292,JPY,15,Random58,Bond,IG,ABS Auto
+SYS_53293,JPY,23,Random59,Bond,HY,ABS Auto
+SYS_53294,JPY,23,Random60,Bond,HY,ABS Auto
+SYS_53295,JPY,24,Random61,Bond,HY,CLO Non CTP
+SYS_53296,JPY,16,Random60,Bond,IG,CLO Non CTP
+SYS_53297,JPY,16,Random61,Bond,IG,CLO Non CTP
+SYS_53298,JPY,24,Random62,Bond,HY,CLO Non CTP
+SYS_53299,JPY,24,Random63,Bond,HY,CLO Non CTP
+SYS_53300,JPY,24,Random64,Bond,HY,CLO Non CTP

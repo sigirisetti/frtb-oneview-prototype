@@ -1,0 +1,8 @@
+Actual360,Actual360,1
+Actual365Fixed,Actual365Fixed,0
+Actual365NoLeap,Actual365NoLeap,0
+ActualActual,ActualActual,0
+Business252,Business252,0
+OneDayCounter,OneDayCounter,0
+SimpleDayCounter,SimpleDayCounter,0
+Thirty360,Thirty360,0

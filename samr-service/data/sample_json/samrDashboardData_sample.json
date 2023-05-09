@@ -1,0 +1,315 @@
+{
+  "valueDate": "2019-10-18T00:00:00.000+0000",
+  "workflowInstance": {
+    "id": "cc4f6783-b441-4830-aa14-b306ea13301d",
+    "excelDate": 43756,
+    "date": null,
+    "workflow": {
+      "id": 1,
+      "name": "SAMR",
+      "process": "SAMR Risk Charge Calc Workflow",
+      "cronExpression": "0 5 0 ? * *",
+      "organization": {
+        "id": 1,
+        "name": "Asterix",
+        "active": true
+      },
+      "enabled": true
+    },
+    "organization": {
+      "id": 1,
+      "name": "Asterix",
+      "active": true
+    },
+    "status": "COMPLETED",
+    "deleted": null
+  },
+  "riskClassPieChartData": [
+    {
+      "key": "IR",
+      "y": 1.5032734651537326E8
+    },
+    {
+      "key": "FX",
+      "y": 5228531.056953674
+    },
+    {
+      "key": "EQ",
+      "y": 0.0
+    },
+    {
+      "key": "CREDIT_NS",
+      "y": 4.472272644222563E7
+    },
+    {
+      "key": "CREDIT_S_NCTP",
+      "y": 0.0
+    },
+    {
+      "key": "CREDIT_S_CTP",
+      "y": 0.0
+    },
+    {
+      "key": "COMMODITY",
+      "y": 9.497055756739074E7
+    },
+    {
+      "key": "DEFAULT_RISK",
+      "y": 6.50270784439729E8
+    },
+    {
+      "key": "RESIDUAL_RISK",
+      "y": 1.463444E7
+    }
+  ],
+  "riskClassBarChartData": [
+    {
+      "key": "DELTA",
+      "values": [
+        {
+          "x": "IR",
+          "y": 1.1244000943417569E8
+        },
+        {
+          "x": "FX",
+          "y": 1233314.7420647037
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 3.782482342587066E7
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 9.497055756739074E7
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 0.0
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "key": "VEGA",
+      "values": [
+        {
+          "x": "IR",
+          "y": 7161814.114545947
+        },
+        {
+          "x": "FX",
+          "y": 3530525.6464209603
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 6897903.01635497
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 0.0
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 0.0
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "key": "CURVATURE",
+      "values": [
+        {
+          "x": "IR",
+          "y": 3.072552296665164E7
+        },
+        {
+          "x": "FX",
+          "y": 464690.6684680098
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 0.0
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 0.0
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "key": "DRC_NON_SEC",
+      "values": [
+        {
+          "x": "IR",
+          "y": 0.0
+        },
+        {
+          "x": "FX",
+          "y": 0.0
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 0.0
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 1.275232639817062E8
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "key": "DRC_SEC_NON_CTP",
+      "values": [
+        {
+          "x": "IR",
+          "y": 0.0
+        },
+        {
+          "x": "FX",
+          "y": 0.0
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 0.0
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 2.761867541823426E8
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "key": "DRC_SEC_CTP",
+      "values": [
+        {
+          "x": "IR",
+          "y": 0.0
+        },
+        {
+          "x": "FX",
+          "y": 0.0
+        },
+        {
+          "x": "EQ",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_NS",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_NCTP",
+          "y": 0.0
+        },
+        {
+          "x": "CREDIT_S_CTP",
+          "y": 0.0
+        },
+        {
+          "x": "COMMODITY",
+          "y": 0.0
+        },
+        {
+          "x": "DEFAULT_RISK",
+          "y": 2.4656076627568012E8
+        },
+        {
+          "x": "RESIDUAL_RISK",
+          "y": 0.0
+        }
+      ]
+    }
+  ],
+  "riskClassTimeSeriesData": [],
+  "totalMarginChartData": []
+}

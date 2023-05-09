@@ -5,27 +5,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ssk</groupId>
-    <artifactId>xva-prototype</artifactId>
+    <artifactId>frtb-oneview-prototype</artifactId>
 
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>xva-service</module>
+        <module>samr-service</module>
     </modules>
 
     <properties>
-        <java.version>13</java.version>
-        <maven.compiler.source>13</maven.compiler.source>
-        <maven.compiler.target>13</maven.compiler.target>
+        <java.version>11</java.version>
         <boot.version>2.2.8.RELEASE</boot.version>
+        <!--
         <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
+        -->
         <slf4j.version>1.7.28</slf4j.version>
-        <netty.version>4.1.9.Final</netty.version>
         <jjwt.version>0.6.0</jjwt.version>
         <gson.version>2.7</gson.version>
         <hazelcast.version>4.0.2</hazelcast.version>
-        <clickhouse.version>0.2.4</clickhouse.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.version>1.5.2</junit.platform.version>
     </properties>
@@ -40,6 +39,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -47,16 +48,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
 
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
                 <version>${jjwt.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>ru.yandex.clickhouse</groupId>
-                <artifactId>clickhouse-jdbc</artifactId>
-                <version>${clickhouse.version}</version>
             </dependency>
 
             <!-- swagger -->
@@ -116,16 +113,13 @@
                 <artifactId>tick-data-model</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
+
             <dependency>
-                <groupId>com.ssk</groupId>
-                <artifactId>clickhouse-db-common</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.24</version>
             </dependency>
-            <dependency>
-                <groupId>com.ssk</groupId>
-                <artifactId>clickhouse-dao</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -140,18 +134,6 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.3.4.RELEASE</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -235,15 +217,23 @@
             <version>5.3.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Logging start -->
+        <!-- dont specify version. use spring boot versions -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+        </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
         </dependency>
-        <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy</artifactId>
-        </dependency>
+        <!-- Logging end -->
+
         <!-- Java 11 and above -->
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
@@ -261,6 +251,10 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

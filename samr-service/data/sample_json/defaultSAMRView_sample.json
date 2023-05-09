@@ -1,0 +1,1846 @@
+{
+  "totalRiskCharge": 2.5620803836682743E8,
+  "currency": null,
+  "results": [
+    {
+      "parentName": null,
+      "nodeName": "PO1",
+      "showTradeResults": false,
+      "amountLowCorr": 0.0,
+      "amountBaseLowCorr": 0.0,
+      "amount": 0.0,
+      "amountBase": 2.1559255815212503E7,
+      "amountHighCorr": 0.0,
+      "amountBaseHighCorr": 0.0,
+      "children": [
+        {
+          "parentName": null,
+          "nodeName": "IR",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1.9772854900748126E7,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "IR",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1.591999811233905E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1.187945350559252E7,
+                  "amountBase": 1.3661371531431396E7,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:EUR",
+                      "nodeName": "6MEURIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 35866.45915989562,
+                      "amountBase": 41246.42803387996,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:EUR:6MEURIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:EUR",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 27912.98799881131,
+                      "amountBase": 32099.936198633004,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:EUR:OIS"
+                    }
+                  ],
+                  "identifier": "PO1:IR:DELTA:EUR"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 2325947.601495993,
+                  "amountBase": 3488921.4022439895,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:GBP",
+                      "nodeName": "6M LIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 6088.33940463659,
+                      "amountBase": 9132.509106954885,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:GBP:6M LIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:GBP",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 11958.026444069352,
+                      "amountBase": 17937.03966610403,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:GBP:OIS"
+                    }
+                  ],
+                  "identifier": "PO1:IR:DELTA:GBP"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1794050.8112762691,
+                  "amountBase": 17086.199056941045,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:JPY",
+                      "nodeName": "3M LIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 6026.17910491947,
+                      "amountBase": 57.3921848212231,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:JPY:3M LIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:JPY",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 9468.044230929017,
+                      "amountBase": 90.1718543269641,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:JPY:OIS"
+                    }
+                  ],
+                  "identifier": "PO1:IR:DELTA:JPY"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 7392130.274745052,
+                  "amountBase": 7392130.274745052,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "3MLIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 25144.82885733218,
+                      "amountBase": 25144.82885733218,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:USD:3MLIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "6M Lbior",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 4550.172755770256,
+                      "amountBase": 4550.172755770256,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:USD:6M Lbior"
+                    },
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 27452.441788137832,
+                      "amountBase": 27452.441788137832,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO1:IR:DELTA:USD:OIS"
+                    }
+                  ],
+                  "identifier": "PO1:IR:DELTA:USD"
+                }
+              ],
+              "identifier": "PO1:IR:DELTA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1697793.1346644147,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 987700.0,
+                  "amountBase": 1135855.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:VEGA:EUR"
+                },
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 477640.33762575244,
+                  "amountBase": 716460.5064386287,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:VEGA:GBP"
+                },
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 27400.0,
+                  "amountBase": 260.952394,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:VEGA:JPY"
+                },
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 133800.0,
+                  "amountBase": 133800.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:VEGA:USD"
+                }
+              ],
+              "identifier": "PO1:IR:VEGA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 2155063.653744661,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 287286.5397999999,
+                  "amountBase": 330379.5207699999,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:CURVATURE:EUR"
+                },
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1288837.7690999988,
+                  "amountBase": 1933256.6536499981,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:CURVATURE:GBP"
+                },
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 297710.21852,
+                  "amountBase": 2835.3355562429615,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:CURVATURE:JPY"
+                },
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 325655.5826000003,
+                  "amountBase": 325655.5826000003,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:IR:CURVATURE:USD"
+                }
+              ],
+              "identifier": "PO1:IR:CURVATURE"
+            }
+          ],
+          "identifier": "PO1:IR"
+        },
+        {
+          "parentName": null,
+          "nodeName": "FX",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1026030.1899998239,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "FX",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 328755.8907029356,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 61740.0,
+                  "amountBase": 71001.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:DELTA:EUR"
+                },
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 70380.0,
+                  "amountBase": 105570.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:DELTA:GBP"
+                },
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 327510.0,
+                  "amountBase": 3119.1430131,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:DELTA:JPY"
+                },
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 198540.0,
+                  "amountBase": 198540.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:DELTA:USD"
+                }
+              ],
+              "identifier": "PO1:FX:DELTA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 617153.367239264,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 208126.65363488384,
+                  "amountBase": 239345.6516801164,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:VEGA:EUR"
+                },
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 39460.60830249611,
+                  "amountBase": 59190.91245374417,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:VEGA:GBP"
+                },
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 344050.8034978288,
+                  "amountBase": 3276.674482860657,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:VEGA:JPY"
+                },
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 481479.21438173007,
+                  "amountBase": 481479.21438173007,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:VEGA:USD"
+                }
+              ],
+              "identifier": "PO1:FX:VEGA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 80120.93205762442,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 11643.411199999973,
+                  "amountBase": 13389.922879999967,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:CURVATURE:EUR"
+                },
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 977.006579999812,
+                  "amountBase": 1465.509869999718,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:CURVATURE:GBP"
+                },
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 65376.922410000116,
+                  "amountBase": 622.6373874175832,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:CURVATURE:JPY"
+                },
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 73470.9108799994,
+                  "amountBase": 73470.9108799994,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO1:FX:CURVATURE:USD"
+                }
+              ],
+              "identifier": "PO1:FX:CURVATURE"
+            }
+          ],
+          "identifier": "PO1:FX"
+        },
+        {
+          "parentName": null,
+          "nodeName": "EQ",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:EQ"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_NS",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:CREDIT_NS"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_NCTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:CREDIT_S_NCTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_CTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:CREDIT_S_CTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "COMMODITY",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:COMMODITY"
+        },
+        {
+          "parentName": null,
+          "nodeName": "DEFAULT_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 760370.7244645562,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_NON_SEC",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 760370.7244645562,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "PO1:DEFAULT_RISK:DRC_NON_SEC"
+            }
+          ],
+          "identifier": "PO1:DEFAULT_RISK"
+        },
+        {
+          "parentName": null,
+          "nodeName": "RESIDUAL_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO1:RESIDUAL_RISK"
+        }
+      ],
+      "identifier": "PO1"
+    },
+    {
+      "parentName": null,
+      "nodeName": "PO2",
+      "showTradeResults": false,
+      "amountLowCorr": 0.0,
+      "amountBaseLowCorr": 0.0,
+      "amount": 0.0,
+      "amountBase": 2.085679427901795E7,
+      "amountHighCorr": 0.0,
+      "amountBaseHighCorr": 0.0,
+      "children": [
+        {
+          "parentName": null,
+          "nodeName": "IR",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1.805885200483179E7,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "IR",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1.3683083728871789E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 2473901.382897656,
+                  "amountBase": 2844986.590332304,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:EUR",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 11181.111332752209,
+                      "amountBase": 12858.278032665039,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO2:IR:DELTA:EUR:OIS"
+                    }
+                  ],
+                  "identifier": "PO2:IR:DELTA:EUR"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 3966580.8203889416,
+                  "amountBase": 5949871.230583413,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:GBP",
+                      "nodeName": "6M LIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 8951.175099881279,
+                      "amountBase": 13426.762649821918,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO2:IR:DELTA:GBP:6M LIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:GBP",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 29011.485738205527,
+                      "amountBase": 43517.228607308294,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO2:IR:DELTA:GBP:OIS"
+                    }
+                  ],
+                  "identifier": "PO2:IR:DELTA:GBP"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1.1988666759754704E7,
+                  "amountBase": 1.1988666759754704E7,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "3MLIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 23771.859304159087,
+                      "amountBase": 23771.859304159087,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO2:IR:DELTA:USD:3MLIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 37264.55384591538,
+                      "amountBase": 37264.55384591538,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO2:IR:DELTA:USD:OIS"
+                    }
+                  ],
+                  "identifier": "PO2:IR:DELTA:USD"
+                }
+              ],
+              "identifier": "PO2:IR:DELTA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 655350.0,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 436900.0,
+                  "amountBase": 655350.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO2:IR:VEGA:GBP"
+                }
+              ],
+              "identifier": "PO2:IR:VEGA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 3720418.275960001,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 2480278.850640001,
+                  "amountBase": 3720418.275960001,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO2:IR:CURVATURE:GBP"
+                }
+              ],
+              "identifier": "PO2:IR:CURVATURE"
+            }
+          ],
+          "identifier": "PO2:IR"
+        },
+        {
+          "parentName": null,
+          "nodeName": "FX",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 677793.1119334674,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "FX",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 152460.0,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 152460.0,
+                  "amountBase": 152460.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO2:FX:DELTA:USD"
+                }
+              ],
+              "identifier": "PO2:FX:DELTA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 468186.6237034673,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 468186.6237034673,
+                  "amountBase": 468186.6237034673,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO2:FX:VEGA:USD"
+                }
+              ],
+              "identifier": "PO2:FX:VEGA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 57146.48823000013,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 57146.48823000013,
+                  "amountBase": 57146.48823000013,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO2:FX:CURVATURE:USD"
+                }
+              ],
+              "identifier": "PO2:FX:CURVATURE"
+            }
+          ],
+          "identifier": "PO2:FX"
+        },
+        {
+          "parentName": null,
+          "nodeName": "EQ",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:EQ"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_NS",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:CREDIT_NS"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_NCTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:CREDIT_S_NCTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_CTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:CREDIT_S_CTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "COMMODITY",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:COMMODITY"
+        },
+        {
+          "parentName": null,
+          "nodeName": "DEFAULT_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 2120149.1622526958,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_NON_SEC",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 2120149.1622526958,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "PO2:DEFAULT_RISK:DRC_NON_SEC"
+            }
+          ],
+          "identifier": "PO2:DEFAULT_RISK"
+        },
+        {
+          "parentName": null,
+          "nodeName": "RESIDUAL_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO2:RESIDUAL_RISK"
+        }
+      ],
+      "identifier": "PO2"
+    },
+    {
+      "parentName": null,
+      "nodeName": "PO3",
+      "showTradeResults": false,
+      "amountLowCorr": 0.0,
+      "amountBaseLowCorr": 0.0,
+      "amount": 0.0,
+      "amountBase": 2.4756428690313958E7,
+      "amountHighCorr": 0.0,
+      "amountBaseHighCorr": 0.0,
+      "children": [
+        {
+          "parentName": null,
+          "nodeName": "IR",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1.4579770898824494E7,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "IR",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1.0446919101587368E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 5291637.88112044,
+                  "amountBase": 6085383.563288505,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:EUR",
+                      "nodeName": "6MEURIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 14547.082370162294,
+                      "amountBase": 16729.144725686638,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:EUR:6MEURIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:EUR",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 11271.76940380225,
+                      "amountBase": 12962.534814372586,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:EUR:OIS"
+                    }
+                  ],
+                  "identifier": "PO3:IR:DELTA:EUR"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "GBP",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1671075.042978706,
+                  "amountBase": 2506612.564468059,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:GBP",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 9621.060073889528,
+                      "amountBase": 14431.590110834291,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:GBP:OIS"
+                    }
+                  ],
+                  "identifier": "PO3:IR:DELTA:GBP"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 5718582.346734745,
+                  "amountBase": 54462.69173965584,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:JPY",
+                      "nodeName": "3M LIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 11881.7776482866,
+                      "amountBase": 113.1597927845284,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:JPY:3M LIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:JPY",
+                      "nodeName": "OIS",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 20483.105110939247,
+                      "amountBase": 195.07720128661433,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:JPY:OIS"
+                    }
+                  ],
+                  "identifier": "PO3:IR:DELTA:JPY"
+                },
+                {
+                  "parentName": "IR:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 8113037.554331183,
+                  "amountBase": 8113037.554331183,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "3MLIBOR",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 22409.43287574369,
+                      "amountBase": 22409.43287574369,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:USD:3MLIBOR"
+                    },
+                    {
+                      "parentName": "IR:DELTA:USD",
+                      "nodeName": "6M Lbior",
+                      "showTradeResults": false,
+                      "amountLowCorr": 0.0,
+                      "amountBaseLowCorr": 0.0,
+                      "amount": 16875.49679596104,
+                      "amountBase": 16875.49679596104,
+                      "amountHighCorr": 0.0,
+                      "amountBaseHighCorr": 0.0,
+                      "children": [],
+                      "identifier": "PO3:IR:DELTA:USD:6M Lbior"
+                    }
+                  ],
+                  "identifier": "PO3:IR:DELTA:USD"
+                }
+              ],
+              "identifier": "PO3:IR:DELTA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 710655.2449703834,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 426043.02090695803,
+                  "amountBase": 489949.4740430017,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:VEGA:EUR"
+                },
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1156880.5265346265,
+                  "amountBase": 11017.910327415742,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:VEGA:JPY"
+                },
+                {
+                  "parentName": "IR:VEGA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 808574.43193248,
+                  "amountBase": 808574.43193248,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:VEGA:USD"
+                }
+              ],
+              "identifier": "PO3:IR:VEGA"
+            },
+            {
+              "parentName": "IR",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 3422196.552266743,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 1569881.7355999984,
+                  "amountBase": 1805363.995939998,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:CURVATURE:EUR"
+                },
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "JPY",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 27072.67421199195,
+                  "amountBase": 257.83500538691106,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:CURVATURE:JPY"
+                },
+                {
+                  "parentName": "IR:CURVATURE",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 2490638.757140005,
+                  "amountBase": 2490638.757140005,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:IR:CURVATURE:USD"
+                }
+              ],
+              "identifier": "PO3:IR:CURVATURE"
+            }
+          ],
+          "identifier": "PO3:IR"
+        },
+        {
+          "parentName": null,
+          "nodeName": "FX",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 372832.1048049949,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "FX",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 73679.71284044204,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 39870.0,
+                  "amountBase": 45850.5,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:DELTA:EUR"
+                },
+                {
+                  "parentName": "FX:DELTA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 36390.0,
+                  "amountBase": 36390.0,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:DELTA:USD"
+                }
+              ],
+              "identifier": "PO3:FX:DELTA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 260156.4460919567,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 269117.1410915171,
+                  "amountBase": 309484.71225524467,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:VEGA:EUR"
+                },
+                {
+                  "parentName": "FX:VEGA",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 117953.47601886558,
+                  "amountBase": 117953.47601886558,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:VEGA:USD"
+                }
+              ],
+              "identifier": "PO3:FX:VEGA"
+            },
+            {
+              "parentName": "FX",
+              "nodeName": "CURVATURE",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 38995.9458725962,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "EUR",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 25919.976300000213,
+                  "amountBase": 29807.972745000243,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:CURVATURE:EUR"
+                },
+                {
+                  "parentName": "FX:CURVATURE",
+                  "nodeName": "USD",
+                  "showTradeResults": false,
+                  "amountLowCorr": 0.0,
+                  "amountBaseLowCorr": 0.0,
+                  "amount": 16606.2864000001,
+                  "amountBase": 16606.2864000001,
+                  "amountHighCorr": 0.0,
+                  "amountBaseHighCorr": 0.0,
+                  "children": [],
+                  "identifier": "PO3:FX:CURVATURE:USD"
+                }
+              ],
+              "identifier": "PO3:FX:CURVATURE"
+            }
+          ],
+          "identifier": "PO3:FX"
+        },
+        {
+          "parentName": null,
+          "nodeName": "EQ",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:EQ"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_NS",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:CREDIT_NS"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_NCTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:CREDIT_S_NCTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_CTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:CREDIT_S_CTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "COMMODITY",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:COMMODITY"
+        },
+        {
+          "parentName": null,
+          "nodeName": "DEFAULT_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 9803825.686684469,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_NON_SEC",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 9803825.686684469,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "PO3:DEFAULT_RISK:DRC_NON_SEC"
+            }
+          ],
+          "identifier": "PO3:DEFAULT_RISK"
+        },
+        {
+          "parentName": null,
+          "nodeName": "RESIDUAL_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "PO3:RESIDUAL_RISK"
+        }
+      ],
+      "identifier": "PO3"
+    },
+    {
+      "parentName": null,
+      "nodeName": "NO_PO",
+      "showTradeResults": false,
+      "amountLowCorr": 0.0,
+      "amountBaseLowCorr": 0.0,
+      "amount": 0.0,
+      "amountBase": 1.8903555958228302E8,
+      "amountHighCorr": 0.0,
+      "amountBaseHighCorr": 0.0,
+      "children": [
+        {
+          "parentName": null,
+          "nodeName": "IR",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "NO_PO:IR"
+        },
+        {
+          "parentName": null,
+          "nodeName": "FX",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "NO_PO:FX"
+        },
+        {
+          "parentName": null,
+          "nodeName": "EQ",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "NO_PO:EQ"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_NS",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1.1180681610556407E7,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "CREDIT_NS",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 9456205.856467664,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:CREDIT_NS:DELTA"
+            },
+            {
+              "parentName": "CREDIT_NS",
+              "nodeName": "VEGA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1724475.7540887424,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:CREDIT_NS:VEGA"
+            }
+          ],
+          "identifier": "NO_PO:CREDIT_NS"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_NCTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "NO_PO:CREDIT_S_NCTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "CREDIT_S_CTP",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 0.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [],
+          "identifier": "NO_PO:CREDIT_S_CTP"
+        },
+        {
+          "parentName": null,
+          "nodeName": "COMMODITY",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 2.3742639391847685E7,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "COMMODITY",
+              "nodeName": "DELTA",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 2.3742639391847685E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:COMMODITY:DELTA"
+            }
+          ],
+          "identifier": "NO_PO:COMMODITY"
+        },
+        {
+          "parentName": null,
+          "nodeName": "DEFAULT_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 1.5045362857987893E8,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_NON_SEC",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 1.9766748465373248E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:DEFAULT_RISK:DRC_NON_SEC"
+            },
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_SEC_NON_CTP",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 6.904668854558565E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:DEFAULT_RISK:DRC_SEC_NON_CTP"
+            },
+            {
+              "parentName": "DEFAULT_RISK",
+              "nodeName": "DRC_SEC_CTP",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 6.164019156892003E7,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:DEFAULT_RISK:DRC_SEC_CTP"
+            }
+          ],
+          "identifier": "NO_PO:DEFAULT_RISK"
+        },
+        {
+          "parentName": null,
+          "nodeName": "RESIDUAL_RISK",
+          "showTradeResults": false,
+          "amountLowCorr": 0.0,
+          "amountBaseLowCorr": 0.0,
+          "amount": 0.0,
+          "amountBase": 3658610.0,
+          "amountHighCorr": 0.0,
+          "amountBaseHighCorr": 0.0,
+          "children": [
+            {
+              "parentName": "RESIDUAL_RISK",
+              "nodeName": "RES_TYPE1",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 699410.0,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:RESIDUAL_RISK:RES_TYPE1"
+            },
+            {
+              "parentName": "RESIDUAL_RISK",
+              "nodeName": "RES_TYPE2",
+              "showTradeResults": false,
+              "amountLowCorr": 0.0,
+              "amountBaseLowCorr": 0.0,
+              "amount": 0.0,
+              "amountBase": 2959200.0,
+              "amountHighCorr": 0.0,
+              "amountBaseHighCorr": 0.0,
+              "children": [],
+              "identifier": "NO_PO:RESIDUAL_RISK:RES_TYPE2"
+            }
+          ],
+          "identifier": "NO_PO:RESIDUAL_RISK"
+        }
+      ],
+      "identifier": "NO_PO"
+    }
+  ]
+}
