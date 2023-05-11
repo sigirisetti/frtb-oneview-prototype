@@ -23,14 +23,14 @@ public class Nvd3DashboardData {
 	@JsonIgnore
 	private List<RiskClassLevelResults> riskClassLevelResults;
 
-	public List<PieChartData> getRiskClassPieChartData() {
-		List<PieChartData> pieChartData = new ArrayList<>();
+	public List<LabelValueData> getRiskClassPieChartData() {
+		List<LabelValueData> labelValueData = new ArrayList<>();
 		if (riskClassLevelResults != null) {
 			for (RiskClassLevelResults r : riskClassLevelResults) {
-				pieChartData.add(new PieChartData(r.getRiskClass().toString(), r.getTotalRiskCharge()));
+				labelValueData.add(new LabelValueData(r.getRiskClass().toString(), r.getTotalRiskCharge()));
 			}
 		}
-		return pieChartData;
+		return labelValueData;
 	}
 
 	public List<ChartData> getRiskClassBarChartData() {
@@ -43,19 +43,19 @@ public class Nvd3DashboardData {
 		if (riskClassLevelResults != null) {
 			for (RiskClassLevelResults r : riskClassLevelResults) {
 				if (RiskClass.DEFAULT_RISK.equals(r.getRiskClass())) {
-					delta.addBar(new KeyValue(r.getRiskClass().toString(), 0));
-					vega.addBar(new KeyValue(r.getRiskClass().toString(), 0));
-					curv.addBar(new KeyValue(r.getRiskClass().toString(), 0));
-					drcNonSec.addBar(new KeyValue(r.getRiskClass().toString(), r.getDrcNonSec()));
-					drcSecNonCtp.addBar(new KeyValue(r.getRiskClass().toString(), r.getDrcSecNonCtp()));
-					drcSecCtp.addBar(new KeyValue(r.getRiskClass().toString(), r.getDrcSecCtp()));
+					delta.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
+					vega.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
+					curv.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
+					drcNonSec.addBar(new LabelValueData(r.getRiskClass().toString(), r.getDrcNonSec()));
+					drcSecNonCtp.addBar(new LabelValueData(r.getRiskClass().toString(), r.getDrcSecNonCtp()));
+					drcSecCtp.addBar(new LabelValueData(r.getRiskClass().toString(), r.getDrcSecCtp()));
 				} else {
-					delta.addBar(new KeyValue(r.getRiskClass().toString(), r.getDelta()));
-					vega.addBar(new KeyValue(r.getRiskClass().toString(), r.getVega()));
-					curv.addBar(new KeyValue(r.getRiskClass().toString(), r.getCurvature()));
-					drcNonSec.addBar(new KeyValue(r.getRiskClass().toString(), 0));
-					drcSecNonCtp.addBar(new KeyValue(r.getRiskClass().toString(), 0));
-					drcSecCtp.addBar(new KeyValue(r.getRiskClass().toString(), 0));
+					delta.addBar(new LabelValueData(r.getRiskClass().toString(), r.getDelta()));
+					vega.addBar(new LabelValueData(r.getRiskClass().toString(), r.getVega()));
+					curv.addBar(new LabelValueData(r.getRiskClass().toString(), r.getCurvature()));
+					drcNonSec.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
+					drcSecNonCtp.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
+					drcSecCtp.addBar(new LabelValueData(r.getRiskClass().toString(), 0.0));
 				}
 			}
 		}
