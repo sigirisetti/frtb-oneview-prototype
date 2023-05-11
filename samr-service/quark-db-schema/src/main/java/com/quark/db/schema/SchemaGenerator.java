@@ -13,6 +13,8 @@ import org.hibernate.tool.schema.TargetType;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -29,6 +31,7 @@ public class SchemaGenerator {
 	private static final String JDBC_URL = "jdbc.url";
 	private static final String JDBC_DRIVER_NAME = "jdbc.driver.name";
 	private static final String HIBERNATE_DIALECT = "hibernate.dialect";
+	public static final String H_2_SCHEMA_SQL = "h2_schema.sql";
 
 	private static void generate(String sysPropsFile) throws SQLException, ClassNotFoundException, IOException {
 
@@ -46,10 +49,23 @@ public class SchemaGenerator {
 			for (Class c : BeanIntrospector.getHibernateClasses()) {
 				metadata.addAnnotatedClass(c);
 			}
-            SchemaExport export = new SchemaExport();
-            export.setDelimiter(";");
-            EnumSet<TargetType> targetTypes = EnumSet.of(TargetType.STDOUT);
-            export.create(targetTypes, metadata.buildMetadata());
+
+			try {
+				Files.delete(Paths.get(H_2_SCHEMA_SQL));
+			} catch (IOException e) {
+				/*
+				 * The file did not exist...
+				 * we do nothing.
+				 */
+			}
+
+            SchemaExport schemaExport = new SchemaExport();
+			schemaExport.setDelimiter(";");
+            //EnumSet<TargetType> targetTypes = EnumSet.of(TargetType.STDOUT);
+			EnumSet<TargetType> targetTypes = EnumSet.of(TargetType.SCRIPT);
+			schemaExport.setOutputFile(H_2_SCHEMA_SQL);
+			schemaExport.setFormat(true);
+			schemaExport.create(targetTypes, metadata.buildMetadata());
 		} finally {
 			if (con != null) {
 				con.close();

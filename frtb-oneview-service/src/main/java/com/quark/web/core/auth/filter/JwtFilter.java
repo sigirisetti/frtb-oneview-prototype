@@ -32,6 +32,7 @@ public class JwtFilter extends GenericFilterBean {
         String path = request.getServletPath();
         log.info("Path == {}", path);
         if (path == null
+                || path.endsWith("/h2-console")
                 || path.endsWith(".ico")
                 || path.endsWith(".js")
                 || path.endsWith(".css")

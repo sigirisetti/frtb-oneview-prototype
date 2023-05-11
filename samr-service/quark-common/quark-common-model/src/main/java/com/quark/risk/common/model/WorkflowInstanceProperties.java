@@ -36,10 +36,10 @@ public class WorkflowInstanceProperties implements Serializable {
 	@JoinColumn(name = "workflow_instance_id")
 	private WorkflowInstance workflowInstance;
 
-	@Column(name = "name", length = 64, nullable = false)
+	@Column(name = "file_or_dir_name", length = 64, nullable = false)
 	private String name;
 
-	@Column(name = "value", length = 512, nullable = false)
+	@Column(name = "path", length = 512, nullable = false)
 	private String value;
 
 	public WorkflowInstanceProperties(WorkflowInstance workflowInstance, String name, String value) {
