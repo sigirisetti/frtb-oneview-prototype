@@ -13,11 +13,12 @@
     <modules>
         <module>xva-service</module>
         <module>samr-service</module>
+        <module>frtb-oneview-service</module>
     </modules>
 
     <properties>
         <java.version>11</java.version>
-        <boot.version>2.2.8.RELEASE</boot.version>
+        <spring.boot.version>2.2.8.RELEASE</spring.boot.version>
         <!--
         <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
         -->
@@ -27,6 +28,15 @@
         <hazelcast.version>4.0.2</hazelcast.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.version>1.5.2</junit.platform.version>
+        <!-- Apache -->
+        <commons.validator.version>1.5.1</commons.validator.version>
+        <apache-poi.version>3.5-FINAL</apache-poi.version>
+        <testng.version>6.8.8</testng.version>
+        <xlsreader.version>1.2</xlsreader.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <hazelcast.version>3.8</hazelcast.version>
+        <activiti.version>5.18.0</activiti.version>
+        <codehale.metrics.version>3.0.2</codehale.metrics.version>
     </properties>
 
     <dependencyManagement>
@@ -35,7 +45,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${boot.version}</version>
+                <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -120,6 +130,26 @@
                 <version>1.18.24</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-engine</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-spring</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.quark.common</groupId>
+                <artifactId>quark-common-services-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.quark</groupId>
+                <artifactId>quark-workflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

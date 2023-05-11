@@ -15,28 +15,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <properties>
-        <!-- Apache -->
-        <java.version>11</java.version>
-        <commons.validator.version>1.5.1</commons.validator.version>
-        <gson.version>2.7</gson.version>
-        <apache-poi.version>3.5-FINAL</apache-poi.version>
-        <jwt.version>2.0.1</jwt.version>
-        <testng.version>6.8.8</testng.version>
-        <xlsreader.version>1.2</xlsreader.version>
-        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <hazelcast.version>3.8</hazelcast.version>
-        <activiti.version>5.18.0</activiti.version>
-        <jjwt.version>0.6.0</jjwt.version>
-        <spring.boot.version>2.1.7.RELEASE</spring.boot.version>
-        <codehale.metrics.version>3.0.2</codehale.metrics.version>
-    </properties>
-
     <modules>
         <module>quark-common</module>
         <module>quark-db-schema</module>
         <module>quark-workflow</module>
-        <module>quark-web</module>
+        <!--<module>quark-web</module>-->
     </modules>
 
     <scm>

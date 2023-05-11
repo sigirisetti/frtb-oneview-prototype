@@ -32,6 +32,10 @@ public class JwtFilter extends GenericFilterBean {
         String path = request.getServletPath();
         log.info("Path == {}", path);
         if (path == null
+                || path.endsWith(".ico")
+                || path.endsWith(".js")
+                || path.endsWith(".css")
+                || path.endsWith("/index.html")
                 || path.endsWith("/services/login")
                 || path.endsWith("swagger-ui.html")
                 || path.contains("/webjars/springfox-swagger-ui/")

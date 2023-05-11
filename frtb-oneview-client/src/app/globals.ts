@@ -1,8 +1,8 @@
 'use strict';
 
 export const MAX_SERIES_LENGTH = 100;
-export const restApiBase: string = "http://localhost:8090/samr-service";
-export const wsBase: string = "ws://localhost:8090/samr-service";
+export const restApiBase: string = "http://localhost:8090/frtb-oneview";
+export const wsBase: string = "ws://localhost:8090/frtb-oneview";
 
 /* Web Sockets */
 // Mass Quotes

@@ -18,9 +18,9 @@ import org.springframework.context.annotation.Import;
                 TransactionAutoConfiguration.class
         })
 @Import({WebRootConfig.class})
-public class QuarkWebApp {
+public class FrtbOneviewService {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(QuarkWebApp.class)
+        new SpringApplicationBuilder(FrtbOneviewService.class)
                 .build().run(args);
     }
 }

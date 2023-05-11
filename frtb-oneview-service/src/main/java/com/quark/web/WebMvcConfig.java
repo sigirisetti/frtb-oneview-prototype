@@ -47,6 +47,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Value("${quark.resource.locations:ui}")
     private String resourceLocations;
 
+    private static final String[] CLASSPATH_RESOURCE_LOCATIONS = {
+            "classpath:/static/",
+    };
+
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         argumentResolvers.add(sortResolver());
@@ -56,6 +60,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addRedirectViewController("/", "forward:/index.html");
         registry.addRedirectViewController("/api/v2/api-docs", "/v2/api-docs");
         registry.addRedirectViewController("/api/swagger-resources/configuration/ui", "/swagger-resources/configuration/ui");
         registry.addRedirectViewController("/api/swagger-resources/configuration/security", "/swagger-resources/configuration/security");
@@ -67,6 +72,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("swagger-ui.html**").addResourceLocations("classpath:/META-INF/resources/swagger-ui.html");
         registry.addResourceHandler("webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
 
+        /*
         registry.addResourceHandler("*.html").addResourceLocations(resourceLocations);
         registry.addResourceHandler("*.js").addResourceLocations(resourceLocations);
         registry.addResourceHandler("*.css").addResourceLocations(resourceLocations);
@@ -75,8 +81,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("*.eot").addResourceLocations(resourceLocations);
         registry.addResourceHandler("*.ttf").addResourceLocations(resourceLocations);
         registry.addResourceHandler("*.woff").addResourceLocations(resourceLocations);
+        */
+        if (!registry.hasMappingForPattern("/**")) {
+            registry.addResourceHandler("/**").addResourceLocations(CLASSPATH_RESOURCE_LOCATIONS);
+        }
     }
-
 
     public Docket apiDocket() {
 
@@ -89,7 +98,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
     }
 
     private ApiInfo getApiInfo() {
-
         return new ApiInfoBuilder()
                 .title("Swagger API Doc")
                 .description("More description about the API")
