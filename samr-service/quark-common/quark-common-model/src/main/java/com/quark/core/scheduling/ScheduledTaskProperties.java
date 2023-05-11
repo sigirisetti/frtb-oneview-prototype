@@ -37,7 +37,7 @@ public class ScheduledTaskProperties implements Serializable {
 	private String name;
 
 	@Column(length = 32, nullable = false)
-	private String value;
+	private String val;
 
 	@ManyToOne
 	@JoinColumn(name = "scheduled_task_id")

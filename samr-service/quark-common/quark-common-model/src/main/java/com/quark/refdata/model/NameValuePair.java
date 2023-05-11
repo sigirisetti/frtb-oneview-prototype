@@ -37,13 +37,13 @@ public class NameValuePair implements Serializable {
 	private String name;
 
 	@Column(length = 64)
-	private String value;
+	private String val;
 
 	@Column
 	private Boolean isDefault;
 
 	public boolean isComplete() {
-		return StringUtils.isNotBlank(name) && StringUtils.isNotBlank(value);
+		return StringUtils.isNotBlank(name) && StringUtils.isNotBlank(val);
 	}
 
 	public boolean equalsRefTypeAndName(Object obj) {
