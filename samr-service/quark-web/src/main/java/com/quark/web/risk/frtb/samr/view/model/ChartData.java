@@ -11,13 +11,13 @@ import lombok.Setter;
 public class ChartData {
 
 	private String key;
-	private List<KeyValue> values = new ArrayList<>();
+	private List<LabelValueData> values = new ArrayList<>();
 
 	public ChartData(String key) {
 		this.key = key;
 	}
 
-	public void addBar(KeyValue b) {
+	public void addBar(LabelValueData b) {
 		values.add(b);
 	}
 }

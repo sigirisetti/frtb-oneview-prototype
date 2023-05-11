@@ -17,12 +17,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Nvd3DashboardData {
+public class SamrDashboardData {
 	private Date valueDate;
 	private WorkflowInstance workflowInstance;
-	@JsonIgnore
 	private List<RiskClassLevelResults> riskClassLevelResults;
 
+	/*
 	public List<LabelValueData> getRiskClassPieChartData() {
 		List<LabelValueData> labelValueData = new ArrayList<>();
 		if (riskClassLevelResults != null) {
@@ -69,4 +69,5 @@ public class Nvd3DashboardData {
 	public List<ChartData> getTotalMarginChartData() {
 		return Collections.emptyList();
 	}
+    */
 }

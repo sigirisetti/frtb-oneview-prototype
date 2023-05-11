@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class PieChartData {
-	private String key;
-	private Double y;
+public class LabelValueData {
+	private String label;
+	private Double value;
 }

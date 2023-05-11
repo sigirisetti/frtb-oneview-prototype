@@ -1,15 +1,9 @@
 import { WorkflowExecDetail } from "../workflow-exec-detail";
+import { ChartRiskTypeData } from "./chart-risk-type-key-value";
 
-export class SamrDashnoardData {
+export class SamrDashboardData {
     valueDate: Date;
     workflowExecDetail: WorkflowExecDetail;
-    nodeName: string;
-    showTradeResults: boolean;
-    amountLowCorr: number;
-    amountBaseLowCorr: number;
-    amount: number;
-    amountBase: number;
-    amountHighCorr: number;
-    amountBaseHighCorr: number;
+    riskClassLevelResults: ChartRiskTypeData[];
 }
 

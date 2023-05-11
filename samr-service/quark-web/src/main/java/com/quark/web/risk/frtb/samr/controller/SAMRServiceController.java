@@ -23,7 +23,7 @@ import com.quark.web.core.controller.BaseController;
 import com.quark.web.file.upload.utils.FileUploadHelper;
 import com.quark.web.file.upload.utils.FileUploadResponse;
 import com.quark.web.risk.frtb.samr.view.model.FileUploadForm;
-import com.quark.web.risk.frtb.samr.view.model.Nvd3DashboardData;
+import com.quark.web.risk.frtb.samr.view.model.SamrDashboardData;
 import com.quark.web.risk.frtb.samr.view.model.ResultsQueryForm;
 import com.quark.web.risk.frtb.samr.view.model.TradeLevelRiskChargeResults;
 
@@ -210,10 +210,10 @@ public class SAMRServiceController extends BaseController {
 
 	@RequestMapping(value = "/getSamrDashboardData", method = RequestMethod.GET)
 	@ResponseBody
-	public Nvd3DashboardData getSamrDashboardData(@RequestParam String valueDate, @RequestParam Long workflowId)
+	public SamrDashboardData getSamrDashboardData(@RequestParam String valueDate, @RequestParam Long workflowId)
 			throws ApplicationException {
 		WorkflowInstance wfInst = workflowService.getWorkflowInstance(getExcelDate(valueDate), workflowId);
-		Nvd3DashboardData dd = new Nvd3DashboardData();
+		SamrDashboardData dd = new SamrDashboardData();
 		dd.setValueDate(getValueDate(valueDate));
 		dd.setWorkflowInstance(wfInst);
 		if (wfInst == null) {

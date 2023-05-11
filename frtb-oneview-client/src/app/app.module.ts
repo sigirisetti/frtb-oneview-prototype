@@ -76,6 +76,7 @@ import { AuthInterceptorService } from './core/security/auth-interceptor.service
 import { AgGridModule } from 'ag-grid-angular';
 import { AgGridBtnCellRendererComponent } from './common/ag-grid/ag-grid-btn-cell-renderer/ag-grid-btn-cell-renderer.component';
 import { BarChartComponent } from './common/ng2-charts/bar-chart/bar-chart.component';
+import { SaMrRiskChargeBarChartComponent } from './frtb/sa/sa-mr-risk-charge-bar-chart/sa-mr-risk-charge-bar-chart.component';
 
 
 @NgModule({
@@ -152,6 +153,7 @@ import { BarChartComponent } from './common/ng2-charts/bar-chart/bar-chart.compo
     ExecutionListComponent,
     AgGridBtnCellRendererComponent,
     BarChartComponent,
+    SaMrRiskChargeBarChartComponent,
   ],
   exports: [
     AppComponent,
