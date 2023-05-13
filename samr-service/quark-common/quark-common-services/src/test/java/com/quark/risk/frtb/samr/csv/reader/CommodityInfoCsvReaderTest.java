@@ -11,7 +11,7 @@ public class CommodityInfoCsvReaderTest {
 
 	@Test
     public void testCreditIssuerInfoCsvReader() throws IOException {
-		String path = "../../data/csv/samr/uploads/CommodityInfo.csv";
+		String path = "../../../data/csv/samr/uploads/CommodityInfo.csv";
 		CommodityInfoCsvReader reader = new CommodityInfoCsvReader("CommodityInfo", null);
 		reader.setupCsvReader();
 		reader.read(path);

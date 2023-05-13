@@ -14,7 +14,7 @@ public class CollateralCsvReaderTest {
 
     @Test
     public void testCollateralCsvReader() throws IOException {
-        String path = "../../data/csv/saccr/config/Collateral.csv";
+        String path = "../../../data/csv/saccr/config/Collateral.csv";
 
         CollateralCsvReader reader = new CollateralCsvReader("Collateral", null);
         reader.setupCsvReader();

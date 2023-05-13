@@ -32,7 +32,7 @@ public class TradeCsvReaderTest extends BaseServiceTest {
 		for (RequiredTradeAttributes r : configList) {
 			config.put(r.getProductName(), r);
 		}
-		String path = "../../data/csv/saccr/config/Trades.csv";
+		String path = "../../../data/csv/saccr/config/Trades.csv";
 		TradeCsvReader reader = new TradeCsvReader("Trades", null);
 		reader.setConfig(config);
 		reader.setupCsvReader();

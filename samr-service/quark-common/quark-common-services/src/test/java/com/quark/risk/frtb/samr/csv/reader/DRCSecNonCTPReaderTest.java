@@ -11,7 +11,7 @@ public class DRCSecNonCTPReaderTest {
 
 	@Test
     public void testDRCSecNonCTPReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/DRCSecNonCTP.csv";
+        String path = "../../../data/csv/samr/uploads/DRCSecNonCTP.csv";
 
 		DRCSecNonCTPCsvReader reader = new DRCSecNonCTPCsvReader("DRCSecNonCTP", null);
 		reader.setupCsvReader();

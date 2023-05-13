@@ -2,7 +2,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { MessageDialogService } from 'src/app/common/message-dialog.service';
-import { AuthService } from 'src/app/core/auth.service';
 import * as globals from 'src/app/globals';
 import { WorkflowServiceService } from '../../workflow-service.service';
 import { NotificationService } from 'src/app/common/notification.service';

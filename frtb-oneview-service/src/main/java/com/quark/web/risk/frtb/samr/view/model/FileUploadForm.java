@@ -13,5 +13,5 @@ import lombok.Setter;
 public class FileUploadForm {
 	private Date valueDate;
 	private Long workflowId;
-	private List<MultipartFile> files;
+	private MultipartFile[] files;
 }

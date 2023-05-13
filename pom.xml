@@ -14,6 +14,7 @@
         <module>xva-service</module>
         <module>samr-service</module>
         <module>frtb-oneview-service</module>
+        <module>saccr-aggregation-service</module>
     </modules>
 
     <properties>

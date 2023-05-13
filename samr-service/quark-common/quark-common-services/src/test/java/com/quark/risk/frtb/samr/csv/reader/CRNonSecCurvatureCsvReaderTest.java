@@ -13,7 +13,7 @@ public class CRNonSecCurvatureCsvReaderTest {
 
 	@Test
     public void testCRNonSecCurvatureCsvReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/CRNonSecCurvature.csv";
+        String path = "../../../data/csv/samr/uploads/CRNonSecCurvature.csv";
 		CRNonSecCurvatureCsvReader reader = new CRNonSecCurvatureCsvReader("CRNonSecCurvature", null);
 		reader.setupCsvReader();
 		reader.read(path);

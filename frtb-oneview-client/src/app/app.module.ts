@@ -77,6 +77,7 @@ import { AgGridModule } from 'ag-grid-angular';
 import { AgGridBtnCellRendererComponent } from './common/ag-grid/ag-grid-btn-cell-renderer/ag-grid-btn-cell-renderer.component';
 import { BarChartComponent } from './common/ng2-charts/bar-chart/bar-chart.component';
 import { SaMrRiskChargeBarChartComponent } from './frtb/sa/sa-mr-risk-charge-bar-chart/sa-mr-risk-charge-bar-chart.component';
+import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-upload/sa-mr-sensitivities-upload.component';
 
 
 @NgModule({
@@ -154,6 +155,7 @@ import { SaMrRiskChargeBarChartComponent } from './frtb/sa/sa-mr-risk-charge-bar
     AgGridBtnCellRendererComponent,
     BarChartComponent,
     SaMrRiskChargeBarChartComponent,
+    SaMrSensitivitiesUploadComponent,
   ],
   exports: [
     AppComponent,

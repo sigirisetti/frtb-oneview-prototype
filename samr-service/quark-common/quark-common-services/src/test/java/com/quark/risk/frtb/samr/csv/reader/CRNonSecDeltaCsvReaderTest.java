@@ -11,7 +11,7 @@ public class CRNonSecDeltaCsvReaderTest {
 
 	@Test
     public void testCRNonSecDeltaCsvReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/CRNonSecDelta.csv";
+        String path = "../../../data/csv/samr/uploads/CRNonSecDelta.csv";
 		CRNonSecDeltaCsvReader reader = new CRNonSecDeltaCsvReader("CRNonSecDelta", null);
 		reader.setupCsvReader();
 		reader.read(path);

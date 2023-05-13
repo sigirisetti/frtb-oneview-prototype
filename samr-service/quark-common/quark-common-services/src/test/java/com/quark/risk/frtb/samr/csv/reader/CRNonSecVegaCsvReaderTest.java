@@ -11,7 +11,7 @@ public class CRNonSecVegaCsvReaderTest {
 
 	@Test
     public void testCRNonSecVegaCsvReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/CRNonSecVega.csv";
+        String path = "../../../data/csv/samr/uploads/CRNonSecVega.csv";
 		CRNonSecVegaCsvReader reader = new CRNonSecVegaCsvReader("CRNonSecVega", null);
 		reader.setupCsvReader();
 		reader.read(path);

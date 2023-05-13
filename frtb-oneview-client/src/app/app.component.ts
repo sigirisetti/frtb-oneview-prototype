@@ -108,28 +108,23 @@ export class AppComponent implements AfterViewInit {
           route: 'sa/mr/all',
         },
         {
-          displayName: 'Sensitivities based Risk Charge',
-          iconName: 'grade',
-          route: 'sa/mr/sens',
-        },
-        {
-          displayName: 'Default Risk Charge (DRC)',
-          iconName: 'grade',
-          route: 'sa/mr/drc',
-        },
-        {
-          displayName: 'Residual Risk Add-On',
-          iconName: 'grade',
-          route: 'sa/mr/rrao',
+          displayName: 'Sensitivities Upload',
+          iconName: 'bolt',
+          route: 'sa/mr/sensitivities-upload',
         },
         {
           displayName: 'What-If Analysis',
-          iconName: 'grade',
+          iconName: 'bolt',
           route: 'sa/mr/whatIf',
         },
         {
           displayName: 'Incremental VaR',
-          iconName: 'grade',
+          iconName: 'bolt',
+          route: 'sa/mr/ivar',
+        },
+        {
+          displayName: 'Incremental VaR',
+          iconName: 'bolt',
           route: 'sa/mr/ivar',
         },
       ]

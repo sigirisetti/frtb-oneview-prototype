@@ -11,7 +11,7 @@ public class EquityCurvatureCsvReaderTest {
 
 	@Test
     public void testEquityCurvatureCsvReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/EqCurvature.csv";
+        String path = "../../../data/csv/samr/uploads/EqCurvature.csv";
 
 		EquityCurvatureCsvReader reader = new EquityCurvatureCsvReader("EqCurvature", null);
 		reader.setupCsvReader();

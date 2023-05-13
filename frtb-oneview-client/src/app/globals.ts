@@ -20,8 +20,10 @@ export const setSelectedEntityUrl: string = restApiBase + "/setSelectedEntity";
 
 
 //SAMR
+export const getSAMRWorkflows: string = restApiBase + "/services/config/getSAMRWorkflows";
 export const getAllSAMRWorkflowInstances: string = restApiBase + "/services/samr/getAllSAMRWorkflowInstances";
 export const getSAMRExecResults: string = restApiBase + "/services/samr/getSAMRExecResults";
 export const getSamrDashboardData: string = restApiBase + "/services/samr/getSamrDashboardData";
+export const samrFileUpload: string = restApiBase + "/services/samr/upload";
 
 export const forwardCcyPairsUrl: string = restApiBase + "/forwardCcyPairs";

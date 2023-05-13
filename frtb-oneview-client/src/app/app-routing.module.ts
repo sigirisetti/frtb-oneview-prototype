@@ -9,6 +9,7 @@ import { AuthGuardService } from './core/auth-guard.service';
 import { DashboardComponent } from './frtb/dashboard/dashboard.component';
 import { SaMrComponent } from './frtb/sa/sa-mr/sa-mr.component';
 import { ExecutionListComponent } from './frtb/exec/execution-list/execution-list.component';
+import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-upload/sa-mr-sensitivities-upload.component';
 
 const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuardService] },
@@ -22,6 +23,7 @@ const routes: Routes = [
   },
   {
     path: 'sa/mr', children: [
+      { path: 'sensitivities-upload', component: SaMrSensitivitiesUploadComponent, canActivate: [AuthGuardService] },
       { path: 'all', component: SaMrComponent, canActivate: [AuthGuardService] },
       { path: 'all/:id', component: SaMrComponent, canActivate: [AuthGuardService]},
     ]

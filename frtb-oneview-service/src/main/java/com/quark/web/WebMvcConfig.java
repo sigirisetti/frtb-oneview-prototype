@@ -151,7 +151,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Bean
     public CommonsMultipartResolver multipartResolver() {
         CommonsMultipartResolver resolver = new CommonsMultipartResolver();
-        resolver.setDefaultEncoding("utf-8");
+        //resolver.setDefaultEncoding("utf-8");
         resolver.setMaxUploadSize(maxUploadSize);
         resolver.setMaxInMemorySize(maxInMemorySize);
         return resolver;

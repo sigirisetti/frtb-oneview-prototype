@@ -11,7 +11,7 @@ public class DRCNonSecReaderTest {
 
 	@Test
     public void testDRCNonSecReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/DRCNonSec.csv";
+        String path = "../../../data/csv/samr/uploads/DRCNonSec.csv";
 
 		DRCNonSecCsvReader reader = new DRCNonSecCsvReader("DRCNonSec", null);
 		reader.setupCsvReader();

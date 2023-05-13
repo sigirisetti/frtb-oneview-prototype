@@ -36,7 +36,7 @@ public class FileUploadHelper {
 
     public void saveUploads(String module, Organization org, FileUploadForm uploadForm) {
 		int excelDate = (int) DateUtil.getExcelDate(uploadForm.getValueDate());
-		List<MultipartFile> files = uploadForm.getFiles();
+		MultipartFile[] files = uploadForm.getFiles();
 		response = new FileUploadResponse();
 		workflowInst = new WorkflowInstance();
 		workflowInst.setExcelDate(excelDate);
@@ -46,7 +46,7 @@ public class FileUploadHelper {
 		workflowInst.setOrganization(org);
 		Set<WorkflowInstanceProperties> wfInstProps = new HashSet<>();
 		File uploadDir = getFileUploadDir(module, excelDate, uploadForm.getWorkflowId(), String.valueOf(org.getId()));
-		if (null != files && !files.isEmpty()) {
+		if (null != files && files.length != 0) {
 			for (MultipartFile multipartFile : files) {
 				String fileName = multipartFile.getOriginalFilename();
 				File fullPath = new File(uploadDir, fileName);

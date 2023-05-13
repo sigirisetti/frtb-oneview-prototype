@@ -11,7 +11,7 @@ public class CommodityDeltaCsvReaderTest {
 
 	@Test
     public void testCreditIssuerInfoCsvReader() throws IOException {
-        String path = "../../data/csv/samr/uploads/COMMDelta.csv";
+        String path = "../../../data/csv/samr/uploads/COMMDelta.csv";
 
 		CommodityDeltaCsvReader reader = new CommodityDeltaCsvReader("COMMDelta", null);
 		reader.setupCsvReader();

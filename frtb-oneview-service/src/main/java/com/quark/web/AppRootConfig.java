@@ -18,8 +18,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Configuration
-@PropertySources({@PropertySource(value = "file:///${user.home}/quark.properties", ignoreResourceNotFound = true),
-        @PropertySource(value = "file:///${user.home}/system.properties", ignoreResourceNotFound = true)})
+@PropertySources({@PropertySource(value = "classpath:quark.properties", ignoreResourceNotFound = true),
+        @PropertySource(value = "classpath:system.properties", ignoreResourceNotFound = true)})
 @ImportResource("classpath:quark-workflow.xml")
 public class AppRootConfig {
 

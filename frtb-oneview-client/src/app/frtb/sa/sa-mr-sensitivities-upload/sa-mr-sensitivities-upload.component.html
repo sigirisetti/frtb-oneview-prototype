@@ -1,0 +1,58 @@
+<div class="px-2 py-2">
+
+    <mat-card>
+        <mat-card-header class="bg-gradient-to-r from-indigo-100 to-green-200">
+            <mat-card-title>SA-MR Sensitivities Upload</mat-card-title>
+            <mat-card-subtitle>
+                Following data files are needed for SAMR aggregation.<br><br>
+                <span class="font-bold text-blue-600">Required Static data : </span><br>
+                <span>
+                    EQ (Bucket Info, Classification Info, "Sector, region, market cap to rating info"),
+                    COMM (Product,Underlying,Grade,Delivery Location),
+                    CR (Credit Issuer Info),
+                    CR Non-Sec (Sector, Quality to Rating Mapping),
+                    CR Sec (Sector, Quality to Rating Mapping),
+                    DRC(Issuer Info)
+                </span>
+
+                <br>
+                <span class="font-bold text-amber-600">Required Sensitivies data : </span><br>
+                <span>
+                    IR (delta, vega, and curvature), FX (delta, vega, and curvature), EQ (delta, vega, and curvature),
+                    CR Non-sec(delta, vega, and curvature), CR Sec Non-CTP(delta), CR Sec CTP(delta),
+                    DRC Non-sec(Trade Data), DRC Sec CTP(Trade Data), DRC Non-sec CTP(Trade Data)
+                </span>
+
+            </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <br><br>
+            <form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+                <mat-form-field appearance="fill" style="width:180px">
+                    <mat-label>Date</mat-label>
+                    <input matInput [matDatepicker]="picker" [matDatepickerFilter]="holidayDateFilter" [max]="today"
+                        formControlName="valueDate">
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker [dateClass]="dateClass" #picker></mat-datepicker>
+                </mat-form-field>
+
+                <mat-form-field style="width: 100%;">
+                    <mat-label>File matInput</mat-label>
+                    <button mat-icon-button matPrefix (click)="f_input.click()">
+                        <mat-icon>attach_file</mat-icon>
+                    </button>
+                    <input type="text" readonly matInput formControlName="display" />
+                    <input type="file" multiple hidden #f_input multiple (change)="handleFileInputChange(f_input.files!)" />
+                    <mat-error>this field is required</mat-error>
+                </mat-form-field>
+                &nbsp;
+                <button mat-raised-button color="primary" type="submit">Upload</button>&nbsp;
+                <button mat-raised-button color="accent" type="reset">Reset</button>
+            </form>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>

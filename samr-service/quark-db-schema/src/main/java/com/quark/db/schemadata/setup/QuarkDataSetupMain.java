@@ -11,8 +11,7 @@ import com.quark.db.schemadata.loader.RefTypeCSVLoader;
 import com.quark.db.schemadata.loader.SACCRConfig;
 import com.quark.db.schemadata.loader.UsersDataLoader;
 
-import groovy.util.logging.Slf4j;
-
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Set;

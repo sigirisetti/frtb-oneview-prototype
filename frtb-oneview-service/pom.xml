@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.quark.web.FrtbOneviewServiceApp</start-class>
+        <start-class>com.quark.web.FrtbOneviewService</start-class>
     </properties>
 
 
@@ -97,9 +97,16 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <executable>true</executable>
-                    <mainClass>${start-class}</mainClass>
+                    <mainClass>com.quark.web.FrtbOneviewService</mainClass>
+                    <layout>JAR</layout>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
