@@ -232,17 +232,50 @@ export class AppComponent implements AfterViewInit {
       iconName: 'school',
       children: [
         {
-          displayName: 'Line Chart',
-          iconName: 'stacked_line_chart',
-          route: 'samples/charts/line-chart'
+          displayName: 'Angular Components',
+          iconName: 'school',
+          children: [
+            {
+              displayName: 'Expandable Table Rows',
+              iconName: 'school',
+              route: 'samples/ng-examples/expandable-table-rows'
+                }
+          ]
         },
         {
-          displayName: 'Expandable Table Rows',
-          iconName: 'expand_content',
-          route: 'samples/ng-examples/expandable-table-rows'
+          displayName: 'Ng2-Charts',
+          iconName: 'school',
+          children: [
+            {
+              displayName: 'Ng2 Line Chart',
+              iconName: 'school',
+              route: 'samples/ng2-charts/line-chart'
+            }
+          ]
+        },
+        {
+          displayName: 'D3-Charts',
+          iconName: 'school',
+          children: [
+            {
+              displayName: 'D3 Bar Chart',
+              iconName: 'school',
+              route: 'samples/d3-charts/bar-chart'
+            },
+            {
+              displayName: 'D3 Pie Chart',
+              iconName: 'school',
+              route: 'samples/d3-charts/pie-chart'
+            },
+            {
+              displayName: 'D3 Scatter Chart',
+              iconName: 'school',
+              route: 'samples/d3-charts/scatter-chart'
+            },
+          ]
         },
       ]
-    }
+    },
   ];
 
   constructor(

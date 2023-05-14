@@ -1,18 +1,19 @@
 <div class="columns-2 gap-2">
 
-    <div class="block flex flex-col px-2 py-2">
+    <!-- Column 1 -->
+    <div class="px-2 py-2">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>SAMR Risk Charge</mat-card-title>
-                <mat-card-subtitle>Hover on bars to view details</mat-card-subtitle>
+                <mat-card-subtitle>Hover on pies to view details</mat-card-subtitle>
             </mat-card-header>
             <mat-card-content>
-                <app-sa-mr-risk-charge-bar-chart></app-sa-mr-risk-charge-bar-chart>
+                <app-sa-mr-risk-charge-pie-chart></app-sa-mr-risk-charge-pie-chart>
             </mat-card-content>
         </mat-card>
     </div>
 
-    <div class="block flex flex-col px-2 py-2">
+    <div class="px-2 py-2">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>IMA Market Risk Executions</mat-card-title>
@@ -23,7 +24,7 @@
             </mat-card-content>
         </mat-card>
     </div>
-    <div class="block flex flex-col break-after-column px-2 py-2">
+    <div class="break-after-column px-2 py-2">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>IMA CVA Executions</mat-card-title>
@@ -34,7 +35,22 @@
             </mat-card-content>
         </mat-card>
     </div>
-    <div class="block flex flex-col px-2 py-2">
+
+
+    <!-- Column 2 -->
+
+    <div class="px-2 py-2">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>SAMR Sensitivities Risk Charge</mat-card-title>
+                <mat-card-subtitle>Hover on bars to view details</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <app-sa-mr-risk-charge-bar-chart></app-sa-mr-risk-charge-bar-chart>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="px-2 py-2">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>SA-MR Executions</mat-card-title>
@@ -45,7 +61,7 @@
             </mat-card-content>
         </mat-card>
     </div>
-    <div class="block flex flex-col px-2 py-2">
+    <div class="px-2 py-2">
         <mat-card>
             <mat-card-header>
                 <mat-card-title>SA-CVA Executions</mat-card-title>

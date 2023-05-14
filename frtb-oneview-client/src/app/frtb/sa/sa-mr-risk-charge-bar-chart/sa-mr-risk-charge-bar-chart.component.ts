@@ -72,14 +72,14 @@ export class SaMrRiskChargeBarChartComponent {
                 resType2.push(Math.round(rt.resType2))
 
               }
-              console.log(delta)
-              console.log(vega)
-              console.log(curvature)
-              console.log(drcNonSec)
-              console.log(drcSecNonCtp)
-              console.log(drcSecCtp)
-              console.log(resType1)
-              console.log(resType2)
+              //console.log(delta)
+              //console.log(vega)
+              //console.log(curvature)
+              //console.log(drcNonSec)
+              //console.log(drcSecNonCtp)
+              //console.log(drcSecCtp)
+              //console.log(resType1)
+              //console.log(resType2)
               
               this.dataSets.push({ data: delta, label: 'delta' });
               this.dataSets.push({ data: vega, label: 'vega' });

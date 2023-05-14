@@ -55,7 +55,7 @@ export class BarChartComponent {
   update() {
     this.barChartData.labels = this.labels
     this.barChartData.datasets = this.dataSets;
-    console.log("Chart " + this.barChartData.labels)
+    //console.log("Chart " + this.barChartData.labels)
     this.chart?.update();
   }
 }

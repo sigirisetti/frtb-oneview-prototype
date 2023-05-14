@@ -78,6 +78,12 @@ import { AgGridBtnCellRendererComponent } from './common/ag-grid/ag-grid-btn-cel
 import { BarChartComponent } from './common/ng2-charts/bar-chart/bar-chart.component';
 import { SaMrRiskChargeBarChartComponent } from './frtb/sa/sa-mr-risk-charge-bar-chart/sa-mr-risk-charge-bar-chart.component';
 import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-upload/sa-mr-sensitivities-upload.component';
+import { PieChartComponent } from './common/ng2-charts/pie-chart/pie-chart.component';
+import { SaMrRiskChargePieChartComponent } from './frtb/sa/sa-mr-risk-charge-pie-chart/sa-mr-risk-charge-pie-chart.component';
+import { D3BarChartComponent } from './samples/d3/d3-bar-chart/d3-bar-chart.component';
+import { D3PieChartComponent } from './samples/d3/d3-pie-chart/d3-pie-chart.component';
+import { D3ScatterChartComponent } from './samples/d3/d3-scatter-chart/d3-scatter-chart.component';
+import { D3SimulationChartComponent } from './samples/d3/d3-simulation-chart/d3-simulation-chart.component';
 
 
 @NgModule({
@@ -156,6 +162,12 @@ import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-
     BarChartComponent,
     SaMrRiskChargeBarChartComponent,
     SaMrSensitivitiesUploadComponent,
+    PieChartComponent,
+    SaMrRiskChargePieChartComponent,
+    D3BarChartComponent,
+    D3PieChartComponent,
+    D3ScatterChartComponent,
+    D3SimulationChartComponent,
   ],
   exports: [
     AppComponent,

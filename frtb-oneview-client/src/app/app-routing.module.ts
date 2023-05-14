@@ -10,6 +10,9 @@ import { DashboardComponent } from './frtb/dashboard/dashboard.component';
 import { SaMrComponent } from './frtb/sa/sa-mr/sa-mr.component';
 import { ExecutionListComponent } from './frtb/exec/execution-list/execution-list.component';
 import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-upload/sa-mr-sensitivities-upload.component';
+import { D3BarChartComponent } from './samples/d3/d3-bar-chart/d3-bar-chart.component';
+import { D3PieChartComponent } from './samples/d3/d3-pie-chart/d3-pie-chart.component';
+import { D3ScatterChartComponent } from './samples/d3/d3-scatter-chart/d3-scatter-chart.component';
 
 const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuardService] },
@@ -36,8 +39,15 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'charts', children: [
+        path: 'ng2-charts', children: [
           { path: 'line-chart', component: LineChartComponent },
+        ]
+      },
+      {
+        path: 'd3-charts', children: [
+          { path: 'bar-chart', component: D3BarChartComponent },
+          { path: 'pie-chart', component: D3PieChartComponent },
+          { path: 'scatter-chart', component: D3ScatterChartComponent },
         ]
       },
       {
