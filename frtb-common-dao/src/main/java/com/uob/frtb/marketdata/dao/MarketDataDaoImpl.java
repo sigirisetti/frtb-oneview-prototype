@@ -1,4 +1,4 @@
-package com.uob.frtb.marketdata.dao.impl;
+package com.uob.frtb.marketdata.dao;
 
 import com.uob.frtb.marketdata.curve.Curve;
 import com.uob.frtb.marketdata.curve.CurveUnderlying;

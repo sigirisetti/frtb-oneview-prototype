@@ -1,4 +1,4 @@
-package com.uob.frtb.core.workflow.impl;
+package com.uob.frtb.core.workflow;
 
 import com.uob.frtb.core.workflow.WorkflowDao;
 import com.uob.frtb.risk.common.model.WorkflowInstance;

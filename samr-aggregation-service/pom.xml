@@ -145,7 +145,7 @@
 
         <dependency>
             <groupId>com.uob.frtb</groupId>
-            <artifactId>frtb-common-services-impl</artifactId>
+            <artifactId>frtb-common-services</artifactId>
         </dependency>
     </dependencies>
 

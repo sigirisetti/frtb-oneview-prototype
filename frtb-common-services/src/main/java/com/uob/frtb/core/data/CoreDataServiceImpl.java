@@ -1,4 +1,4 @@
-package com.uob.frtb.core.data.impl;
+package com.uob.frtb.core.data;
 
 import com.uob.frtb.common.dao.CoreDao;
 import com.uob.frtb.core.data.CoreDataService;

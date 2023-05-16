@@ -1,4 +1,4 @@
-package com.uob.frtb.common.dao.impl;
+package com.uob.frtb.common.dao;
 
 import com.uob.frtb.common.dao.CoreDao;
 import com.uob.frtb.core.exception.ApplicationException;

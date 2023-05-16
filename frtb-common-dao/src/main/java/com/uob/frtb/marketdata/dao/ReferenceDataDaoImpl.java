@@ -1,4 +1,4 @@
-package com.uob.frtb.marketdata.dao.impl;
+package com.uob.frtb.marketdata.dao;
 
 import com.uob.frtb.marketdata.dao.ReferenceDataDao;
 import com.uob.frtb.refdata.model.NameValuePair;

@@ -1,9 +1,7 @@
-package com.uob.frtb.core.security.impl;
+package com.uob.frtb.core.security;
 
-import com.uob.frtb.common.dao.impl.CoreDaoImpl;
+import com.uob.frtb.common.dao.CoreDaoImpl;
 import com.uob.frtb.core.exception.ApplicationException;
-import com.uob.frtb.core.security.User;
-import com.uob.frtb.core.security.UserDao;
 
 import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
