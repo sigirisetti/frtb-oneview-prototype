@@ -9,15 +9,16 @@ import com.uob.frtb.core.workflow.WorkflowNames;
 import com.uob.frtb.core.workflow.WorkflowService;
 import com.uob.frtb.risk.common.model.WorkflowInstExecStatus;
 import com.uob.frtb.risk.common.model.WorkflowInstance;
-import com.uob.frtb.risk.frtb.samr.csv.model.SAMRData;
-import com.uob.frtb.risk.frtb.samr.model.DataFilter;
-import com.uob.frtb.risk.frtb.samr.model.RiskClass;
-import com.uob.frtb.risk.frtb.samr.results.IntermediateResultsData;
-import com.uob.frtb.risk.frtb.samr.results.PoResults;
-import com.uob.frtb.risk.frtb.samr.results.RiskClassLevelResults;
-import com.uob.frtb.risk.frtb.samr.results.model.RiskChargeResults;
-import com.uob.frtb.risk.frtb.samr.service.SAMRDataService;
-import com.uob.frtb.risk.frtb.samr.service.SAMRRiskChargeCalculationService;
+import com.uob.frtb.risk.samr.csv.model.SAMRData;
+import com.uob.frtb.risk.samr.model.DataFilter;
+import com.uob.frtb.risk.samr.model.RiskClass;
+import com.uob.frtb.risk.samr.results.IntermediateResultsData;
+import com.uob.frtb.risk.samr.results.PoResults;
+import com.uob.frtb.risk.samr.results.RiskClassLevelResults;
+import com.uob.frtb.risk.samr.results.model.RiskChargeResults;
+import com.uob.frtb.risk.samr.service.SAMRDataService;
+import com.uob.frtb.risk.samr.service.SAMRRiskChargeCalculationService;
+import com.uob.frtb.risk.samr.results.model.Hierarchy;
 import com.uob.frtb.web.core.controller.BaseController;
 import com.uob.frtb.web.file.upload.utils.FileUploadHelper;
 import com.uob.frtb.web.file.upload.utils.FileUploadResponse;
@@ -42,7 +43,12 @@ import java.sql.Date;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -176,16 +182,16 @@ public class SAMRServiceController extends BaseController {
 
     @RequestMapping(value = "/getHierarchy", method = RequestMethod.GET)
     @ResponseBody
-    public com.uob.frtb.risk.frtb.samr.results.model.Hierarchy getHierarchy(@RequestParam String valueDate,
-                                                                            @RequestParam Long workflowId, HttpServletRequest req) throws ApplicationException {
+    public Hierarchy getHierarchy(@RequestParam String valueDate,
+                                  @RequestParam Long workflowId, HttpServletRequest req) throws ApplicationException {
         int excelDate = getExcelDate(valueDate);
         String workflowInstanceId = getWorkflowId(excelDate, workflowId);
         if (workflowInstanceId == null) {
             throw new ApplicationException(-1, "SAMR calculation not performed for given value date");
         }
-        List<com.uob.frtb.risk.frtb.samr.model.Hierarchy> hData = samrDataService.getHierarchy(workflowInstanceId);
-        com.uob.frtb.risk.frtb.samr.results.model.Hierarchy h = new com.uob.frtb.risk.frtb.samr.results.model.Hierarchy();
-        for (com.uob.frtb.risk.frtb.samr.model.Hierarchy hierarchy : hData) {
+        List<com.uob.frtb.risk.samr.model.Hierarchy> hData = samrDataService.getHierarchy(workflowInstanceId);
+        Hierarchy h = new Hierarchy();
+        for (com.uob.frtb.risk.samr.model.Hierarchy hierarchy : hData) {
             h.addHierarchyRow(hierarchy);
         }
         return h;

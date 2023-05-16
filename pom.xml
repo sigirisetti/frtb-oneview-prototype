@@ -21,6 +21,7 @@
         <module>samr-aggregation-service</module>
         <module>frtb-oneview-service</module>
         <module>ima-mr-data-service</module>
+        <module>saccr-aggregation-service</module>
     </modules>
 
     <properties>

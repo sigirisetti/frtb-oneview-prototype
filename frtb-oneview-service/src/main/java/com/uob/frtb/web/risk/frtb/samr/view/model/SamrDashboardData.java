@@ -1,7 +1,7 @@
 package com.uob.frtb.web.risk.frtb.samr.view.model;
 
 import com.uob.frtb.risk.common.model.WorkflowInstance;
-import com.uob.frtb.risk.frtb.samr.results.RiskClassLevelResults;
+import com.uob.frtb.risk.samr.results.RiskClassLevelResults;
 
 import java.util.Date;
 import java.util.List;

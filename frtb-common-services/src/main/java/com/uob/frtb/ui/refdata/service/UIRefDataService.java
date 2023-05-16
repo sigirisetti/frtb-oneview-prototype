@@ -1,7 +1,13 @@
 package com.uob.frtb.ui.refdata.service;
 
 import com.uob.frtb.marketdata.curve.CurveUnderlying;
-import com.uob.frtb.ui.refdata.*;
+import com.uob.frtb.ui.refdata.CUDefinitionWindowRefData;
+import com.uob.frtb.ui.refdata.CurveDefWindowRefData;
+import com.uob.frtb.ui.refdata.MarketDataSetWindowRefData;
+import com.uob.frtb.ui.refdata.PricingContextConfigWindowRefData;
+import com.uob.frtb.ui.refdata.PricingEnginesConfigWindowRefData;
+import com.uob.frtb.ui.refdata.QuotesWindowRefData;
+import com.uob.frtb.ui.refdata.SwapTradeWindowRefData;
 
 import java.util.Set;
 
