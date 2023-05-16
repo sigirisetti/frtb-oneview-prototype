@@ -20,6 +20,7 @@ export class PieChartComponent {
   // Pie
   public pieChartOptions: ChartConfiguration['options'] = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         display: true,

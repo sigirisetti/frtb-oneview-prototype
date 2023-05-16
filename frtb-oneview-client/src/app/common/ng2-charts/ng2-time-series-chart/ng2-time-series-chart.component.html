@@ -1,0 +1,34 @@
+<div class="flex-direction: column;">
+    <div class="basis-1/5">
+        <div class="grid grid-rows-1 grid-flow-col gap-4">
+            <div>
+                <p class="font-semibold">Min</p>
+            </div>
+            <div>
+                <p class="font-bold text-amber-600">{{seriesMin| number:'1.2-4'}} SGD</p>
+            </div>
+            <div>
+                <p class="font-semibold">Max</p>
+            </div>
+            <div>
+                <p class="font-bold text-green-600">{{seriesMax| number:'1.2-4'}} SGD</p>
+            </div>
+            <div>
+                <p class="font-semibold">Avg</p>
+            </div>
+            <div>
+                <p class="font-bold text-blue-600">{{seriesAvg| number:'1.2-4'}} SGD</p>
+            </div>
+            <div>
+                <p class="font-semibold">Vol</p>
+            </div>
+            <div>
+                <p class="font-bold text-amber-600">{{seriesVol| number:'1.2-2'}}%</p>
+            </div>
+        </div>
+    </div>
+    <div class="basis-4/5">
+        <canvas baseChart class="chart" [data]="lineChartData" [options]="lineChartOptions" [type]="lineChartType"
+            (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+    </div>
+</div>

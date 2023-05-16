@@ -54,22 +54,28 @@ export class SaMrRiskChargeBarChartComponent {
               let delta = [];
               let vega = [];
               let curvature = [];
-              let drcNonSec = [];
-              let drcSecNonCtp = [];
-              let drcSecCtp = [];
-              let resType1 = [];
-              let resType2 = [];
+              //let drcNonSec = [];
+              //let drcSecNonCtp = [];
+              //let drcSecCtp = [];
+              //let resType1 = [];
+              //let resType2 = [];
 
               for (let rt of res.riskClassLevelResults) {
-                this.labels.push(rt.riskClass);
-                delta.push(Math.round(rt.delta))
-                vega.push(Math.round(rt.vega))
-                curvature.push(Math.round(rt.curvature))
-                drcNonSec.push(Math.round(rt.drcNonSec))
-                drcSecNonCtp.push(Math.round(rt.drcSecNonCtp))
-                drcSecCtp.push(Math.round(rt.drcSecCtp))
-                resType1.push(Math.round(rt.resType1))
-                resType2.push(Math.round(rt.resType2))
+                if (rt.riskClass === 'IR' ||
+                  rt.riskClass === 'FX' ||
+                  rt.riskClass === 'EQ' ||
+                  rt.riskClass === 'CREDIT_NS' ||
+                  rt.riskClass === 'COMMODITY') {
+                  this.labels.push(rt.riskClass);
+                  delta.push(Math.round(rt.delta))
+                  vega.push(Math.round(rt.vega))
+                  curvature.push(Math.round(rt.curvature))
+                  //drcNonSec.push(Math.round(rt.drcNonSec))
+                  //drcSecNonCtp.push(Math.round(rt.drcSecNonCtp))
+                  //drcSecCtp.push(Math.round(rt.drcSecCtp))
+                  //resType1.push(Math.round(rt.resType1))
+                  //resType2.push(Math.round(rt.resType2))
+                }
 
               }
               //console.log(delta)
@@ -80,15 +86,15 @@ export class SaMrRiskChargeBarChartComponent {
               //console.log(drcSecCtp)
               //console.log(resType1)
               //console.log(resType2)
-              
+
               this.dataSets.push({ data: delta, label: 'delta' });
               this.dataSets.push({ data: vega, label: 'vega' });
               this.dataSets.push({ data: curvature, label: 'curvature' });
-              this.dataSets.push({ data: drcNonSec, label: 'drcNonSec' });
-              this.dataSets.push({ data: drcSecNonCtp, label: 'drcSecNonCtp' });
-              this.dataSets.push({ data: drcSecCtp, label: 'drcSecCtp' });
-              this.dataSets.push({ data: resType1, label: 'resType1' });
-              this.dataSets.push({ data: resType2, label: 'resType2' });
+              //this.dataSets.push({ data: drcNonSec, label: 'drcNonSec' });
+              //this.dataSets.push({ data: drcSecNonCtp, label: 'drcSecNonCtp' });
+              //this.dataSets.push({ data: drcSecCtp, label: 'drcSecCtp' });
+              //this.dataSets.push({ data: resType1, label: 'resType1' });
+              //this.dataSets.push({ data: resType2, label: 'resType2' });
 
               this.chart?.update()
             },

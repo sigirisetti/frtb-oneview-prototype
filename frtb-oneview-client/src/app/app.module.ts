@@ -84,6 +84,7 @@ import { D3BarChartComponent } from './samples/d3/d3-bar-chart/d3-bar-chart.comp
 import { D3PieChartComponent } from './samples/d3/d3-pie-chart/d3-pie-chart.component';
 import { D3ScatterChartComponent } from './samples/d3/d3-scatter-chart/d3-scatter-chart.component';
 import { D3SimulationChartComponent } from './samples/d3/d3-simulation-chart/d3-simulation-chart.component';
+import { Ng2TimeSeriesChartComponent } from './common/ng2-charts/ng2-time-series-chart/ng2-time-series-chart.component';
 
 
 @NgModule({
@@ -168,6 +169,7 @@ import { D3SimulationChartComponent } from './samples/d3/d3-simulation-chart/d3-
     D3PieChartComponent,
     D3ScatterChartComponent,
     D3SimulationChartComponent,
+    Ng2TimeSeriesChartComponent,
   ],
   exports: [
     AppComponent,
