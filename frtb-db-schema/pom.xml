@@ -16,6 +16,14 @@
             <artifactId>frtb-common-dao</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.uob.frtb</groupId>
+            <artifactId>samr-aggregation-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.uob.frtb</groupId>
+            <artifactId>saccr-aggregation-service</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>2.1.214</version>
