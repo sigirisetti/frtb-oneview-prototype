@@ -4,16 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ssk</groupId>
+    <groupId>com.uob.frtb</groupId>
     <artifactId>frtb-oneview-prototype</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>xva-service</module>
-        <module>samr-service</module>
+        <module>frtb-common-model</module>
+        <module>frtb-common-utils</module>
+        <module>frtb-common-dao</module>
+        <module>frtb-common-services</module>
+        <module>frtb-common-services-impl</module>
+        <module>frtb-db-schema</module>
+        <module>frtb-workflow</module>
+        <module>xva-data-service</module>
+        <module>samr-aggregation-service</module>
         <module>frtb-oneview-service</module>
-        <module>saccr-aggregation-service</module>
+        <module>ima-mr-data-service</module>
     </modules>
 
     <properties>
@@ -77,12 +84,32 @@
                 <artifactId>commons-fileupload</artifactId>
                 <version>1.3.3</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.5-FINAL</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.3</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>1.9.3</version>
+            </dependency>
 
             <!-- Misc -->
             <dependency>
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>
                 <version>2.8.6</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>3.2.2</version>
             </dependency>
 
             <!-- project modules -->
@@ -96,16 +123,54 @@
                 <artifactId>activiti-spring</artifactId>
                 <version>${activiti.version}</version>
             </dependency>
+
+
+            <!-- project modules start -->
             <dependency>
-                <groupId>com.quark.common</groupId>
-                <artifactId>quark-common-services-impl</artifactId>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.quark</groupId>
-                <artifactId>quark-workflow</artifactId>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-services</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-services</artifactId>
+                <type>test-jar</type>
+                <scope>test</scope>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-services-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-common-utils</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>xva-data-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.uob.frtb</groupId>
+                <artifactId>frtb-workflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- project modules end -->
+
         </dependencies>
     </dependencyManagement>
 
@@ -128,6 +193,18 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
 
@@ -245,6 +322,8 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+
+
     </dependencies>
 
 </project>

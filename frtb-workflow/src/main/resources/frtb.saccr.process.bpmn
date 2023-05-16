@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+  <process id="frtb.saccr.process" name="SACCR" isExecutable="true">
+    <startEvent id="startevent1" name="Start"></startEvent>
+    <serviceTask id="Validate" name="Validate" activiti:expression="${SACCRCsvReaderService.validate(workflowInst)}"></serviceTask>
+    <serviceTask id="LoadCsv" name="Load CSV" activiti:expression="${SACCRCsvReaderService.loadData(workflowInst)}"></serviceTask>
+    <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="Validate"></sequenceFlow>
+    <sequenceFlow id="flow2" sourceRef="Validate" targetRef="LoadCsv"></sequenceFlow>
+    <serviceTask id="SACCRCalculations" name="SACCR Calculations" activiti:expression="${SACCRServiceImpl.calculate(workflowInst)}"></serviceTask>
+    <sequenceFlow id="flow3" sourceRef="LoadCsv" targetRef="SACCRCalculations"></sequenceFlow>
+    <endEvent id="endevent1" name="End"></endEvent>
+    <sequenceFlow id="flow4" sourceRef="SACCRCalculations" targetRef="endevent1"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_SACCR">
+    <bpmndi:BPMNPlane bpmnElement="SACCR" id="BPMNPlane_SACCR">
+      <bpmndi:BPMNShape bpmnElement="startevent1" id="BPMNShape_startevent1">
+        <omgdc:Bounds height="35.0" width="35.0" x="100.0" y="350.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="Validate" id="BPMNShape_Validate">
+        <omgdc:Bounds height="121.0" width="231.0" x="270.0" y="307.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="LoadCsv" id="BPMNShape_LoadCsv">
+        <omgdc:Bounds height="121.0" width="251.0" x="620.0" y="307.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="SACCRCalculations" id="BPMNShape_SACCRCalculations">
+        <omgdc:Bounds height="121.0" width="261.0" x="1000.0" y="307.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="endevent1" id="BPMNShape_endevent1">
+        <omgdc:Bounds height="35.0" width="35.0" x="1340.0" y="350.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+        <omgdi:waypoint x="135.0" y="367.0"></omgdi:waypoint>
+        <omgdi:waypoint x="270.0" y="367.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="501.0" y="367.0"></omgdi:waypoint>
+        <omgdi:waypoint x="620.0" y="367.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+        <omgdi:waypoint x="871.0" y="367.0"></omgdi:waypoint>
+        <omgdi:waypoint x="1000.0" y="367.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="1261.0" y="367.0"></omgdi:waypoint>
+        <omgdi:waypoint x="1340.0" y="367.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
