@@ -1,7 +1,7 @@
 package com.quark.risk.frtb.samr.service;
 
 import com.hazelcast.core.HazelcastInstance;
-import com.hazelcast.core.IMap;
+import com.hazelcast.map.IMap;
 import com.quark.common.dao.CoreDao;
 import com.quark.core.exception.ApplicationException;
 import com.quark.core.security.SecurityService;
@@ -56,7 +56,8 @@ public class SAMRRiskChargeCalculationServiceImpl implements SAMRRiskChargeCalcu
 	@Override
 	@Transactional
 	public SAMRResults calculateMargins(WorkflowInstance workflowInst, boolean persist) throws ApplicationException {
-		
+
+		//TODO: cache results?
 		IMap<Integer, String> map = hazelcastInstance.getMap("DataMap");
 		map.put(1, "Joe");
 		map.put(2, "Ali");
