@@ -13,6 +13,9 @@ import { SaMrSensitivitiesUploadComponent } from './frtb/sa/sa-mr-sensitivities-
 import { D3BarChartComponent } from './samples/d3/d3-bar-chart/d3-bar-chart.component';
 import { D3PieChartComponent } from './samples/d3/d3-pie-chart/d3-pie-chart.component';
 import { D3ScatterChartComponent } from './samples/d3/d3-scatter-chart/d3-scatter-chart.component';
+import { ImaDrcCalibSummaryComponent } from './frtb/ima/ima-drc/ima-drc-calib-summary/ima-drc-calib-summary.component';
+import { ImaDrcIdxSectorCorrComponent } from './frtb/ima/ima-drc/ima-drc-idx-sector-corr/ima-drc-idx-sector-corr.component';
+import { ImaDrcRegressionDetailsComponent } from './frtb/ima/ima-drc/ima-drc-regression-details/ima-drc-regression-details.component';
 
 const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuardService] },
@@ -22,6 +25,13 @@ const routes: Routes = [
     path: 'market-data', children: [
       { path: 'forwardPoints', component: PageUnderConstructionComponent, canActivate: [AuthGuardService] 
     },
+    ]
+  },
+  {
+    path: 'ima/mr/drc', children: [
+      { path: 'reg', component: ImaDrcRegressionDetailsComponent, canActivate: [AuthGuardService] },
+      { path: 'idSecCorr', component: ImaDrcIdxSectorCorrComponent, canActivate: [AuthGuardService] },
+      { path: 'calibSummary', component: ImaDrcCalibSummaryComponent, canActivate: [AuthGuardService]},
     ]
   },
   {

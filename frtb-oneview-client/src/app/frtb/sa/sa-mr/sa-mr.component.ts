@@ -38,9 +38,9 @@ interface SamrTreeFlatNode {
 export class SaMrComponent {
 
   domLayout: any = "autoHeight";
-  totalRiskChargeBaseLowCorr:number = 0;
-  totalRiskChargeBase:number = 0;
-  totalRiskChargeBaseHighCorr:number = 0;
+  totalRiskChargeBaseLowCorr: number = 0;
+  totalRiskChargeBase: number = 0;
+  totalRiskChargeBaseHighCorr: number = 0;
 
   constructor(
     private http: HttpClient,
@@ -74,8 +74,8 @@ export class SaMrComponent {
 
   hasChild = (_: number, node: SamrTreeFlatNode) => node.expandable;
 
-  displayedColumns: string[] = ['nodeName', 'amountLowCorr', 'amountLowCorr', 
-  'amount', 'amountBase',  'amountHighCorr', 'amountBaseHighCorr',];
+  displayedColumns: string[] = ['nodeName', 'amountLowCorr', 'amountLowCorr',
+    'amount', 'amountBase', 'amountHighCorr', 'amountBaseHighCorr',];
 
   private transformer = (node: SamrResultLineItem, level: number) => {
     console.log(node);

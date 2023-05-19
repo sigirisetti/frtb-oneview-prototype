@@ -85,6 +85,11 @@ import { D3PieChartComponent } from './samples/d3/d3-pie-chart/d3-pie-chart.comp
 import { D3ScatterChartComponent } from './samples/d3/d3-scatter-chart/d3-scatter-chart.component';
 import { D3SimulationChartComponent } from './samples/d3/d3-simulation-chart/d3-simulation-chart.component';
 import { Ng2TimeSeriesChartComponent } from './common/ng2-charts/ng2-time-series-chart/ng2-time-series-chart.component';
+import { D3LinearRegressionChartComponent } from './samples/d3/d3-linear-regression-chart/d3-linear-regression-chart.component';
+import { ImaDrcCalibSummaryComponent } from './frtb/ima/ima-drc/ima-drc-calib-summary/ima-drc-calib-summary.component';
+import { ImaDrcRegressionDetailsComponent } from './frtb/ima/ima-drc/ima-drc-regression-details/ima-drc-regression-details.component';
+import { ImaDrcIdxSectorCorrComponent } from './frtb/ima/ima-drc/ima-drc-idx-sector-corr/ima-drc-idx-sector-corr.component';
+import { D3CorrelogramComponent } from './common/d3/d3-correlogram/d3-correlogram.component';
 
 
 @NgModule({
@@ -170,6 +175,11 @@ import { Ng2TimeSeriesChartComponent } from './common/ng2-charts/ng2-time-series
     D3ScatterChartComponent,
     D3SimulationChartComponent,
     Ng2TimeSeriesChartComponent,
+    D3LinearRegressionChartComponent,
+    ImaDrcCalibSummaryComponent,
+    ImaDrcRegressionDetailsComponent,
+    ImaDrcIdxSectorCorrComponent,
+    D3CorrelogramComponent,
   ],
   exports: [
     AppComponent,

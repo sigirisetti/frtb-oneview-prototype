@@ -28,7 +28,6 @@ export class Ng2TimeSeriesChartComponent {
   }
 
   ngOnInit() {
-
   }
 
   getStandardDeviation(array: number[]) {
@@ -90,5 +89,4 @@ export class Ng2TimeSeriesChartComponent {
   public chartHovered({ event, active }: { event?: ChartEvent, active?: {}[] }): void {
     //console.log(event, active);
   }
-
 }

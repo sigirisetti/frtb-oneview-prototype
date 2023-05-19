@@ -7,6 +7,7 @@ import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
 import { MessageDialogComponent } from './common/message-dialog/message-dialog.component';
 import { AuthService } from './core/auth.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -26,7 +27,7 @@ export class AppComponent implements AfterViewInit {
       route: 'dashboard'
     },
     {
-      displayName: 'Risk Capital',
+      displayName: 'Final Capital Charge',
       iconName: 'functions',
       children: [
         {
@@ -57,28 +58,45 @@ export class AppComponent implements AfterViewInit {
       ]
     },
     {
-      displayName: 'IMA - Market Risk',
+      displayName: 'IMA - Expected Shortfall (ES)',
       iconName: 'bolt',
       children: [
         {
-          displayName: 'IMA - MR (All)',
+          displayName: 'Modellable Risk Factors (MRF)',
           iconName: 'bolt',
-          route: 'ima/mr/all',
+          route: 'ima/mr/mrf',
+        },
+      ]
+    },
+    {
+      displayName: 'IMA - Default Risk Charge (DRC)',
+      iconName: 'bolt',
+      children: [
+        {
+          displayName: 'Regression Details',
+          iconName: 'bolt',
+          route: 'ima/mr/drc/reg',
         },
         {
-          displayName: 'Expected Shortfall (ES)',
+          displayName: 'Index and Sector Correlation Matrix',
           iconName: 'bolt',
-          route: 'ima/mr/es',
+          route: 'ima/mr/drc/idSecCorr',
         },
         {
-          displayName: 'Non-Modellable Risk Factors (NMRF)',
+          displayName: 'Calibration Summary',
+          iconName: 'bolt',
+          route: 'ima/mr/drc/calibSummary',
+        },
+      ]
+    },
+    {
+      displayName: 'IMA - NMRF',
+      iconName: 'bolt',
+      children: [
+        {
+          displayName: 'Non-Modellable RFs (NMRF)',
           iconName: 'bolt',
           route: 'ima/mr/nmrf',
-        },
-        {
-          displayName: 'Default Risk Charge (DRC)',
-          iconName: 'bolt',
-          route: 'ima/mr/drc',
         },
       ]
     },
@@ -151,6 +169,7 @@ export class AppComponent implements AfterViewInit {
         },
       ]
     },
+    /*
     {
       displayName: 'Market Data',
       iconName: 'apartment',
@@ -227,6 +246,7 @@ export class AppComponent implements AfterViewInit {
         },
       ]
     },
+    */
     {
       displayName: 'Test Pages',
       iconName: 'school',
@@ -239,7 +259,7 @@ export class AppComponent implements AfterViewInit {
               displayName: 'Expandable Table Rows',
               iconName: 'school',
               route: 'samples/ng-examples/expandable-table-rows'
-                }
+            }
           ]
         },
         {
