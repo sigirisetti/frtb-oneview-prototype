@@ -117,7 +117,7 @@ export class AppComponent implements AfterViewInit {
       ]
     },
     {
-      displayName: 'SA - Market Risk',
+      displayName: 'SA - MR',
       iconName: 'grade',
       children: [
         {
