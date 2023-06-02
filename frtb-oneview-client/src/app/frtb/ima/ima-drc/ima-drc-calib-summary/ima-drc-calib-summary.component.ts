@@ -7,6 +7,7 @@ import { ColDef } from 'ag-grid-community';
 import { MessageDialogService } from 'src/app/common/message-dialog.service';
 import { NotificationService } from 'src/app/common/notification.service';
 import { DrcCalibSummary } from 'src/app/model/ima/drc-calib-summary';
+import { ImaDrcService } from '../ima-drc.service';
 
 @Component({
   selector: 'app-ima-drc-calib-summary',
@@ -52,9 +53,11 @@ export class ImaDrcCalibSummaryComponent {
     private http: HttpClient,
     private dialogService: MessageDialogService,
     private notificationService: NotificationService,
+    private imaDrcService: ImaDrcService,
   ) { }
 
   ngOnInit() {
+    /*
     this.tableDataSource.data = [
       { issuer: 'XOM', beta1: -0.411, beta2: 0.982, residualVol: 0.074, factorCorr: 0.501, rSquare: 0.923, normalizationFactor: 0.856, },
       { issuer: 'CVX', beta1: -0.295, beta2: 0.790, residualVol: 0.0796, factorCorr: 0.501, rSquare: 0.871, normalizationFactor: 0.695, },
@@ -63,6 +66,13 @@ export class ImaDrcCalibSummaryComponent {
       { issuer: 'AAPL', beta1: -0.396, beta2: 2.539, residualVol: 0.129, factorCorr: 0.842, rSquare: 0.737, normalizationFactor: 1.562, },
       { issuer: 'MSFT', beta1: -0.358, beta2: 1.022, residualVol: 0.074, factorCorr: 0.842, rSquare: 0.675, normalizationFactor: 0.749, },
     ];
+    */
+
+    this.imaDrcService.getDrcCalibSummary().subscribe({
+      next: (res: DrcCalibSummary[]) => this.tableDataSource.data = res,
+      error: (e) => console.log(e)
+    });
+
   }
 
   reset() {

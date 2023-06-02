@@ -1,8 +1,22 @@
 'use strict';
 
 export const MAX_SERIES_LENGTH = 100;
-export const restApiBase: string = "http://localhost:8090/frtb-oneview";
-export const wsBase: string = "ws://localhost:8090/frtb-oneview";
+
+//Spring Boot
+//export const restApiBase: string = "http://localhost:8090/frtb-oneview";
+//export const wsBase: string = "ws://localhost:8090/frtb-oneview";
+
+//Django
+export const restApiBase: string = "http://localhost:8000";
+export const wsBase: string = "ws://localhost:8000";
+
+export const enableAuth: boolean = false;
+
+/***
+ * DRC REST API
+ */
+export const getDrcCalibSummary: string = restApiBase + "/drc/get_drc_calib_summary";
+
 
 /* Web Sockets */
 // Mass Quotes

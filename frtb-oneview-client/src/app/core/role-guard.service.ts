@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { AuthService } from './auth.service';
 import { ActivatedRouteSnapshot, Router } from '@angular/router';
 import decode from 'jwt-decode';
+import * as globals from 'src/app/globals';
+
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +12,10 @@ export class RoleGuardService {
 
   constructor(public auth: AuthService, public router: Router) { }
   canActivate(route: ActivatedRouteSnapshot): boolean {
+
+    if(!globals.enableAuth) {
+      return true;
+    }
     // this will be passed from the route config
     // on the data property
     const expectedRole = route.data['expectedRole'];

@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { NavService } from './nav/nav.service';
+import * as globals from 'src/app/globals';
+
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +19,9 @@ export class AuthService {
   ) {}
   // ...
   public isAuthenticated(): boolean {
+    if(!globals.enableAuth) {
+      return true;
+    }
     const token = localStorage.getItem('token');
     // Check whether the token is expired and return
     // true or false
